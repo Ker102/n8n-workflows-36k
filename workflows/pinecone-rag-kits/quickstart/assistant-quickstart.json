@@ -1,0 +1,540 @@
+{
+    "nodes": [
+      {
+        "parameters": {
+          "method": "POST",
+          "url": "=https://prod-1-data.ke.pinecone.io/assistant/files/n8n-assistant",
+          "authentication": "predefinedCredentialType",
+          "nodeCredentialType": "pineconeApi",
+          "sendBody": true,
+          "contentType": "multipart-form-data",
+          "bodyParameters": {
+            "parameters": [
+              {
+                "parameterType": "formBinaryData",
+                "name": "file",
+                "inputDataFieldName": "data"
+              }
+            ]
+          },
+          "options": {}
+        },
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1584,
+          -656
+        ],
+        "id": "bfa07302-3686-4060-b703-db0658e9a238",
+        "name": "Upload file to assistant",
+        "credentials": {
+          "httpHeaderAuth": {
+            "id": "GvkhUuYna3y7p9e8",
+            "name": "Pinecone API key - HTTP"
+          },
+          "pineconeApi": {
+            "id": "pBm0ARHJdLXfTUXe",
+            "name": "Pinecone"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "options": {
+            "systemMessage": "You are a helpful assistant. Use the Pinecone Assistant Tool to retrieve data about Pinecone releases using the get_context function. Include the file name and file url in citations wherever referenced in output."
+          }
+        },
+        "type": "@n8n/n8n-nodes-langchain.agent",
+        "typeVersion": 2.2,
+        "position": [
+          944,
+          64
+        ],
+        "id": "bf481b27-65ba-4915-8465-1eb8c51eddaa",
+        "name": "AI Agent"
+      },
+      {
+        "parameters": {
+          "model": {
+            "__rl": true,
+            "mode": "list",
+            "value": "gpt-4.1-mini"
+          },
+          "options": {}
+        },
+        "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+        "typeVersion": 1.2,
+        "position": [
+          880,
+          288
+        ],
+        "id": "38357fa7-797c-4306-88bb-dc5868a5c0a9",
+        "name": "OpenAI Chat Model",
+        "credentials": {
+          "openAiApi": {
+            "id": "gv5VN25jRLU7YkML",
+            "name": "OpenAI"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "content": "## 1. Upload files to Pinecone Assistant",
+          "height": 640,
+          "width": 1776,
+          "color": 7
+        },
+        "type": "n8n-nodes-base.stickyNote",
+        "position": [
+          496,
+          -752
+        ],
+        "typeVersion": 1,
+        "id": "318610d7-61ac-4ad5-af4f-1df8d0eb0a52",
+        "name": "Sticky Note1"
+      },
+      {
+        "parameters": {
+          "content": "## 2. Chat with your docs",
+          "height": 576,
+          "width": 1344,
+          "color": 7
+        },
+        "type": "n8n-nodes-base.stickyNote",
+        "position": [
+          496,
+          -48
+        ],
+        "typeVersion": 1,
+        "id": "b870efe6-1b1c-4249-a364-ce7eedb1b2e7",
+        "name": "Sticky Note2"
+      },
+      {
+        "parameters": {
+          "options": {}
+        },
+        "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+        "typeVersion": 1.3,
+        "position": [
+          576,
+          64
+        ],
+        "id": "ec44074e-3fa6-4a04-a1a5-89965fcadaf4",
+        "name": "Chat input",
+        "webhookId": "27ee9941-a3d5-42ed-8faa-2aac710bb33c"
+      },
+      {
+        "parameters": {
+          "endpointUrl": "https://prod-1-data.ke.pinecone.io/mcp/assistants/n8n-assistant",
+          "serverTransport": "httpStreamable",
+          "authentication": "bearerAuth",
+          "options": {}
+        },
+        "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+        "typeVersion": 1.1,
+        "position": [
+          1280,
+          304
+        ],
+        "id": "15be4d56-8db8-4162-b7d6-37f2d107ca9a",
+        "name": "Pinecone Assistant",
+        "credentials": {
+          "httpBearerAuth": {
+            "id": "8w7bFCA8t1S9UJgx",
+            "name": "Pinecone Bearer (n8n-demo)"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "content": "![Pinecone logo](https://www.pinecone.io/images/pinecone-logo-for-n8n-templates.png)\n\n\n## Try it out\n\nThis n8n workflow template lets you chat with Pinecone release notes files downloaded via HTTP (.docx, .json, .md, .txt, .pdf) using OpenAI and Pinecone Assistant. It retrieves relevant context from your files in real time so you can get accurate, context-aware answers about your proprietary data—without the need to train your own LLM.\n\n### What is Pinecone Assistant?\n\n[Pinecone Assistant](https://docs.pinecone.io/guides/assistant/overview) allows you to build production-grade chat and agent-based applications quickly. It abstracts the complexities of implementing retrieval-augmented (RAG) systems by managing the chunking, embedding, storage, query planning, vector search, model orchestration, reranking for you.\n\n### Prerequisites\n\n* A [Pinecone account](https://app.pinecone.io/) and [API key](https://app.pinecone.io/organizations/-/projects/-/keys)\n* An [Open AI account](https://auth.openai.com/create-account) and [API key](https://platform.openai.com/settings/organization/api-keys)\n### Setup\n\n1. Create a Pinecone Assistant in the Pinecone Console [here](https://app.pinecone.io/organizations/-/projects/-/assistant) \n\t1. Name your Assistant `n8n-assistant` and create it in the `United States` region\n\t2. If you use a different name or region, update the related nodes to reflect these changes\n\t3. No need to configure a Chat model or Assistant instructions\n2. Setup Pinecone API key credential in n8n\n\t1. In the Upload file to assistant node -> PineconeApi section, select Create new credential\n\t2. Paste in your Pinecone API key in the API Key field\n3. Setup Pinecone MCP Bearer auth credential in n8n\n\t1. In the Pinecone Assistant node -> Credential for Bearer Auth section, select Create new credential\n\t2. Set the Bearer Token field to your Pinecone API key used in the previous step\n4. Setup the Open AI credential in n8n\n\t1. In the OpenAI Chat Model node -> Credential to connect with, select Create new credential\n\t2. Set the API Key field to your OpenAI API key\n5. Activate the workflow or test it with a manual execution to ingest the documents\n6. Chat with your docs!\n\n### Ideas for customizing this workflow\n\n- Change the urls in Set file urls node to use your own files\n- Customize the System Message on the AI Agent node to your use case to indicate what kind of knowledge is stored in Pinecone Assistant\n- Make the [chat node publicly available](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/#make-chat-publicly-available) or [create your own chat interface](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/#mode) that calls the chat webhook URL\n\n### Need help?\n\nYou can find help by asking in the [Pinecone Discord community](https://discord.gg/tJ8V62S3sH), asking on the [Pinecone Forum](https://community.pinecone.io/), or [filing an issue](https://github.com/pinecone-io/n8n-templates/issues/new/choose) on this repo.",
+          "height": 1408,
+          "width": 636
+        },
+        "id": "3e4b6af3-6318-4337-b381-ce21d23cdd92",
+        "name": "Sticky Note7",
+        "type": "n8n-nodes-base.stickyNote",
+        "position": [
+          -272,
+          -752
+        ],
+        "typeVersion": 1
+      },
+      {
+        "parameters": {
+          "url": "=https://prod-1-data.ke.pinecone.io/assistant/files/n8n-assistant/{{ $json.id }}",
+          "authentication": "predefinedCredentialType",
+          "nodeCredentialType": "pineconeApi",
+          "options": {}
+        },
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1632,
+          -368
+        ],
+        "id": "9c897c02-8a04-4d2f-8ee3-b74dc03ef1c5",
+        "name": "Check file status",
+        "credentials": {
+          "httpHeaderAuth": {
+            "id": "GvkhUuYna3y7p9e8",
+            "name": "Pinecone API key - HTTP"
+          },
+          "pineconeApi": {
+            "id": "pBm0ARHJdLXfTUXe",
+            "name": "Pinecone"
+          }
+        }
+      },
+      {
+        "parameters": {
+          "amount": 3
+        },
+        "type": "n8n-nodes-base.wait",
+        "typeVersion": 1.1,
+        "position": [
+          2080,
+          -368
+        ],
+        "id": "8c7c7d5e-7600-4bdc-b979-ca716046b41f",
+        "name": "Wait",
+        "webhookId": "aa5fe6f0-8a72-4fb7-abde-24d0b5f8f803"
+      },
+      {
+        "parameters": {
+          "rules": {
+            "values": [
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": true,
+                    "leftValue": "",
+                    "typeValidation": "strict",
+                    "version": 2
+                  },
+                  "conditions": [
+                    {
+                      "id": "7d41378e-7b21-4dbf-8586-f027b3f57d91",
+                      "leftValue": "={{ $json.status }}",
+                      "rightValue": "Available",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals",
+                        "name": "filter.operator.equals"
+                      }
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "Available"
+              },
+              {
+                "conditions": {
+                  "options": {
+                    "caseSensitive": true,
+                    "leftValue": "",
+                    "typeValidation": "strict",
+                    "version": 2
+                  },
+                  "conditions": [
+                    {
+                      "leftValue": "={{ $json.status }}",
+                      "rightValue": "Processing",
+                      "operator": {
+                        "type": "string",
+                        "operation": "equals"
+                      },
+                      "id": "5d7d1c72-0fdc-4258-ae0f-045f58c37242"
+                    }
+                  ],
+                  "combinator": "and"
+                },
+                "renameOutput": true,
+                "outputKey": "Processing"
+              }
+            ]
+          },
+          "options": {}
+        },
+        "type": "n8n-nodes-base.switch",
+        "typeVersion": 3.3,
+        "position": [
+          1840,
+          -368
+        ],
+        "id": "84ce5430-5786-4bfc-8ffc-b1092d8e90c6",
+        "name": "End if status Available"
+      },
+      {
+        "parameters": {
+          "content": "![Pinecone logo](https://www.pinecone.io/images/pinecone-logo-for-n8n-templates.png)",
+          "height": 240,
+          "color": 7
+        },
+        "type": "n8n-nodes-base.stickyNote",
+        "position": [
+          1200,
+          192
+        ],
+        "typeVersion": 1,
+        "id": "b7bc21af-82c8-4e5c-af67-b2b960d7d6b4",
+        "name": "Sticky Note"
+      },
+      {
+        "parameters": {
+          "content": "![Pinecone logo](https://www.pinecone.io/images/pinecone-logo-for-n8n-templates.png)",
+          "height": 240,
+          "color": 7
+        },
+        "type": "n8n-nodes-base.stickyNote",
+        "position": [
+          1520,
+          -736
+        ],
+        "typeVersion": 1,
+        "id": "8118f64d-ea70-45d0-9524-51af15628979",
+        "name": "Sticky Note4"
+      },
+      {
+        "parameters": {
+          "content": "![Pinecone logo](https://www.pinecone.io/images/pinecone-logo-for-n8n-templates.png)",
+          "height": 240,
+          "color": 7
+        },
+        "type": "n8n-nodes-base.stickyNote",
+        "position": [
+          1552,
+          -448
+        ],
+        "typeVersion": 1,
+        "id": "473e765a-d7ff-47a9-b04f-4500685ae63c",
+        "name": "Sticky Note5"
+      },
+      {
+        "parameters": {},
+        "type": "n8n-nodes-base.manualTrigger",
+        "typeVersion": 1,
+        "position": [
+          656,
+          -496
+        ],
+        "id": "74c617e2-675e-4072-8cbf-08daea0c3d89",
+        "name": "When clicking ‘Execute workflow’"
+      },
+      {
+        "parameters": {
+          "assignments": {
+            "assignments": [
+              {
+                "id": "d0e724df-685f-4661-b2ec-3cdd3c2ba0f1",
+                "name": "urls",
+                "value": "[\"https://docs.pinecone.io/release-notes/2025.md\", \"https://docs.pinecone.io/release-notes/2024.md\", \"https://docs.pinecone.io/release-notes/2023.md\", \"https://docs.pinecone.io/release-notes/2022.md\"]",
+                "type": "array"
+              }
+            ]
+          },
+          "options": {}
+        },
+        "type": "n8n-nodes-base.set",
+        "typeVersion": 3.4,
+        "position": [
+          816,
+          -496
+        ],
+        "id": "7ca85b50-052a-4ac8-ae0d-982b13050d73",
+        "name": "Set file urls"
+      },
+      {
+        "parameters": {
+          "fieldToSplitOut": "urls",
+          "options": {}
+        },
+        "type": "n8n-nodes-base.splitOut",
+        "typeVersion": 1,
+        "position": [
+          976,
+          -496
+        ],
+        "id": "8c94de5a-3368-47d4-96cf-f1d9db19d52c",
+        "name": "Split to list"
+      },
+      {
+        "parameters": {
+          "url": "={{ $json.urls }}",
+          "options": {
+            "response": {
+              "response": {
+                "responseFormat": "text"
+              }
+            }
+          }
+        },
+        "type": "n8n-nodes-base.httpRequest",
+        "typeVersion": 4.2,
+        "position": [
+          1136,
+          -496
+        ],
+        "id": "8bc561aa-d2f2-481b-ad4b-d087c96762f7",
+        "name": "Download file"
+      },
+      {
+        "parameters": {
+          "operation": "toText",
+          "sourceProperty": "data",
+          "options": {
+            "fileName": "={{ $('Split to list').item.json.urls }}"
+          }
+        },
+        "type": "n8n-nodes-base.convertToFile",
+        "typeVersion": 1.1,
+        "position": [
+          1296,
+          -496
+        ],
+        "id": "c4c16c11-43ac-42e9-bdf9-11d8829b1643",
+        "name": "Convert to md file"
+      }
+    ],
+    "connections": {
+      "Upload file to assistant": {
+        "main": [
+          [
+            {
+              "node": "Check file status",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "OpenAI Chat Model": {
+        "ai_languageModel": [
+          [
+            {
+              "node": "AI Agent",
+              "type": "ai_languageModel",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Chat input": {
+        "main": [
+          [
+            {
+              "node": "AI Agent",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Pinecone Assistant": {
+        "ai_tool": [
+          [
+            {
+              "node": "AI Agent",
+              "type": "ai_tool",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Check file status": {
+        "main": [
+          [
+            {
+              "node": "End if status Available",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Wait": {
+        "main": [
+          [
+            {
+              "node": "Check file status",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "End if status Available": {
+        "main": [
+          [],
+          [
+            {
+              "node": "Wait",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "When clicking ‘Execute workflow’": {
+        "main": [
+          [
+            {
+              "node": "Set file urls",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Set file urls": {
+        "main": [
+          [
+            {
+              "node": "Split to list",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Split to list": {
+        "main": [
+          [
+            {
+              "node": "Download file",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Download file": {
+        "main": [
+          [
+            {
+              "node": "Convert to md file",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      },
+      "Convert to md file": {
+        "main": [
+          [
+            {
+              "node": "Upload file to assistant",
+              "type": "main",
+              "index": 0
+            }
+          ]
+        ]
+      }
+    },
+    "pinData": {},
+    "meta": {
+      "templateCredsSetupCompleted": true,
+      "instanceId": "6ae6d27e57788e6797af2bf16734f2cac83ad4b8f8ebbf57445f55ef5d3a52da"
+    }
+  }

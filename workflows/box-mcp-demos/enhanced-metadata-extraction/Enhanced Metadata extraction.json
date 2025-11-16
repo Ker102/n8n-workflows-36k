@@ -1,0 +1,643 @@
+{
+  "name": "Enhanced Metadata extraction",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -432,
+        176
+      ],
+      "id": "b2383dcc-0e7a-43e7-b0da-2e0c680aa87b",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "identify the metadata template named acme policy\nreturn information always using this structure\n\n{\n\"id\": \"de210374-c51c-4588-8e71-5e887dfcceae\",\n\"type\": \"metadata_template\",\n\"scope\": \"enterprise_1134207681\",\n\"templateKey\": \"acmePolicy\",\n\"displayName\": \"ACME POLICY\",\n\"hidden\": false\n}"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -208,
+        176
+      ],
+      "id": "d6e7a07d-5431-4920-9694-0a363616dc72",
+      "name": "Locate Template",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_metadata_template_get_by_name_tool"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        -144,
+        400
+      ],
+      "id": "27825558-9bc3-45a0-a215-f1d25ebada13",
+      "name": "MCP Metadata Template"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "locate my \"ACME Insurance Policies - Generated\" box folder and list only files on that folder. include file_name, file_type, parent_name, parent_id, and file_id. if you can figure out the file type, infer it from the extension."
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        144,
+        176
+      ],
+      "id": "eb420719-a91b-479c-847e-0e3849bc194f",
+      "name": "Locate Documents",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_search_folder_by_name_tool",
+          "box_list_folder_content_by_folder_id"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        224,
+        400
+      ],
+      "id": "e1ceba9a-de38-44a0-93a0-5596e189ff1a",
+      "name": "MCP Folders"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=using template key {{ $json.message.content.template_key }} extract the metadata from file {{ $json.message.content.file_id }}\nprovide the output in json using this sample as an example\n{\n\"template_key\":\"abcd\",\n\"file_id\":\"12345\",\n\"metadata\":{\"key1\":\"value:\"a\",\"key2\":\"value:\"b\"}\n}\nalways include the template_key, file_id, and metadata in the answer"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1296,
+        384
+      ],
+      "id": "dfc07b23-4857-478b-8708-2189cca3696a",
+      "name": "Extract Metadata",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_ai_extract_structured_enhanced_using_template_tool"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        1376,
+        608
+      ],
+      "id": "faa5b3b4-47cf-4062-ab4c-f2164c32dc3c",
+      "name": "MCP Metadata Extract"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "message.content.files",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        496,
+        176
+      ],
+      "id": "473297e0-2dca-4734-88aa-1b2e1261979b",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=file id:  {{ $('Split Out').item.json.file_id }} \ntemplate key: {{ $('Locate Template').item.json.message.content.templateKey }}\nalways return  {{ $json.file_id }} and {{ $('Locate Template').item.json.message.content.templateKey }}\nif it returns an error add {\"found\":false}, otherwise add {\"found\":true} to the output"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        720,
+        176
+      ],
+      "id": "72f631aa-4848-45ae-8037-af9f93f9c046",
+      "name": "Get Existing Metadata",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_metadata_get_instance_on_file_tool"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        800,
+        400
+      ],
+      "id": "d8a5bc6d-7411-4680-bb75-fb12d36b122d",
+      "name": "MCP Metadata Get"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=update metadata of\nfile id: {{ $json.message.content.file_id }}\ntemplate key: {{ $json.message.content.template_key }}\nmetadata: {{ $json.message.content.metadata.toJsonString() }}"
+            }
+          ]
+        },
+        "simplify": false,
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1648,
+        -128
+      ],
+      "id": "7d6fdf4b-61e1-428b-907c-63bf530052ee",
+      "name": "Update Metadata",
+      "retryOnFail": true,
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_metadata_update_instance_on_file_tool"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        1728,
+        96
+      ],
+      "id": "68c14906-e09c-4e0e-9fef-19215a63d186",
+      "name": "MCP Update Metadata"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "3d5ee020-56f9-4ecc-b1f8-b76c33b273b2",
+              "leftValue": "={{ $json.message.content.found }}",
+              "rightValue": "true",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1072,
+        176
+      ],
+      "id": "42633c2a-2ce3-42cc-85f4-29b580ee2e4a",
+      "name": "If",
+      "alwaysOutputData": false
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=set metadata on\nfile_id: {{ $json.message.content.file_id }}\ntemplate_key: {{ $json.message.content.template_key }}\nmetadata: {{ $json.message.content.metadata.toJsonString() }}"
+            }
+          ]
+        },
+        "simplify": false,
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1648,
+        384
+      ],
+      "id": "ec84f684-007b-40e1-be18-ba699ea926b6",
+      "name": "Set Metadata",
+      "retryOnFail": true,
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_metadata_set_instance_on_file_tool"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        1728,
+        608
+      ],
+      "id": "a2a950a5-fbd6-49f6-a467-13b358f0c0c3",
+      "name": "MCP Set Metadata"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=using template key {{ $json.message.content.template_key }} extract the metadata from file {{ $json.message.content.file_id }}\nprovide the output in json using this sample as an example\n{\n\"template_key\":\"abcd\",\n\"file_id\":\"12345\",\n\"metadata\":{}\n}\nalways include the template_key, file_id, and metadata in the answer"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1296,
+        -128
+      ],
+      "id": "c043036c-4862-45a9-8e6e-18cb07f502fb",
+      "name": "Extract Metadata1",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_ai_extract_structured_enhanced_using_template_tool"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        1376,
+        96
+      ],
+      "id": "6a8ead4b-befc-47a0-b6c9-1105dc5f192d",
+      "name": "MCP Metadata Extract1"
+    },
+    {
+      "parameters": {
+        "command": "echo \"test\" "
+      },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        2000,
+        384
+      ],
+      "id": "bbba7c7c-b4d6-45ad-87e1-64f864684c7c",
+      "name": "Execute Command"
+    }
+  ],
+  "pinData": {
+    "When clicking ‘Execute workflow’": [
+      {
+        "json": {}
+      }
+    ]
+  },
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Locate Template",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Metadata Template": {
+      "ai_tool": [
+        [
+          {
+            "node": "Locate Template",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Locate Template": {
+      "main": [
+        [
+          {
+            "node": "Locate Documents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Folders": {
+      "ai_tool": [
+        [
+          {
+            "node": "Locate Documents",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Locate Documents": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Metadata Extract": {
+      "ai_tool": [
+        [
+          {
+            "node": "Extract Metadata",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Get Existing Metadata",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Metadata": {
+      "main": [
+        [
+          {
+            "node": "Set Metadata",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Metadata Get": {
+      "ai_tool": [
+        [
+          {
+            "node": "Get Existing Metadata",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Existing Metadata": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Update Metadata": {
+      "ai_tool": [
+        [
+          {
+            "node": "Update Metadata",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Extract Metadata1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Extract Metadata",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Set Metadata": {
+      "ai_tool": [
+        [
+          {
+            "node": "Set Metadata",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Metadata Extract1": {
+      "ai_tool": [
+        [
+          {
+            "node": "Extract Metadata1",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Metadata1": {
+      "main": [
+        [
+          {
+            "node": "Update Metadata",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Set Metadata": {
+      "main": [
+        [
+          {
+            "node": "Execute Command",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "188b4625-f111-4aaa-b184-fa978c18776d",
+  "meta": {
+    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2"
+  },
+  "id": "yQo2RXQKwzFupp2o",
+  "tags": []
+}
