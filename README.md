@@ -61,6 +61,29 @@ workflows/
 └── synapse-pro-ops/           # ProfSynapse production automations
 ```
 
+## 🚀 Getting Started (Even If You're New to GitHub)
+Pick whichever flow feels easiest—each ends with a ready-to-import JSON file inside n8n.
+
+### Option A · Quick Download from GitHub
+1. Scroll to the [`workflows/`](workflows) folder in this repo and drill into the collection you need.
+2. Click any `.json` file.
+3. Hit the **Raw** button, then **Save As…** (or right-click → Save) to download the JSON locally.
+4. In n8n, open the canvas → **Import from File** → choose the JSON you just saved.
+
+### Option B · Fork or Clone the Entire Library
+1. Click **Fork** to keep your own copy on GitHub (great if you plan to tweak workflows).
+2. Or run `git clone https://github.com/Ker102/n8n-ai-automation-workflow-atlas.git`.
+3. Browse workflows locally with your favorite editor/explorer.
+4. Import any JSON into n8n via **Import from File** or copy/paste into the editor.
+
+### Option C · Use the Hosted Workflow Explorer
+1. Visit the [GitHub Pages explorer](https://ker102.github.io/n8n-ai-automation-workflow-atlas/).
+2. Use the search bar and category chips to find a template.
+3. Click **Download JSON** or **View on GitHub** right from the page.
+4. Import the downloaded file into n8n just like in Options A/B.
+
+> Need help importing? See **🛠️ Import Any Workflow Into n8n** below.
+
 ## ⭐ Keep It Handy
 If this library saves you time, please:
 - **Star** ⭐ the repo so it stays on your radar.
