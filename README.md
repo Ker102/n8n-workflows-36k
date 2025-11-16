@@ -1,3 +1,5 @@
+[![Star This Repo](https://img.shields.io/badge/⭐%20Star%20this%20repo-222?style=for-the-badge)](https://github.com/Ker102/n8n-ai-automation-workflow-atlas)
+
 # 🌌 n8n Automation Atlas
 
 ![Workflows](https://img.shields.io/badge/Workflows-3831-blueviolet?style=for-the-badge)
@@ -7,6 +9,16 @@
 ![License](https://img.shields.io/badge/License-MIT-000?style=for-the-badge)
 
 > 3,831 battle-tested n8n workflows curated from top open-source libraries. Everything is trimmed down to ready-to-import JSON exports so you can remix, ship, and scale automations fast.
+
+## 🤗 Welcome, Operators!
+Whether you build full-stack AI agents, automate product ops, or just love tinkering with n8n, this atlas is for you. Clone it, remix it, and share your own packs—we would love to showcase community-built automations here.
+
+## 💖 Support the Atlas
+Keeping a living automation library online (and refreshing all upstream sources) takes time. If these workflows save you cycles, please consider:
+
+- [**Sponsoring on GitHub**](https://github.com/sponsors/Ker102) to fund future packs and hosting.
+- [**Starring the repository**](https://github.com/Ker102/n8n-ai-automation-workflow-atlas) so more builders discover it.
+- Sharing the repo/link on socials or inside your team’s automation channel.
 
 ## 📚 What's Inside
 - **6 themed packs** spanning community mega-collections, AI agents, Pinecone RAG starters, Box MCP demos, and more.
@@ -62,9 +74,12 @@ Whenever we add tooling beyond JSON workflows (dashboards, viewers, etc.) we'll 
 The `web/` directory contains a **Vue + Vite** single-page app that can be deployed to GitHub Pages and lets you search/filter/download every workflow. See `docs/DEPLOYMENT.md` for local dev steps and hosting instructions.
 
 ## 🤝 Contributing
-1. Drop new workflow exports inside the matching folder (or propose a new one).
-2. Include the upstream license in `licenses/` if it's not already here.
-3. Open a PR describing the source, use case, and any credential requirements.
+We welcome new workflow packs, better documentation, and UX polish. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for:
+- Workflow submission checklist
+- Coding standards for the Vue explorer
+- How to open discussions/issues/PRs that get merged fast
+
+Need help or want to pitch an idea? Start a [GitHub Discussion](https://github.com/Ker102/n8n-ai-automation-workflow-atlas/discussions) and we’ll jam with you.
 
 ## 📄 License
 - **Repository license:** [MIT](./LICENSE) — simple, permissive, and perfect for sharing/remixing these workflows.
