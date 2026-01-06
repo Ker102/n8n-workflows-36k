@@ -206,9 +206,9 @@ We welcome new workflow packs, better documentation, and UX polish. See [CONTRIB
 
 ## 📄 License
 
-- **Repository:** [MIT](./LICENSE)
+- **Repository:** [Apache 2.0](./LICENSE)
 - **Upstream sources:** See `licenses/` for each collection's terms.
 
 ---
 
-Happy automating! ⚡
+Happy automating!
