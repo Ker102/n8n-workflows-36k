@@ -1,1 +1,13 @@
 MCP_DOCKER_GUIDE.md
+
+# Large data files
+*.jsonl
+*.parquet
+
+# Virtual Environment
+.venv/
+
+node_modules/
+myenv/
+
+external_dataset_repo/
