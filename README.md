@@ -2,27 +2,27 @@
 
 # 🌌 n8n Automation Atlas
 
-![Workflows](https://img.shields.io/badge/Workflows-36,405-blueviolet?style=for-the-badge)
+![Workflows](https://img.shields.io/badge/Workflows-36,985-blueviolet?style=for-the-badge)
 ![Collections](https://img.shields.io/badge/Collections-6-9cf?style=for-the-badge)
 ![Synthetic](https://img.shields.io/badge/Synthetic-12,500+-ff6b6b?style=for-the-badge)
 ![Formats](https://img.shields.io/badge/Format-n8n%20JSON-0b5fff?style=for-the-badge&logo=json&logoColor=white)
 ![ML Ready](https://img.shields.io/badge/ML%20Ready-Semantic%20Labels-41b883?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-000?style=for-the-badge)
 
-> **36,405 unique n8n workflows** — curated community templates + AI-generated synthetic workflows, all deduplicated and labeled for semantic search and ML training.
+> **36,985 unique n8n workflows** — curated community templates + AI-generated synthetic workflows, all deduplicated and labeled for semantic search and ML training.
 
 ---
 
 ## 🆕 What's New: Synthetic Dataset Generation
 
-We've scaled this repository from 3,800 to **36,405 unique workflows** using a **Combinatorial Archetype Engine**:
+We've scaled this repository from 3,800 to **36,985 unique workflows** using a **Combinatorial Archetype Engine**:
 
 | Source | Count | Description |
 |--------|-------|-------------|
 | **Repository Curated** | 3,831 | Hand-picked community templates |
 | **Synthetic Generated** | 12,500+ | Archetype-based combinatorial expansion |
 | **External Community** | 23,900+ | Cleaned HuggingFace dataset |
-| **Final (Deduplicated)** | **36,405** | Unique, ML-ready workflows |
+| **Final (Deduplicated)** | **36,985** | Unique, ML-ready workflows |
 
 ### How It Works
 
@@ -58,7 +58,7 @@ Large data files are available as **GitHub Release assets**:
 
 | File | Size | Description |
 |------|------|-------------|
-| `n8n_workflows.jsonl` | ~280MB | Final consolidated dataset (36,405 workflows) |
+| `n8n_workflows.jsonl` | ~280MB | Final consolidated dataset (36,985 workflows) |
 | `n8n_full.parquet` | ~118MB | Same data in Parquet format |
 
 **[→ Download from Releases](https://github.com/Ker102/n8n-ai-automation-workflow-atlas/releases)**
