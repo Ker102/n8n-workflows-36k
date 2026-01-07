@@ -1,0 +1,770 @@
+{
+  "name": "Insurance Demo No agents",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -3248,
+        -208
+      ],
+      "id": "3ea431ac-5e73-4032-b0e7-3df70ee82cb1",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "You are an insurance claim adjuster. Your mission is to provide assistance to other adjusters and based on the information supplied create a claim report.",
+              "role": "system"
+            },
+            {
+              "content": "=Do not respond to the user, just \ncreate a claim report, using markdown format, based on this information:\nPlocy info:\n\n{{ $json.data[2].message.content.extracted_metadata.toJsonString() }}\n\nCustomer report:\n{{ $json.data[0].message.content }}\n\nPreliminary Damage Report:\n{{ $json.data[1].message.content.toJsonString() }}\n\n\n\n"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -656,
+        -208
+      ],
+      "id": "a386bfb1-3cc7-4a01-a562-ebbe66211a21",
+      "name": "Compose preliminary damage report",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "fieldsToAggregate": {
+          "fieldToAggregate": [
+            {
+              "fieldToAggregate": "file_id"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        -1728,
+        -208
+      ],
+      "id": "1ce1ce3c-9861-4775-a460-78128c9a5030",
+      "name": "Aggregate"
+    },
+    {
+      "parameters": {
+        "numberInputs": 3
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        -1104,
+        -224
+      ],
+      "id": "80aefe07-440e-49de-b43b-b8823947ae58",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_upload_file_from_content_tool"
+        ]
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        64,
+        160
+      ],
+      "id": "cbe428a8-dd11-4d4f-beae-c834accf9b69",
+      "name": "MCP Client4"
+    },
+    {
+      "parameters": {
+        "mode": "combine",
+        "combineBy": "combineAll",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        -256,
+        -80
+      ],
+      "id": "68e96df5-7018-4159-a0e7-b8748154f4be",
+      "name": "Merge1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "347c08ca-2184-458e-932a-c26ae55e3c5c",
+              "leftValue": "={{ $json.file_type }}",
+              "rightValue": "image",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            },
+            {
+              "id": "7170498f-71e2-426e-8ad2-7397469a0a5b",
+              "leftValue": "={{ $json.file_type }}",
+              "rightValue": "Image",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            }
+          ],
+          "combinator": "or"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        -1952,
+        -208
+      ],
+      "id": "64602c91-3896-4e1e-90c7-531200023bc1",
+      "name": "Images"
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_search_folder_by_name_tool",
+          "box_list_folder_content_by_folder_id"
+        ]
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        -2480,
+        32
+      ],
+      "id": "aad98c0a-463f-4a48-9179-eed58482bb23",
+      "name": "MCP Client5"
+    },
+    {
+      "parameters": {
+        "options": {
+          "includeInputFields": true,
+          "timezone": ""
+        }
+      },
+      "type": "n8n-nodes-base.dateTime",
+      "typeVersion": 2,
+      "position": [
+        -3024,
+        -208
+      ],
+      "id": "e7c0b0ca-9f3d-4eed-9293-619e87211497",
+      "name": "Date & Time"
+    },
+    {
+      "parameters": {
+        "operation": "formatDate",
+        "date": "={{ $json.currentDate }}",
+        "format": "custom",
+        "customFormat": "yyyyMMddhhmmss",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.dateTime",
+      "typeVersion": 2,
+      "position": [
+        -2800,
+        -208
+      ],
+      "id": "4253f78f-235d-4571-b176-04c2fe0fd051",
+      "name": "Date & Time1"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "message.content.files",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        -2176,
+        -208
+      ],
+      "id": "c246b2e0-4c78-4bd1-9df7-d1c17c2da99f",
+      "name": "Split Out1"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "8936f697-08b1-416a-8907-97891ac12ba2",
+              "leftValue": "={{ $json.file_name }}",
+              "rightValue": "ACME Insurance Policy",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        -1728,
+        176
+      ],
+      "id": "e693ae0d-91fb-4ac7-92fa-995671dc73cd",
+      "name": "Policy"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "locate my \"Insurance\" box folder and list only files recursively. include file_name, file_type, parent_name, parent_id, and file_id. if you can figure out the file type, infer it from the extension."
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -2576,
+        -208
+      ],
+      "id": "9432d7ab-0bd1-4956-bdb1-d3b0f4ff442d",
+      "name": "Locate Documents",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse"
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        -1408,
+        -480
+      ],
+      "id": "17600644-cf43-4e44-a3d6-fa79ff5c6316",
+      "name": "MCP Client"
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_ai_ask_file_multi_tool"
+        ]
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        -1408,
+        -80
+      ],
+      "id": "37e580e2-20ec-4c6c-9ac6-791f6a00b0af",
+      "name": "MCP Client2"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=read the file {{ $json.file_id }} and output only its content"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -1504,
+        -704
+      ],
+      "id": "5823e064-c88e-4aa5-86bc-801aa13d1504",
+      "name": "Analyze Customer Report",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "8936f697-08b1-416a-8907-97891ac12ba2",
+              "leftValue": "={{ $json.file_name }}",
+              "rightValue": "Customer initial report.boxnote",
+              "operator": {
+                "type": "string",
+                "operation": "contains"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2.2,
+      "position": [
+        -1728,
+        -608
+      ],
+      "id": "fb9cdedb-f5b5-4b3d-8d2b-2ebc06bdf800",
+      "name": "Customer Report"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=ask box ai to look at the files  {{ $json.file_id }}, and create a list of parts that you estimate will need repaired or replaced, as well as a detailed description of the damage to the vehicle. Make sure to think about and include hidden damage that you might not be able to see in the photos, for example camera in the bumper or the batteries the vehicle uses.\nDo not add additional comment to the report\nThis report should be named as \"Preliminary Damage Report\"\n"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -1504,
+        -304
+      ],
+      "id": "347da8e7-ec79-4074-b13e-a4180f99d9f8",
+      "name": "Analyze Images",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse"
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        -1408,
+        528
+      ],
+      "id": "2044b184-d643-4ae9-991c-c3dc2b81a052",
+      "name": "MCP Client6"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=Ask Box AI to Extract the metadata from the policy file {{ $json.file_id }} using the acmePolicy template key. output only the extracted_matadata"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -1504,
+        304
+      ],
+      "id": "3095ad98-3f00-4212-9213-796b7ee6a885",
+      "name": "Extract Policy",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=the upload folder id is {{ $json.parent_id }}\nThe file name is \"{{ $('Date & Time1').item.json.formattedDate }} AI Agents Report\". Use md for the extention.\nthen upload this content:\n{{ $json.message.content }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -32,
+        -80
+      ],
+      "id": "48e0b720-3f4e-4c77-be71-84dd4a043c53",
+      "name": "Upload Report",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        -880,
+        -208
+      ],
+      "id": "f4038358-53fc-4842-a1d7-1b9062dbee33",
+      "name": "Aggregate1"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Date & Time",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Compose preliminary damage report": {
+      "main": [
+        [
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate": {
+      "main": [
+        [
+          {
+            "node": "Analyze Images",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Aggregate1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Client4": {
+      "ai_tool": [
+        [
+          {
+            "node": "Upload Report",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge1": {
+      "main": [
+        [
+          {
+            "node": "Upload Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Images": {
+      "main": [
+        [
+          {
+            "node": "Aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Client5": {
+      "ai_tool": [
+        [
+          {
+            "node": "Locate Documents",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Date & Time": {
+      "main": [
+        [
+          {
+            "node": "Date & Time1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Date & Time1": {
+      "main": [
+        [
+          {
+            "node": "Locate Documents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Policy": {
+      "main": [
+        [
+          {
+            "node": "Extract Policy",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Merge1",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Split Out1": {
+      "main": [
+        [
+          {
+            "node": "Images",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Policy",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Customer Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Locate Documents": {
+      "main": [
+        [
+          {
+            "node": "Split Out1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Client": {
+      "ai_tool": [
+        [
+          {
+            "node": "Analyze Customer Report",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Client2": {
+      "ai_tool": [
+        [
+          {
+            "node": "Analyze Images",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Analyze Customer Report": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Customer Report": {
+      "main": [
+        [
+          {
+            "node": "Analyze Customer Report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Analyze Images": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "MCP Client6": {
+      "ai_tool": [
+        [
+          {
+            "node": "Extract Policy",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract Policy": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 2
+          }
+        ]
+      ]
+    },
+    "Aggregate1": {
+      "main": [
+        [
+          {
+            "node": "Compose preliminary damage report",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "versionId": "de043695-4689-4065-b208-8ecc285aa417",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2"
+  },
+  "id": "ufVIZGENYQm1Ymm6",
+  "tags": []
+}

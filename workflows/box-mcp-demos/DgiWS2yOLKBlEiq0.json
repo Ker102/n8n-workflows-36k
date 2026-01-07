@@ -1,0 +1,274 @@
+{
+  "name": "Delete ACME POLICY Metadata",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        224,
+        256
+      ],
+      "id": "76e43645-64cf-4f80-aea7-9da56d6246a0",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "identify the metadata template named acme policy.\noutput only the information related to the template, following this example:\n\n\n{\n  \"metadata_template\": {\n    \"id\": \"de210374-c51c-4588-8e71-5e887dfcceae\",\n    \"type\": \"metadata_template\",\n    \"scope\": \"enterprise_1134207681\",\n    \"templateKey\": \"acmePolicy\",\n    \"displayName\": \"ACME POLICY\"\n  }\n}"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        448,
+        256
+      ],
+      "id": "d0800da6-0756-48e3-a1fd-70b4c9dd94b6",
+      "name": "Locate Template",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_metadata_template_get_by_name_tool"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        528,
+        480
+      ],
+      "id": "f8d17069-f6e9-4dd3-965b-cdf13eba45f7",
+      "name": "MCP Metadata Template"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "locate my \"ACME Insurance Policies - Generated\" box folder and list only files on that folder. include file_name, file_type, parent_name, parent_id, and file_id. if you can figure out the file type, infer it from the extension."
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        800,
+        256
+      ],
+      "id": "25d7c312-2ebe-49a5-92d6-589d121f9272",
+      "name": "Locate Documents",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_search_folder_by_name_tool",
+          "box_list_folder_content_by_folder_id"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        880,
+        480
+      ],
+      "id": "edc82587-5eea-4527-bee1-d0b0fc972d62",
+      "name": "MCP Folders"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "message.content.files",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        1152,
+        256
+      ],
+      "id": "43969567-e1dc-4e23-aabe-c088c5001ced",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_metadata_delete_instance_on_file_tool"
+        ],
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        1456,
+        480
+      ],
+      "id": "383639c9-2626-4946-8aa1-d6b267798b4b",
+      "name": "MCP Metadata Get"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=delete the metadata for file {{ $json.file_id }} and template key {{ $('Locate Template').item.json.message.content.metadata_template.templateKey }}"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        1376,
+        256
+      ],
+      "id": "f1a2aa26-df76-48e7-9581-98339f2f106a",
+      "name": "Delete Metadata",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Locate Template",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Locate Template": {
+      "main": [
+        [
+          {
+            "node": "Locate Documents",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Metadata Template": {
+      "ai_tool": [
+        [
+          {
+            "node": "Locate Template",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Locate Documents": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Folders": {
+      "ai_tool": [
+        [
+          {
+            "node": "Locate Documents",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Metadata Get": {
+      "ai_tool": [
+        [
+          {
+            "node": "Delete Metadata",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "Delete Metadata",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "7ba76590-5973-4c52-8b8e-5547d39feb43",
+  "meta": {
+    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2"
+  },
+  "id": "DgiWS2yOLKBlEiq0",
+  "tags": []
+}

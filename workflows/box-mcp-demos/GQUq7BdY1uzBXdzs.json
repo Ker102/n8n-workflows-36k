@@ -1,0 +1,294 @@
+{
+  "name": "Box DocGen Claim Generation",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -368,
+        -592
+      ],
+      "id": "655862f6-c8ac-4b20-aeaf-9d011ae46f87",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "fileSelector": "/Users/rbarbosa/Documents/code/n8n/n8n-sample-workflows/doc-gen-claim-generation/sample-data/sample_claims_data.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        -144,
+        -592
+      ],
+      "id": "e377551e-5d92-40ff-b826-938469ae9036",
+      "name": "Read/Write Files from Disk"
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        80,
+        -592
+      ],
+      "id": "6c68870a-0350-433c-88a5-f23dfc407bfb",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        304,
+        -592
+      ],
+      "id": "cedcdb95-e296-4581-ab92-cc758c45575a",
+      "name": "Split Out"
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_docgen_create_batch_tool"
+        ]
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        -688,
+        496
+      ],
+      "id": "e8c30404-9fc9-478a-b338-dbd8a86ca917",
+      "name": "Box MCP Server"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=use this parameters for document generation tool\n\"docgen_template_id\": \"1958007220503\"\n\"destination_folder_id\": \"336466979041\"\n\"document_generation_data\" : {{ $json.data.toJsonString() }}"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -768,
+        272
+      ],
+      "id": "729b8096-6c7d-4ca3-b5e6-26b0ae6ebad6",
+      "name": "DocGen Batch",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "=use these parameters for document generation tool\n\"docgen_template_id\": \"1958007220503\"\n\"destination_folder_id\": \"336466979041\"\n\"document_generation_data\" : \n[\n  {\n    \"generated_file_name\": \"{{$json.generated_file_name }}\",\n    \"user_input\": \n      {{ $json.user_input.toJsonString() }}\n  },\n]"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        528,
+        -592
+      ],
+      "id": "6c554a05-b007-4ca6-98e9-9eec0bd901ec",
+      "name": "DocGen Merge",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "gpt-4.1",
+          "mode": "list",
+          "cachedResultName": "GPT-4.1"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "list tags for docgen template with id 1958007220503"
+            }
+          ]
+        },
+        "jsonOutput": true,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 1.8,
+      "position": [
+        -368,
+        272
+      ],
+      "id": "2f72e739-2720-4f7d-9b72-098f0cdb27ab",
+      "name": "List DocGen Tags",
+      "credentials": {
+        "openAiApi": {
+          "id": "0JUtlCL2o7F6kzb0",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse"
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        -304,
+        496
+      ],
+      "id": "2a4243a9-aa80-4d0c-8fd5-78e74257d7f8",
+      "name": "MCP Metadata Template"
+    },
+    {
+      "parameters": {
+        "sseEndpoint": "http://127.0.0.1:8001/sse",
+        "include": "selected",
+        "includeTools": [
+          "box_docgen_create_batch_tool"
+        ]
+      },
+      "type": "@n8n/n8n-nodes-langchain.mcpClientTool",
+      "typeVersion": 1,
+      "position": [
+        608,
+        -368
+      ],
+      "id": "87f2e7c2-1792-45c3-8b7f-ebc418086f1f",
+      "name": "Box MCP Server2"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Split Out",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Split Out": {
+      "main": [
+        [
+          {
+            "node": "DocGen Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Box MCP Server": {
+      "ai_tool": [
+        [
+          {
+            "node": "DocGen Batch",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "MCP Metadata Template": {
+      "ai_tool": [
+        [
+          {
+            "node": "List DocGen Tags",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Box MCP Server2": {
+      "ai_tool": [
+        [
+          {
+            "node": "DocGen Merge",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "6ac966a8-ed65-4e90-bc9c-6eb16f501635",
+  "meta": {
+    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2"
+  },
+  "id": "GQUq7BdY1uzBXdzs",
+  "tags": []
+}

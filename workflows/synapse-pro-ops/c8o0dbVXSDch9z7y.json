@@ -1,0 +1,217 @@
+{
+  "name": "Transcription Workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        },
+        "triggerOn": "specificFolder",
+        "folderToWatch": {
+          "__rl": true,
+          "value": "1yPpbsk9dudjnSfjJUM8kiUfjR63bFkS6",
+          "mode": "list",
+          "cachedResultName": "Meetings",
+          "cachedResultUrl": "https://drive.google.com/drive/folders/1yPpbsk9dudjnSfjJUM8kiUfjR63bFkS6"
+        },
+        "event": "fileCreated",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDriveTrigger",
+      "typeVersion": 1,
+      "position": [
+        -420,
+        -160
+      ],
+      "id": "9862ab2f-4185-4707-bce6-c4835fc5ae9c",
+      "name": "Google Drive Trigger",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "Tc5NWuFxb5AWuR8T",
+          "name": "Google Drive account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Create a summary of this meeting, extracting the key points.\n\n<transcript>\n {{ $json.content }}\n</transcript>",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.8,
+      "position": [
+        20,
+        -160
+      ],
+      "id": "bdd00fb5-092e-4922-93f5-4acbd89c088c",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "model": "openai/gpt-4.1-mini",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenRouter",
+      "typeVersion": 1,
+      "position": [
+        20,
+        40
+      ],
+      "id": "d662b1b4-1013-47f1-9d05-07d004825462",
+      "name": "OpenRouter Chat Model",
+      "credentials": {
+        "openRouterApi": {
+          "id": "Ox26F0Y7wHrGpNQq",
+          "name": "OpenRouter account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "sendTo": "={{ $('Google Drive Trigger').item.json.owners[0].emailAddress }}",
+        "subject": "=Meeting Notes for {{ $('Google Drive Trigger').item.json.createdTime }}",
+        "emailType": "text",
+        "message": "={{ $('AI Agent').item.json.output }}\n\n{{ $('Google Drive Trigger').item.json.webViewLink }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        600,
+        -160
+      ],
+      "id": "076f7d5e-b146-4bcd-8053-2bf231cbf332",
+      "name": "Gmail",
+      "webhookId": "3f9a246c-4e00-4dc5-af21-b31db46d658c",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "MGTsA1i9vka2am2z",
+          "name": "Joe"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "documentURL": "={{ $json.id }}"
+      },
+      "type": "n8n-nodes-base.googleDocs",
+      "typeVersion": 2,
+      "position": [
+        -200,
+        -160
+      ],
+      "id": "d58e5b69-8cd8-4d65-9118-07cb0651bfe9",
+      "name": "Get Doc",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "xeNPqLTCrqIYHpuD",
+          "name": "Google Docs account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentURL": "={{ $('Google Drive Trigger').item.json.id }}",
+        "actionsUi": {
+          "actionFields": [
+            {
+              "action": "insert",
+              "locationChoice": "location",
+              "text": "={{ $json.output }}"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.googleDocs",
+      "typeVersion": 2,
+      "position": [
+        380,
+        -160
+      ],
+      "id": "576f2593-d543-4f30-adca-c0fcd24554d0",
+      "name": "Update Doc",
+      "credentials": {
+        "googleDocsOAuth2Api": {
+          "id": "xeNPqLTCrqIYHpuD",
+          "name": "Google Docs account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Google Drive Trigger": {
+      "main": [
+        [
+          {
+            "node": "Get Doc",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Agent": {
+      "main": [
+        [
+          {
+            "node": "Update Doc",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenRouter Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Doc": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Update Doc": {
+      "main": [
+        [
+          {
+            "node": "Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "d8bcf36f-ae2c-4d7e-80f4-1b2dfba94bf7",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "386698c3f9012569d5f850d080bc6880c34c66daa54a6aed28b0b999de4a987a"
+  },
+  "id": "c8o0dbVXSDch9z7y",
+  "tags": []
+}
