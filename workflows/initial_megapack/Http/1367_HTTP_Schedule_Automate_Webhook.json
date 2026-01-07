@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "intermediate",
+    "nodeCount": 15,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "💥workflow n8n d'Auto-Post sur les réseaux sociaux - vide",
   "tags": [

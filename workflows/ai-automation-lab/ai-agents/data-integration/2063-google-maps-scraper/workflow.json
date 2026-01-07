@@ -573,7 +573,7 @@
         "columns": {
           "value": {
             "URL": "={{ $('Google Sheets - Get searches  to scrap').first().json.URL }}",
-            "Status": "\u2705"
+            "Status": "✅"
           },
           "schema": [
             {
@@ -648,7 +648,7 @@
         "columns": {
           "value": {
             "URL": "={{ $('Google Sheets - Get searches  to scrap').first().json.URL }}",
-            "Status": "\u274c"
+            "Status": "❌"
           },
           "schema": [
             {
@@ -926,5 +926,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "advanced",
+    "nodeCount": 20,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

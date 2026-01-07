@@ -2,7 +2,11 @@
   "id": "4aKofiCShqdDSsIS",
   "meta": {
     "instanceId": "05578cf7a897ec6100e0a45f52bd1e8b9130ac799ebd6a9ebe3531f9bd89fc01",
-    "templateId": "3181"
+    "templateId": "3181",
+    "complexity": "advanced",
+    "nodeCount": 19,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Import Odoo Product Images from Google Drive",
   "tags": [],

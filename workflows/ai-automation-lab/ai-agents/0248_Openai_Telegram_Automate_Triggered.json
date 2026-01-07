@@ -1,7 +1,11 @@
 {
   "id": "177",
   "meta": {
-    "instanceId": "dfdeafd1c3ed2ee08eeab8c2fa0c3f522066931ed8138ccd35dc20a1e69decd3"
+    "instanceId": "dfdeafd1c3ed2ee08eeab8c2fa0c3f522066931ed8138ccd35dc20a1e69decd3",
+    "complexity": "advanced",
+    "nodeCount": 16,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Telegram AI-bot",
   "tags": [

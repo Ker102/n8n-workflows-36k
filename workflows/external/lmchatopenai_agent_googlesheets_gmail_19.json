@@ -1,7 +1,9 @@
 {
   "meta": {
     "instanceId": "=",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 21
   },
   "nodes": [
     {

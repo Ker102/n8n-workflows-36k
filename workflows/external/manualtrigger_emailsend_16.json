@@ -44,5 +44,9 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 2
   }
 }

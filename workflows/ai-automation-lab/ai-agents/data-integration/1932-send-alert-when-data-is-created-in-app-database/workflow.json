@@ -11,7 +11,7 @@
       "parameters": {
         "width": 377.1993316649719,
         "height": 590.2004455566864,
-        "content": "## \ud83d\udc4b How to use this template\nThis template shows how you can take any event from any service, transform its data and send an alert to your desired app. Here's how to use it:\n\n1. Double click the `Slack` node and connect to your Slack account by creating a Credential.\n2. Change the channel name in the `Slack` node to a channel or user you have in Slack.\n2. Click the `Execute Workflow` button, then double click the nodes to see their input and output data\n\n### To customize this template to you needs:\n1. Enable or swap the `Linear trigger` with any service that fits your use case.\n2. Change the data transformation to fit your needs\n3. Adjust the Slack node or swap it with any node that fits your use case\n4. Disable or remove the `When clicking \"Execute Workflow\"` and `Code` node\n"
+        "content": "## 👋 How to use this template\nThis template shows how you can take any event from any service, transform its data and send an alert to your desired app. Here's how to use it:\n\n1. Double click the `Slack` node and connect to your Slack account by creating a Credential.\n2. Change the channel name in the `Slack` node to a channel or user you have in Slack.\n2. Click the `Execute Workflow` button, then double click the nodes to see their input and output data\n\n### To customize this template to you needs:\n1. Enable or swap the `Linear trigger` with any service that fits your use case.\n2. Change the data transformation to fit your needs\n3. Adjust the Slack node or swap it with any node that fits your use case\n4. Disable or remove the `When clicking \"Execute Workflow\"` and `Code` node\n"
       },
       "typeVersion": 1
     },
@@ -252,5 +252,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 10,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

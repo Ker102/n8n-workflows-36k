@@ -9,7 +9,9 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 35
   },
   "name": "Import Productboard Notes, Companies and Features into Snowflake",
   "tags": [

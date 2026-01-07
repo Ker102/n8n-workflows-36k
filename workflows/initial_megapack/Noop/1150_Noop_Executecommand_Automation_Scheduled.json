@@ -133,7 +133,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "basic",
+    "nodeCount": 6,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "tags": [
     "automation",

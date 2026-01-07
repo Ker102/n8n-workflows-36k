@@ -1,6 +1,10 @@
 {
   "meta": {
-    "instanceId": "0000"
+    "instanceId": "0000",
+    "complexity": "basic",
+    "nodeCount": 6,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "nodes": [
     {

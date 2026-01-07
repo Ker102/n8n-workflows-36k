@@ -170,5 +170,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 6,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

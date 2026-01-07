@@ -1,7 +1,11 @@
 {
   "meta": {
     "instanceId": "97d44c78f314fab340d7a5edaf7e2c274a7fbb8a7cd138f53cc742341e706fe7",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 9,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "nodes": [
     {

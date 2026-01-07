@@ -54,7 +54,7 @@
         "color": 7,
         "width": 256.14371825927645,
         "height": 100,
-        "content": "\ud83d\udc47\ud83c\udffd Set your team name here in the filter. \n(Our team's name is Adore)"
+        "content": "👇🏽 Set your team name here in the filter. \n(Our team's name is Adore)"
       },
       "typeVersion": 1
     },
@@ -148,7 +148,7 @@
         "color": 7,
         "width": 256.14371825927645,
         "height": 100,
-        "content": "\ud83d\udc48\ud83c\udffd Set your team name here in the filter. \n(Our team's name is Adore)"
+        "content": "👈🏽 Set your team name here in the filter. \n(Our team's name is Adore)"
       },
       "typeVersion": 1
     },
@@ -178,7 +178,7 @@
         "color": 7,
         "width": 256.14371825927645,
         "height": 100,
-        "content": "\ud83d\udc47\ud83c\udffd Adjust any custom fields. Here we set labels and default estimate of 1"
+        "content": "👇🏽 Adjust any custom fields. Here we set labels and default estimate of 1"
       },
       "typeVersion": 1
     },
@@ -220,7 +220,7 @@
         "color": 5,
         "width": 403.45318928152614,
         "height": 280.9004675550071,
-        "content": "### \ud83d\udc68\u200d\ud83c\udfa4 Setup\n1. Add Linear API header key\n2. Add Google sheets creds\n3. Update which teams to get tickets from in Graphql Nodes\n4. Update which Google Sheets page to write all the tickets to. \n **You only need to add one column, id. Google Sheets node in automatic mapping mode will handle adding the rest of the columns.**\n5. Set any custom data on each ticket\n6. Activate workflow \ud83d\ude80"
+        "content": "### 👨‍🎤 Setup\n1. Add Linear API header key\n2. Add Google sheets creds\n3. Update which teams to get tickets from in Graphql Nodes\n4. Update which Google Sheets page to write all the tickets to. \n **You only need to add one column, id. Google Sheets node in automatic mapping mode will handle adding the rest of the columns.**\n5. Set any custom data on each ticket\n6. Activate workflow 🚀"
       },
       "typeVersion": 1
     },
@@ -236,7 +236,7 @@
         "color": 7,
         "width": 256.14371825927645,
         "height": 100,
-        "content": "\ud83d\udc46\ud83c\udffd Update which Google sheet to write to"
+        "content": "👆🏽 Update which Google sheet to write to"
       },
       "typeVersion": 1
     },
@@ -409,5 +409,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 14,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

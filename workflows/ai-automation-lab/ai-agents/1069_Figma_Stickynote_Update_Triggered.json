@@ -2,7 +2,11 @@
   "id": "5kYHogzDGeo21MxE",
   "meta": {
     "instanceId": "e7bcfb7f83803b3561455f2e97f622835eda64ae4467d4f2b8a5cf915b534600",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "basic",
+    "nodeCount": 4,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Automate Figma Versioning and Jira Updates with n8n Webhook Integration",
   "tags": [],

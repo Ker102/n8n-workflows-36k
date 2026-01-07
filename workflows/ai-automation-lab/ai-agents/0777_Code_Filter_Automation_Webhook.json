@@ -2,7 +2,11 @@
   "id": "30r9acI1XVIIwAMi",
   "meta": {
     "instanceId": "378c072a34d9e63949fd9cf26b8d28ff276a486e303f0d8963f23e1d74169c1b",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 38,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "mails2notion V2",
   "tags": [],

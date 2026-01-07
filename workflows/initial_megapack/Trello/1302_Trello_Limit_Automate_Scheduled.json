@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 16,
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "tags": [
     "automation",

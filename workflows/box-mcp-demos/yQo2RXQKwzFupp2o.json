@@ -636,7 +636,11 @@
   },
   "versionId": "188b4625-f111-4aaa-b184-fa978c18776d",
   "meta": {
-    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2"
+    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2",
+    "complexity": "advanced",
+    "nodeCount": 18,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "id": "yQo2RXQKwzFupp2o",
   "tags": []

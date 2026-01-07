@@ -55,7 +55,7 @@
         160
       ],
       "parameters": {
-        "template": "Date: {{created}}\nTo: {{name}} <{{email}}>\nAddress: {{country}}\nDetails:\n{{#each lines}}\n- \"{{description}}\" x {{quantity}} = {{amount}}\u20ac + {{vat}}\u20ac = {{total}}\u20ac\n{{/each}}\nTotal invoice: {{total}}\u20ac"
+        "template": "Date: {{created}}\nTo: {{name}} <{{email}}>\nAddress: {{country}}\nDetails:\n{{#each lines}}\n- \"{{description}}\" x {{quantity}} = {{amount}}€ + {{vat}}€ = {{total}}€\n{{/each}}\nTotal invoice: {{total}}€"
       },
       "typeVersion": 1
     },
@@ -205,5 +205,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 8,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

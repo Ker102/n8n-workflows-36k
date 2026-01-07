@@ -2,7 +2,11 @@
   "id": "2pMoIW58KP6ZeGir",
   "meta": {
     "instanceId": "ecc960f484e18b0e09045fd93acf0d47f4cfff25cc212ea348a08ac3aae81850",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 8,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Luma AI Dream Machine - Simple v1 - AK",
   "tags": [

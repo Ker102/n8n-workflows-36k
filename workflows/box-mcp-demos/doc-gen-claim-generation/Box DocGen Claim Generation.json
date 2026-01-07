@@ -287,7 +287,11 @@
   },
   "versionId": "6ac966a8-ed65-4e90-bc9c-6eb16f501635",
   "meta": {
-    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2"
+    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2",
+    "complexity": "intermediate",
+    "nodeCount": 10,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "id": "GQUq7BdY1uzBXdzs",
   "tags": []

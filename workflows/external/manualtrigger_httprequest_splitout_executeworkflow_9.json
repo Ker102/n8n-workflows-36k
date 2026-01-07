@@ -1746,5 +1746,9 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "advanced",
+    "nodeCount": 46
   }
 }

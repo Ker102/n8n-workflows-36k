@@ -2,7 +2,11 @@
   "id": "2qIFnWXdHJJs4oBk",
   "meta": {
     "instanceId": "6c586999cefcd4ec9b2ab69e3f6b7974d96831b39a984af15104588e20b2737a",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 17,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "DSP Certificate w/ Google Forms",
   "tags": [],

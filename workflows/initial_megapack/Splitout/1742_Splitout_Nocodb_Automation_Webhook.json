@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 23,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "Simple LinkedIn profile collector",
   "tags": [

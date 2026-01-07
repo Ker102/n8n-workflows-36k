@@ -2,7 +2,11 @@
   "id": "2DzQ1FH11S3Gp6wn",
   "meta": {
     "instanceId": "558d88703fb65b2d0e44613bc35916258b0f0bf983c5d4730c00c424b77ca36a",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 31,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "YogiAI",
   "tags": [],

@@ -1019,5 +1019,9 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "advanced",
+    "nodeCount": 38
   }
 }

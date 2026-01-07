@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 21,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "The Ultimate Guide to Optimize WordPress Blog Posts with AI",
   "tags": [

@@ -1,7 +1,9 @@
 {
   "meta": {
     "instanceId": "d1b60f1865ef6504ee3af5be4ef9a7387762b4132615a52de808456d52e8d336",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 20
   },
   "nodes": [
     {

@@ -34,11 +34,11 @@
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ufeffcountry",
+              "id": "﻿country",
               "type": "string",
               "display": true,
               "required": false,
-              "displayName": "\ufeffcountry",
+              "displayName": "﻿country",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -328,5 +328,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 7,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

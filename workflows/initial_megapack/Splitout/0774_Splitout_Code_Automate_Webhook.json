@@ -9,7 +9,9 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 28
   },
   "name": "My workflow 2",
   "tags": [

@@ -1,7 +1,11 @@
 {
   "id": "39KuujB1fbOvx8Al",
   "meta": {
-    "instanceId": "0a5638e14e0c728ef975d18d109cfb41edae575e3d911724f4f1eccde06a729f"
+    "instanceId": "0a5638e14e0c728ef975d18d109cfb41edae575e3d911724f4f1eccde06a729f",
+    "complexity": "intermediate",
+    "nodeCount": 10,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "OpenAI e-mail classification - application",
   "tags": [],

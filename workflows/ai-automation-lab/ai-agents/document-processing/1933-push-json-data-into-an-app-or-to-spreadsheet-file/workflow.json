@@ -83,7 +83,7 @@
       "parameters": {
         "width": 377.1993316649719,
         "height": 590.2004455566864,
-        "content": "## \ud83d\udc4b How to use this template\nThis template shows how you can load JSON data from an API and load it into an App (Google Sheets) or convert to a file. Here's how to use it:\n\n1. Open the `Google Sheets` node and add a credential (or disabled the node)\n2. Click the `Execute Workflow` button, then double click the nodes to see their input and output data\n\n### To customize this template to you needs:\n1. Swap `When clicking \"Execute Workflow\"` and the `HTTP Request` node with an App trigger. If we don't have a Native app trigger, just replace `When clicking \"Execute Workflow\"` with a [Schedule trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/).\n2. Disable or remove parts of the workflow that are not relevant to your usecase.\n4. Activate the workflow \n"
+        "content": "## 👋 How to use this template\nThis template shows how you can load JSON data from an API and load it into an App (Google Sheets) or convert to a file. Here's how to use it:\n\n1. Open the `Google Sheets` node and add a credential (or disabled the node)\n2. Click the `Execute Workflow` button, then double click the nodes to see their input and output data\n\n### To customize this template to you needs:\n1. Swap `When clicking \"Execute Workflow\"` and the `HTTP Request` node with an App trigger. If we don't have a Native app trigger, just replace `When clicking \"Execute Workflow\"` with a [Schedule trigger](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-base.scheduletrigger/).\n2. Disable or remove parts of the workflow that are not relevant to your usecase.\n4. Activate the workflow \n"
       },
       "typeVersion": 1
     },
@@ -228,5 +228,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 8,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

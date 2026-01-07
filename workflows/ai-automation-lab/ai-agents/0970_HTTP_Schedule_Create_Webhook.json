@@ -2,7 +2,11 @@
   "id": "4AG83ybt0S3WQbkS",
   "meta": {
     "instanceId": "a943fc71a4dfb51cc3424882233bcd72e7a73857958af1cf464f7c21580c726e",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 12,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Daily AI News Translation & Summary with GPT-4 and Telegram Delivery",
   "tags": [

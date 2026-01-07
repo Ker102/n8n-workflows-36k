@@ -35,7 +35,7 @@
       "parameters": {
         "text": "Hey Harshil,\n\nWe are excited to invite you to the n8n community meetup!\n\nWith this email you will find the invite attached.\n\nLooking forward to seeing you at the meetup!\n\nCheers,\nHarshil",
         "options": {},
-        "subject": "n8n Community Meetup \ud83d\ude80",
+        "subject": "n8n Community Meetup 🚀",
         "attachments": "data"
       },
       "credentials": {
@@ -67,5 +67,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 3,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

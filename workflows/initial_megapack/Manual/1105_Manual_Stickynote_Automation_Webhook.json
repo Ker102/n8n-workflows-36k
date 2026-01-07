@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "intermediate",
+    "nodeCount": 8,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Text to Speech (OpenAI)",
   "tags": [

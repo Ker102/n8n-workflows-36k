@@ -1,7 +1,11 @@
 {
   "id": "44PIIGwPzUe9dGfb",
   "meta": {
-    "instanceId": "6b3e8c6c30cdfbf06283a3fa57016932c6b4ec959896c5c546ef5865ff697ff1"
+    "instanceId": "6b3e8c6c30cdfbf06283a3fa57016932c6b4ec959896c5c546ef5865ff697ff1",
+    "complexity": "basic",
+    "nodeCount": 5,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Sync New Shopify Products to Odoo Product",
   "tags": [],

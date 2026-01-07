@@ -143,7 +143,7 @@
         "color": 5,
         "width": 671,
         "height": 328,
-        "content": "## \u2139\ufe0f Replacing the initial nodes\n\nThese nodes fetch your account and mailbox IDs. Consider saving these values instead of querying them on every execution to improve performance and reduce the load on the JMAP API."
+        "content": "## ℹ️ Replacing the initial nodes\n\nThese nodes fetch your account and mailbox IDs. Consider saving these values instead of querying them on every execution to improve performance and reduce the load on the JMAP API."
       },
       "typeVersion": 1
     },
@@ -159,7 +159,7 @@
         "color": 3,
         "width": 671,
         "height": 232,
-        "content": "## \u2139\ufe0f Credentials\n\nThe JMAP standard does not limit the available authentication options. Fastmail (the sponsor of the standard) supports Bearer authentication as well as OAuth2.\n\nIn n8n you can implement the Fastmail Bearer authentication by creating Header Auth credentials with a name of `Authorization` and a value of `Bearer $apiToken` (replacing `$apiToken` with your actual [token from Fastmail](https://www.fastmail.com/settings/security/tokens))."
+        "content": "## ℹ️ Credentials\n\nThe JMAP standard does not limit the available authentication options. Fastmail (the sponsor of the standard) supports Bearer authentication as well as OAuth2.\n\nIn n8n you can implement the Fastmail Bearer authentication by creating Header Auth credentials with a name of `Authorization` and a value of `Bearer $apiToken` (replacing `$apiToken` with your actual [token from Fastmail](https://www.fastmail.com/settings/security/tokens))."
       },
       "typeVersion": 1
     }
@@ -209,5 +209,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 7,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

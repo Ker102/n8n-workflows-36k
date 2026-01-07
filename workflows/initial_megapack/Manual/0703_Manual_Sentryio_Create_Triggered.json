@@ -100,7 +100,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "basic",
+    "nodeCount": 4,
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "tags": [
     "automation",

@@ -2,7 +2,11 @@
   "id": "22PddLUgcjSJbT1w",
   "meta": {
     "instanceId": "fa7d5e2425ec76075df7100dbafffed91cc6f71f12fe92614bf78af63c54a61d",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 8,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "MongoDB Agent",
   "tags": [],

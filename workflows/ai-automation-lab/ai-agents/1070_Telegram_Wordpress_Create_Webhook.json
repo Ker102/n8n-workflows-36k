@@ -2,7 +2,11 @@
   "id": "5lMPjSDuoMvCJnko",
   "meta": {
     "instanceId": "31e69f7f4a77bf465b805824e303232f0227212ae922d12133a0f96ffeab4fef",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 25,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "🔍🛠️Generate SEO-Optimized WordPress Content with Perplexity Research",
   "tags": [],

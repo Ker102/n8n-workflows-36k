@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "basic",
+    "nodeCount": 6,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Capture Website Screenshots with Bright Data Web Unlocker and Save to Disk",
   "tags": [

@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 29,
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "name": "N8N Financial Tracker Telegram Invoices to Notion with AI Summaries & Reports",
   "tags": [

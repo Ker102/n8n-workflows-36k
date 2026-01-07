@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 21,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Bitrix24 Task Form Widget Application Workflow example with Webhook Integration",
   "tags": [

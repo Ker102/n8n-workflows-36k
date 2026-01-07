@@ -1,7 +1,11 @@
 {
   "id": "x2VUvhqV1YTJCIN0",
   "meta": {
-    "instanceId": "e2c978396c9c745cf0aaa9ed3abe4464dbcef93c5fe2df809b9e14440e628df6"
+    "instanceId": "e2c978396c9c745cf0aaa9ed3abe4464dbcef93c5fe2df809b9e14440e628df6",
+    "complexity": "intermediate",
+    "nodeCount": 9,
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "tags": [],
   "nodes": [

@@ -61,7 +61,7 @@
         200
       ],
       "parameters": {
-        "text": "=\ud83d\udc26 NEW TWEET with sentiment score {{$json[\"score\"]}} and magnitude {{$json[\"magnitude\"]}} \u2b07\ufe0f\n{{$json[\"text\"]}}",
+        "text": "=🐦 NEW TWEET with sentiment score {{$json[\"score\"]}} and magnitude {{$json[\"magnitude\"]}} ⬇️\n{{$json[\"text\"]}}",
         "channel": "tweets",
         "attachments": [],
         "otherOptions": {}
@@ -250,5 +250,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 9,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

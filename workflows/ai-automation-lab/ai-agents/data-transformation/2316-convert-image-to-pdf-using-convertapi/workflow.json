@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "7f4ecd85-1f6e-418e-a224-1a690741192b",
-      "name": "When clicking \u2018Test workflow\u2019",
+      "name": "When clicking ‘Test workflow’",
       "type": "n8n-nodes-base.manualTrigger",
       "position": [
         380,
@@ -136,7 +136,7 @@
         ]
       ]
     },
-    "When clicking \u2018Test workflow\u2019": {
+    "When clicking ‘Test workflow’": {
       "main": [
         [
           {
@@ -147,5 +147,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 5,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

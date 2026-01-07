@@ -105,5 +105,9 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 5
   }
 }

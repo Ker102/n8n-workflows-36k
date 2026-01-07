@@ -398,7 +398,9 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "intermediate",
+    "nodeCount": 12
   },
   "tags": [
     "automation",

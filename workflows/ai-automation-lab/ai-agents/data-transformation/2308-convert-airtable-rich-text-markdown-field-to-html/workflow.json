@@ -55,7 +55,7 @@
           "mode": "list",
           "value": "tblbYRGFgCo9u2VpB",
           "cachedResultUrl": "https://airtable.com/appk2iZaWQLO3Tqvx/tblbYRGFgCo9u2VpB",
-          "cachedResultName": "\ud83d\udcfa Videos"
+          "cachedResultName": "📺 Videos"
         },
         "options": {},
         "operation": "get"
@@ -63,7 +63,7 @@
       "credentials": {
         "airtableTokenApi": {
           "id": "1fljBv63tzQeX9rd",
-          "name": "\ud83c\udff0 360Creators"
+          "name": "🏰 360Creators"
         }
       },
       "typeVersion": 2
@@ -81,7 +81,7 @@
         "options": {
           "simplifiedAutoLink": true
         },
-        "markdown": "={{ $json['\ud83d\udce5 Video Description'] }}"
+        "markdown": "={{ $json['📥 Video Description'] }}"
       },
       "typeVersion": 1
     },
@@ -96,7 +96,7 @@
       "parameters": {
         "mode": "markdownToHtml",
         "options": {},
-        "markdown": "={{ $json[\"\ud83d\udce5 Video Description\"] }}"
+        "markdown": "={{ $json[\"📥 Video Description\"] }}"
       },
       "typeVersion": 1
     },
@@ -121,7 +121,7 @@
           "mode": "list",
           "value": "tblbYRGFgCo9u2VpB",
           "cachedResultUrl": "https://airtable.com/appk2iZaWQLO3Tqvx/tblbYRGFgCo9u2VpB",
-          "cachedResultName": "\ud83d\udcfa Videos"
+          "cachedResultName": "📺 Videos"
         },
         "columns": {
           "value": {
@@ -140,62 +140,62 @@
               "defaultMatch": true
             },
             {
-              "id": "\ud83d\udce5 Video Name",
+              "id": "📥 Video Name",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Video Name",
+              "displayName": "📥 Video Name",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Video Thumbnail",
+              "id": "📥 Video Thumbnail",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Video Thumbnail",
+              "displayName": "📥 Video Thumbnail",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Video Description",
+              "id": "📥 Video Description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Video Description",
+              "displayName": "📥 Video Description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Meta Description",
+              "id": "⚡️ Meta Description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Meta Description",
+              "displayName": "⚡️ Meta Description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Publish Date",
+              "id": "⚡️ Publish Date",
               "type": "dateTime",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\u26a1\ufe0f Publish Date",
+              "displayName": "⚡️ Publish Date",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Color [low priority]",
+              "id": "📥 Color [low priority]",
               "type": "options",
               "display": true,
               "options": [
@@ -211,18 +211,18 @@
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Color [low priority]",
+              "displayName": "📥 Color [low priority]",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Youtube url",
+              "id": "⚡️ Youtube url",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\u26a1\ufe0f Youtube url",
+              "displayName": "⚡️ Youtube url",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -249,211 +249,211 @@
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Youtube url, autoplay",
+              "id": "⚡️ Youtube url, autoplay",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Youtube url, autoplay",
+              "displayName": "⚡️ Youtube url, autoplay",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 videos.360creators.com url [backup]",
+              "id": "📥 videos.360creators.com url [backup]",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 videos.360creators.com url [backup]",
+              "displayName": "📥 videos.360creators.com url [backup]",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Webflow url",
+              "id": "⚡️ Webflow url",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Webflow url",
+              "displayName": "⚡️ Webflow url",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Slug",
+              "id": "📥 Slug",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Slug",
+              "displayName": "📥 Slug",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83c\udfd8\ufe0f Creator",
+              "id": "🏘️ Creator",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83c\udfd8\ufe0f Creator",
+              "displayName": "🏘️ Creator",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Tools with url | video description",
+              "id": "⚡️ Tools with url | video description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Tools with url | video description",
+              "displayName": "⚡️ Tools with url | video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Video Description",
+              "id": "⚡️ Video Description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Video Description",
+              "displayName": "⚡️ Video Description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Timestamps | video description",
+              "id": "📥 Timestamps | video description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Timestamps | video description",
+              "displayName": "📥 Timestamps | video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udee0 Tools",
+              "id": "🛠 Tools",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udee0 Tools",
+              "displayName": "🛠 Tools",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f #Tools | video description",
+              "id": "⚡️ #Tools | video description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f #Tools | video description",
+              "displayName": "⚡️ #Tools | video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Tool Categories | video description",
+              "id": "⚡️ Tool Categories | video description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Tool Categories | video description",
+              "displayName": "⚡️ Tool Categories | video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Created",
+              "id": "⚡️ Created",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Created",
+              "displayName": "⚡️ Created",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udcac Channels",
+              "id": "💬 Channels",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udcac Channels",
+              "displayName": "💬 Channels",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Slug",
+              "id": "⚡️ Slug",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Slug",
+              "displayName": "⚡️ Slug",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\ude80 Publish",
+              "id": "🚀 Publish",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\ud83d\ude80 Publish",
+              "displayName": "🚀 Publish",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Channels",
+              "id": "⚡️ Channels",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Channels",
+              "displayName": "⚡️ Channels",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Tools Categories | Video description",
+              "id": "⚡️ Tools Categories | Video description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Tools Categories | Video description",
+              "displayName": "⚡️ Tools Categories | Video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f #Tool | Video description",
+              "id": "⚡️ #Tool | Video description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f #Tool | Video description",
+              "displayName": "⚡️ #Tool | Video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f #ToolCategory | Video Description",
+              "id": "⚡️ #ToolCategory | Video Description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f #ToolCategory | Video Description",
+              "displayName": "⚡️ #ToolCategory | Video Description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -469,46 +469,46 @@
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u2696\ufe0f Market",
+              "id": "⚖️ Market",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\u2696\ufe0f Market",
+              "displayName": "⚖️ Market",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Market company | Video Description lookup",
+              "id": "⚡️ Market company | Video Description lookup",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Market company | Video Description lookup",
+              "displayName": "⚡️ Market company | Video Description lookup",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Market company | Video description arrayflatten",
+              "id": "⚡️ Market company | Video description arrayflatten",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Market company | Video description arrayflatten",
+              "displayName": "⚡️ Market company | Video description arrayflatten",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Market listing arrayjoin | Video description",
+              "id": "⚡️ Market listing arrayjoin | Video description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Market listing arrayjoin | Video description",
+              "displayName": "⚡️ Market listing arrayjoin | Video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -535,24 +535,24 @@
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udcfa Video description market listing lookup",
+              "id": "📺 Video description market listing lookup",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\ud83d\udcfa Video description market listing lookup",
+              "displayName": "📺 Video description market listing lookup",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udcfa Video description market listing formula",
+              "id": "📺 Video description market listing formula",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": true,
               "required": false,
-              "displayName": "\ud83d\udcfa Video description market listing formula",
+              "displayName": "📺 Video description market listing formula",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -568,13 +568,13 @@
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\uddc3\ufe0f File Resources",
+              "id": "🗃️ File Resources",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\uddc3\ufe0f File Resources",
+              "displayName": "🗃️ File Resources",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -623,7 +623,7 @@
       "credentials": {
         "airtableTokenApi": {
           "id": "1fljBv63tzQeX9rd",
-          "name": "\ud83c\udff0 360Creators"
+          "name": "🏰 360Creators"
         }
       },
       "typeVersion": 2
@@ -649,7 +649,7 @@
           "mode": "list",
           "value": "tblbYRGFgCo9u2VpB",
           "cachedResultUrl": "https://airtable.com/appk2iZaWQLO3Tqvx/tblbYRGFgCo9u2VpB",
-          "cachedResultName": "\ud83d\udcfa Videos"
+          "cachedResultName": "📺 Videos"
         },
         "columns": {
           "value": {
@@ -669,62 +669,62 @@
               "defaultMatch": true
             },
             {
-              "id": "\ud83d\udce5 Video Name",
+              "id": "📥 Video Name",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Video Name",
+              "displayName": "📥 Video Name",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Video Thumbnail",
+              "id": "📥 Video Thumbnail",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Video Thumbnail",
+              "displayName": "📥 Video Thumbnail",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Video Description",
+              "id": "📥 Video Description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Video Description",
+              "displayName": "📥 Video Description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Meta Description",
+              "id": "⚡️ Meta Description",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Meta Description",
+              "displayName": "⚡️ Meta Description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Publish Date",
+              "id": "⚡️ Publish Date",
               "type": "dateTime",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\u26a1\ufe0f Publish Date",
+              "displayName": "⚡️ Publish Date",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Color [low priority]",
+              "id": "📥 Color [low priority]",
               "type": "options",
               "display": true,
               "options": [
@@ -740,18 +740,18 @@
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Color [low priority]",
+              "displayName": "📥 Color [low priority]",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Youtube url",
+              "id": "⚡️ Youtube url",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\u26a1\ufe0f Youtube url",
+              "displayName": "⚡️ Youtube url",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -778,211 +778,211 @@
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Youtube url, autoplay",
+              "id": "⚡️ Youtube url, autoplay",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Youtube url, autoplay",
+              "displayName": "⚡️ Youtube url, autoplay",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 videos.360creators.com url [backup]",
+              "id": "📥 videos.360creators.com url [backup]",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 videos.360creators.com url [backup]",
+              "displayName": "📥 videos.360creators.com url [backup]",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Webflow url",
+              "id": "⚡️ Webflow url",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Webflow url",
+              "displayName": "⚡️ Webflow url",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Slug",
+              "id": "📥 Slug",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Slug",
+              "displayName": "📥 Slug",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83c\udfd8\ufe0f Creator",
+              "id": "🏘️ Creator",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83c\udfd8\ufe0f Creator",
+              "displayName": "🏘️ Creator",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Tools with url | video description",
+              "id": "⚡️ Tools with url | video description",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Tools with url | video description",
+              "displayName": "⚡️ Tools with url | video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Video Description",
+              "id": "⚡️ Video Description",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Video Description",
+              "displayName": "⚡️ Video Description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udce5 Timestamps | video description",
+              "id": "📥 Timestamps | video description",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udce5 Timestamps | video description",
+              "displayName": "📥 Timestamps | video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udee0 Tools",
+              "id": "🛠 Tools",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udee0 Tools",
+              "displayName": "🛠 Tools",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f #Tools | video description",
+              "id": "⚡️ #Tools | video description",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f #Tools | video description",
+              "displayName": "⚡️ #Tools | video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Tool Categories | video description",
+              "id": "⚡️ Tool Categories | video description",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Tool Categories | video description",
+              "displayName": "⚡️ Tool Categories | video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Created",
+              "id": "⚡️ Created",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Created",
+              "displayName": "⚡️ Created",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udcac Channels",
+              "id": "💬 Channels",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\udcac Channels",
+              "displayName": "💬 Channels",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Slug",
+              "id": "⚡️ Slug",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Slug",
+              "displayName": "⚡️ Slug",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\ude80 Publish",
+              "id": "🚀 Publish",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\ud83d\ude80 Publish",
+              "displayName": "🚀 Publish",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Channels",
+              "id": "⚡️ Channels",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Channels",
+              "displayName": "⚡️ Channels",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Tools Categories | Video description",
+              "id": "⚡️ Tools Categories | Video description",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Tools Categories | Video description",
+              "displayName": "⚡️ Tools Categories | Video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f #Tool | Video description",
+              "id": "⚡️ #Tool | Video description",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f #Tool | Video description",
+              "displayName": "⚡️ #Tool | Video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f #ToolCategory | Video Description",
+              "id": "⚡️ #ToolCategory | Video Description",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f #ToolCategory | Video Description",
+              "displayName": "⚡️ #ToolCategory | Video Description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -998,46 +998,46 @@
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u2696\ufe0f Market",
+              "id": "⚖️ Market",
               "type": "array",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\u2696\ufe0f Market",
+              "displayName": "⚖️ Market",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Market company | Video Description lookup",
+              "id": "⚡️ Market company | Video Description lookup",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Market company | Video Description lookup",
+              "displayName": "⚡️ Market company | Video Description lookup",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Market company | Video description arrayflatten",
+              "id": "⚡️ Market company | Video description arrayflatten",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Market company | Video description arrayflatten",
+              "displayName": "⚡️ Market company | Video description arrayflatten",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\u26a1\ufe0f Market listing arrayjoin | Video description",
+              "id": "⚡️ Market listing arrayjoin | Video description",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\u26a1\ufe0f Market listing arrayjoin | Video description",
+              "displayName": "⚡️ Market listing arrayjoin | Video description",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -1064,24 +1064,24 @@
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udcfa Video description market listing lookup",
+              "id": "📺 Video description market listing lookup",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\ud83d\udcfa Video description market listing lookup",
+              "displayName": "📺 Video description market listing lookup",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\udcfa Video description market listing formula",
+              "id": "📺 Video description market listing formula",
               "type": "string",
               "display": true,
               "removed": true,
               "readOnly": true,
               "required": false,
-              "displayName": "\ud83d\udcfa Video description market listing formula",
+              "displayName": "📺 Video description market listing formula",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -1097,13 +1097,13 @@
               "canBeUsedToMatch": true
             },
             {
-              "id": "\ud83d\uddc3\ufe0f File Resources",
+              "id": "🗃️ File Resources",
               "type": "string",
               "display": true,
               "removed": false,
               "readOnly": false,
               "required": false,
-              "displayName": "\ud83d\uddc3\ufe0f File Resources",
+              "displayName": "🗃️ File Resources",
               "defaultMatch": false,
               "canBeUsedToMatch": true
             },
@@ -1152,7 +1152,7 @@
       "credentials": {
         "airtableTokenApi": {
           "id": "1fljBv63tzQeX9rd",
-          "name": "\ud83c\udff0 360Creators"
+          "name": "🏰 360Creators"
         }
       },
       "typeVersion": 2
@@ -1179,7 +1179,7 @@
           "mode": "list",
           "value": "tblbYRGFgCo9u2VpB",
           "cachedResultUrl": "https://airtable.com/appk2iZaWQLO3Tqvx/tblbYRGFgCo9u2VpB",
-          "cachedResultName": "\ud83d\udcfa Videos"
+          "cachedResultName": "📺 Videos"
         },
         "options": {},
         "operation": "search",
@@ -1188,7 +1188,7 @@
       "credentials": {
         "airtableTokenApi": {
           "id": "1fljBv63tzQeX9rd",
-          "name": "\ud83c\udff0 360Creators"
+          "name": "🏰 360Creators"
         }
       },
       "typeVersion": 2
@@ -1296,5 +1296,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 9,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

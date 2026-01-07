@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 17,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "💥🛠️Build a Web Search Chatbot with GPT-4o and MCP Brave Search",
   "tags": [

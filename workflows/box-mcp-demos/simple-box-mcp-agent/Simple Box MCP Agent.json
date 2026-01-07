@@ -133,7 +133,11 @@
   "versionId": "0b5e0655-b6a9-4b41-8a6b-fa0093be24ce",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2"
+    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2",
+    "complexity": "basic",
+    "nodeCount": 5,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "id": "iP146iHyquMTygtL",
   "tags": []

@@ -2,7 +2,11 @@
   "id": "3Lih0LVosR8dZbla",
   "meta": {
     "instanceId": "885b4fb4a6a9c2cb5621429a7b972df0d05bb724c20ac7dac7171b62f1c7ef40",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 21,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Create AI-Ready Vector Datasets for LLMs with Bright Data, Gemini & Pinecone",
   "tags": [

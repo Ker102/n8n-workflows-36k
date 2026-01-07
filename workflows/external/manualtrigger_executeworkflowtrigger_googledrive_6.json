@@ -1,6 +1,8 @@
 {
   "meta": {
-    "instanceId": "4de3652773c3e67f6210deb1e1d390d75b23715f2e2cca0340008f99419607e6"
+    "instanceId": "4de3652773c3e67f6210deb1e1d390d75b23715f2e2cca0340008f99419607e6",
+    "complexity": "advanced",
+    "nodeCount": 16
   },
   "nodes": [
     {

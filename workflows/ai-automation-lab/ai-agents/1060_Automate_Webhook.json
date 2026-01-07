@@ -2,7 +2,11 @@
   "id": "5Y8QXJ3N67wnmR2R",
   "meta": {
     "instanceId": "433fa4b57c582f828a127c9c601af0fc38d9d6424efd30a3ca802a4cc3acd656",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 8,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "POC - Chatbot Order by Sheet Data",
   "tags": [],

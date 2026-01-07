@@ -2,7 +2,11 @@
   "id": "17j2efAe10uXRc4p",
   "meta": {
     "instanceId": "95e5c2dbf167bd62714d47d959f677d4c29b5fcbb7d183f4fe2396c33badeac6",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 46,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Auto WordPress Blog Generator (GPT + Postgres + WP Media)",
   "tags": [

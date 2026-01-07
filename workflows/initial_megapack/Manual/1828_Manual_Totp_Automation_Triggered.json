@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "basic",
+    "nodeCount": 3,
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "Complete Guide to Setting Up and Generating TOTP Codes in n8n 🔐",
   "tags": [

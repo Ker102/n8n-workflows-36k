@@ -1,6 +1,10 @@
 {
   "meta": {
-    "instanceId": "n8n.syncbricks.com"
+    "instanceId": "n8n.syncbricks.com",
+    "complexity": "advanced",
+    "nodeCount": 35,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "nodes": [
     {

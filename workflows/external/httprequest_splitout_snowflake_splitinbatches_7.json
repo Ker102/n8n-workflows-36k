@@ -1,7 +1,9 @@
 {
   "meta": {
     "instanceId": "21b41c2deb1c9e3f543253a0aa6a6e2c7bd7ef6bab90ffd478aa947c17d3b352",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 35
   },
   "name": "Import Productboard Notes, Companies and Features into Snowflake",
   "tags": [

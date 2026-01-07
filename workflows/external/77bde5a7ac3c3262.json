@@ -108,5 +108,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 5,
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   }
 }

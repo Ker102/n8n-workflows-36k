@@ -8,7 +8,7 @@
         290
       ],
       "parameters": {
-        "message": "=Bonjour ! Voici les stats de notre Instagram {{$json[\"Compte\"]}} en ce beau matin du {{$node[\"Date & Time\"].json[\"day_today\"]}} {{$node[\"Date & Time\"].json[\"data\"]}}\nLe nombre de Followers est de : {{$json[\"Followers\"]}}\nNous avons r\u00e9alis\u00e9 : {{$json[\"Posts\"]}} posts, \nBravo !",
+        "message": "=Bonjour ! Voici les stats de notre Instagram {{$json[\"Compte\"]}} en ce beau matin du {{$node[\"Date & Time\"].json[\"day_today\"]}} {{$node[\"Date & Time\"].json[\"data\"]}}\nLe nombre de Followers est de : {{$json[\"Followers\"]}}\nNous avons réalisé : {{$json[\"Posts\"]}} posts, \nBravo !",
         "channelId": "xxxxxxx",
         "attachments": [],
         "otherOptions": {}
@@ -127,5 +127,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 5,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

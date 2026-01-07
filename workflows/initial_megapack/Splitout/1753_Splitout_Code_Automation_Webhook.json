@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 37,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "Write a WordPress post with AI (starting from a few keywords)",
   "tags": [

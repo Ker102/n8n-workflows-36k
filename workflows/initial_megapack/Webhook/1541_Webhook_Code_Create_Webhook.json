@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "intermediate",
+    "nodeCount": 13,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "Notify_user_in_Slack_of_quarantined_email_and_create_Jira_ticket_if_opened",
   "tags": [

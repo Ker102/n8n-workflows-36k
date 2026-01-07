@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 27,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "📄✨ Easy Wordpress Content Creation from PDF Document + Human In The Loop with Gmail Approval",
   "tags": [

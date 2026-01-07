@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 48,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "[2/3] Set up medoids (2 types) for anomaly detection (crops dataset)",
   "tags": [

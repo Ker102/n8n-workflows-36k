@@ -1,6 +1,10 @@
 {
   "meta": {
-    "instanceId": "ac9d33c4ed758aeca18fdf8990bc14f18826f99beb38fb06a023fa013ee39a0b"
+    "instanceId": "ac9d33c4ed758aeca18fdf8990bc14f18826f99beb38fb06a023fa013ee39a0b",
+    "complexity": "intermediate",
+    "nodeCount": 11,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "nodes": [
     {

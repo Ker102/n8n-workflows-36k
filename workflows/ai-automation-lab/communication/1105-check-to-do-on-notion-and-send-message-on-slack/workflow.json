@@ -106,7 +106,7 @@
         "channel": "={{$json[\"id\"]}}",
         "attachments": [
           {
-            "title": "=\u2611\ufe0f {{$node[\"If task assigned to Harshil?\"].json[\"to_do\"][\"text\"][0][\"text\"][\"content\"]}}"
+            "title": "=☑️ {{$node[\"If task assigned to Harshil?\"].json[\"to_do\"][\"text\"][0][\"text\"][\"content\"]}}"
           }
         ],
         "otherOptions": {
@@ -171,5 +171,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 6,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

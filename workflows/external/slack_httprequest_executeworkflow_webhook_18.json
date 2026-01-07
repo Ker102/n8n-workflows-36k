@@ -1097,5 +1097,9 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "advanced",
+    "nodeCount": 34
   }
 }

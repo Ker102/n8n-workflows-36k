@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "intermediate",
+    "nodeCount": 14,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "UTM Link Creator & QR Code Generator with Scheduled Google Analytics Reports",
   "tags": [

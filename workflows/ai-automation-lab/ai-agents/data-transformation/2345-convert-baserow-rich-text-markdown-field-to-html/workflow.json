@@ -167,7 +167,7 @@
           "simpleLineBreaks": true,
           "backslashEscapesHTMLTags": true
         },
-        "markdown": "={{ $json['\ud83d\udce5 Video Description'] }}"
+        "markdown": "={{ $json['📥 Video Description'] }}"
       },
       "typeVersion": 1
     },
@@ -182,7 +182,7 @@
       "parameters": {
         "mode": "markdownToHtml",
         "options": {},
-        "markdown": "={{ $json['\ud83d\udce5 Video Description'] }}"
+        "markdown": "={{ $json['📥 Video Description'] }}"
       },
       "typeVersion": 1
     },
@@ -274,5 +274,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 9,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

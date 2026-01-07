@@ -8,7 +8,7 @@
         30
       ],
       "parameters": {
-        "text": "=\ud83d\udcb9 #\u65e5\u5e63\u532f\u7387 {{$json[\"title\"]}}\n\n{{$json[\"link\"]}}",
+        "text": "=💹 #日幣匯率 {{$json[\"title\"]}}\n\n{{$json[\"link\"]}}",
         "chatId": "",
         "additionalFields": {}
       },
@@ -173,5 +173,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 7,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

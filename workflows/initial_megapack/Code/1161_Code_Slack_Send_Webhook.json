@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "intermediate",
+    "nodeCount": 13,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Receive_and_analyze_emails_with_rules_in_Sublime_Security",
   "tags": [
@@ -398,7 +402,7 @@
               "error": null,
               "matched": true,
               "success": true,
-              "execution_time": 3.8433e-05,
+              "execution_time": 0.000038433,
               "external_errors": null
             },
             {

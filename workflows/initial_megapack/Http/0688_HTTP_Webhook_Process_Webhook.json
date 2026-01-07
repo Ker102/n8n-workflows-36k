@@ -9,7 +9,9 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "basic",
+    "nodeCount": 5
   },
   "name": "Transform Image to Lego Style Using Line and Dall-E",
   "tags": [

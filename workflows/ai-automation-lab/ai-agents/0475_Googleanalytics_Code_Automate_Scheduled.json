@@ -2,7 +2,11 @@
   "id": "21IdmArlNT9LlaFf",
   "meta": {
     "instanceId": "d868e3d040e7bda892c81b17cf446053ea25d2556fcef89cbe19dd61a3e876e9",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 23,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Automate Google Analytics Reporting - AlexK1919",
   "tags": [

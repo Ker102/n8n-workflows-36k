@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 42,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "Generate Leads with Google Maps - AlexK1919",
   "tags": [

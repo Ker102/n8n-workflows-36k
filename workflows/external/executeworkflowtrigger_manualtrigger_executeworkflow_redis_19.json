@@ -1796,5 +1796,9 @@
         []
       ]
     }
+  },
+  "meta": {
+    "complexity": "advanced",
+    "nodeCount": 43
   }
 }

@@ -1,6 +1,8 @@
 {
   "meta": {
-    "instanceId": "="
+    "instanceId": "=",
+    "complexity": "intermediate",
+    "nodeCount": 14
   },
   "nodes": [
     {

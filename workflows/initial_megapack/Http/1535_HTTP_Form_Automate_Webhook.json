@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 17,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "💥🛠️Automate Blog Content Creation with GPT-4, Perplexity & WordPress",
   "tags": [

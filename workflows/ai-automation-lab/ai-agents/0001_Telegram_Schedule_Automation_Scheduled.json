@@ -2,7 +2,11 @@
   "id": "02GdRzvsuHmSSgBw",
   "meta": {
     "instanceId": "31e69f7f4a77bf465b805824e303232f0227212ae922d12133a0f96ffeab4fef",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 24,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "#️⃣Nostr #damus AI Powered Reporting + Gmail + Telegram",
   "tags": [],

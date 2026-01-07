@@ -2,7 +2,11 @@
   "id": "23GPrqZjHnIVvTEa",
   "meta": {
     "instanceId": "[instance id auto generated]",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 9,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Backup n8n Workflows to Bitbucket",
   "tags": [],

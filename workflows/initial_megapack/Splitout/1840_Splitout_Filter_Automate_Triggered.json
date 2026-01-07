@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 51,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "BambooHR AI-Powered Company Policies and Benefits Chatbot",
   "tags": [

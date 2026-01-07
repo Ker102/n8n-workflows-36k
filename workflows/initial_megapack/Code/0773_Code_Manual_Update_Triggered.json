@@ -221,7 +221,9 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "intermediate",
+    "nodeCount": 10
   },
   "notes": "Excellent quality workflow: Automatically Update YouTube Video Descriptions with Inserted Text. This workflow has been optimized for production use with comprehensive error handling, security, and documentation."
 }

@@ -208,7 +208,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "intermediate",
+    "nodeCount": 11,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "tags": [
     "automation",

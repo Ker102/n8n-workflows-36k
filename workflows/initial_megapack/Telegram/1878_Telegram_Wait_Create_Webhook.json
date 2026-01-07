@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 42,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "Auto-create and publish AI social videos with Telegram, GPT-4 and Blotato",
   "tags": [

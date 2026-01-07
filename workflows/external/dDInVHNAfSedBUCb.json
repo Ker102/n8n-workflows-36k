@@ -1,7 +1,11 @@
 {
   "id": "dDInVHNAfSedBUCb",
   "meta": {
-    "instanceId": "fddb3e91967f1012c95dd02bf5ad21f279fc44715f47a7a96a33433621caa253"
+    "instanceId": "fddb3e91967f1012c95dd02bf5ad21f279fc44715f47a7a96a33433621caa253",
+    "complexity": "basic",
+    "nodeCount": 6,
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "外送記帳",
   "tags": [],

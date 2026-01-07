@@ -2,7 +2,11 @@
   "id": "1ZfA8Do3j7lCB3zF",
   "meta": {
     "instanceId": "a5283507e1917a33cc3ae615b2e7d5ad2c1e50955e6f831272ddd5ab816f3fb6",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 15,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Blockchain DEX Screener Insights Agent",
   "tags": [],

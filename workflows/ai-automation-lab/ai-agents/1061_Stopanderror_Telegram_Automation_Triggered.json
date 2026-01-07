@@ -2,7 +2,11 @@
   "id": "5Ycrm1MuK8htwd96",
   "meta": {
     "instanceId": "e5595d8cd58f3a24b5a8cf05dd852846c05423873db868a2b7d01a778210c45a",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 20,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Telegram RAG pdf",
   "tags": [],

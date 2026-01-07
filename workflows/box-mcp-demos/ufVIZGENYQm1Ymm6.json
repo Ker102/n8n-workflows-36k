@@ -763,7 +763,11 @@
   "versionId": "de043695-4689-4065-b208-8ecc285aa417",
   "meta": {
     "templateCredsSetupCompleted": true,
-    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2"
+    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2",
+    "complexity": "advanced",
+    "nodeCount": 22,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "id": "ufVIZGENYQm1Ymm6",
   "tags": []

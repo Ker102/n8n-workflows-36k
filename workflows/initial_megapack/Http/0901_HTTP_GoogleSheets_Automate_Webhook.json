@@ -205,6 +205,17 @@
         ]
       ]
     },
+    "2": {
+      "main": [
+        [
+          {
+            "node": "error-handler-2-83580ad4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
     "3": {
       "main": [
         [
@@ -266,6 +277,66 @@
         [
           {
             "node": "error-handler-3-cf601891",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "4": {
+      "main": [
+        [
+          {
+            "node": "error-handler-4-b878691e",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "error-handler-4-0a517693",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "error-handler-4-3f85138a",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "error-handler-4-46f4a37b",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "error-handler-4-4ac5cae9",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "error-handler-4-3d567f69",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "error-handler-4-4f633601",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "error-handler-4-72faab0f",
             "type": "main",
             "index": 0
           }
@@ -405,77 +476,6 @@
           }
         ]
       ]
-    },
-    "2": {
-      "main": [
-        [
-          {
-            "node": "error-handler-2-83580ad4",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "4": {
-      "main": [
-        [
-          {
-            "node": "error-handler-4-b878691e",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "error-handler-4-0a517693",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "error-handler-4-3f85138a",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "error-handler-4-46f4a37b",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "error-handler-4-4ac5cae9",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "error-handler-4-3d567f69",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "error-handler-4-4f633601",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "error-handler-4-72faab0f",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
     }
   },
   "description": "Automated workflow: AccountCraft WhatsApp Automation - Infridet. This workflow processes data and performs automated tasks.",
@@ -489,7 +489,9 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "basic",
+    "nodeCount": 6
   },
   "tags": [
     "automation",

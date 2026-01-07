@@ -225,7 +225,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "basic",
+    "nodeCount": 6,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "id": "WWSu94V939ATcqvi",
   "tags": [

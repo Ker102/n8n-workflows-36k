@@ -2,7 +2,11 @@
   "id": "5DiXT9FykJvuElc1",
   "meta": {
     "instanceId": "08daa2aa5b6032ff63690600b74f68f5b0f34a3b100102e019b35c4419168977",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 11,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Get Comments from Facebook Page",
   "tags": [],

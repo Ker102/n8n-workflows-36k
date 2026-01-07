@@ -89,5 +89,9 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 3
   }
 }

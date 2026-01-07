@@ -2,7 +2,11 @@
   "id": "4Tq5HZBdETVe7jEb",
   "meta": {
     "instanceId": "2cb7a61f866faf57392b91b31f47e08a2b3640258f0abd08dd71f087f3243a5a",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 72,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "⚡AI-Powered YouTube Playlist & Video Summarization and Analysis v2",
   "tags": [],

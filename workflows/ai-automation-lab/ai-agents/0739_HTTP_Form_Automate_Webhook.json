@@ -1,7 +1,11 @@
 {
   "id": "2DT5BW5tOdy87AUl",
   "meta": {
-    "instanceId": "8418cffce8d48086ec0a73fd90aca708aa07591f2fefa6034d87fe12a09de26e"
+    "instanceId": "8418cffce8d48086ec0a73fd90aca708aa07591f2fefa6034d87fe12a09de26e",
+    "complexity": "advanced",
+    "nodeCount": 20,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Streamline Your Zoom Meetings with Secure, Automated Stripe Payments",
   "tags": [],

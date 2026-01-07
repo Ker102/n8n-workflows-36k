@@ -1399,7 +1399,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 38,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "id": "3ycewf83b8KVQi8N",
   "tags": [

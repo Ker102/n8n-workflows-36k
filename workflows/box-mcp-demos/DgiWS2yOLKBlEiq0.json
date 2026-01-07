@@ -267,7 +267,11 @@
   },
   "versionId": "7ba76590-5973-4c52-8b8e-5547d39feb43",
   "meta": {
-    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2"
+    "instanceId": "0c7ddbf0a802aa192ef7932e98a7bf66b62ea35f6147e074d94373e93824a8a2",
+    "complexity": "intermediate",
+    "nodeCount": 8,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "id": "DgiWS2yOLKBlEiq0",
   "tags": []

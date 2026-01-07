@@ -36,7 +36,7 @@
       "parameters": {
         "to": "",
         "from": "",
-        "message": "=\ud83d\udea8 The Sensor ({{$node[\"Postgres\"].json[\"sensor_id\"]}}) showed a reading of {{$node[\"Postgres\"].json[\"value\"]}}."
+        "message": "=🚨 The Sensor ({{$node[\"Postgres\"].json[\"sensor_id\"]}}) showed a reading of {{$node[\"Postgres\"].json[\"value\"]}}."
       },
       "credentials": {
         "twilioApi": "Twilio"
@@ -133,5 +133,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 5,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

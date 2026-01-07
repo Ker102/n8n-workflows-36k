@@ -2,7 +2,9 @@
   "id": "",
   "meta": {
     "instanceId": "",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 8
   },
   "name": "piepdrive-test",
   "tags": [],

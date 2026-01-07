@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 35,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Analyze_email_headers_for_IPs_and_spoofing__3",
   "tags": [

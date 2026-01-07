@@ -2,7 +2,7 @@
   "nodes": [
     {
       "id": "5dbcd30b-7f84-4932-9dff-b5e9865f9b07",
-      "name": "When clicking \u2018Test workflow\u2019",
+      "name": "When clicking ‘Test workflow’",
       "type": "n8n-nodes-base.manualTrigger",
       "position": [
         860,
@@ -70,7 +70,7 @@
       "parameters": {
         "width": 367.15098241985504,
         "height": 363.66522445338995,
-        "content": "## Instructions\n\nThis workflow downloads all Files from a specific folder in a S3 Bucket and compresses them so you can download it via n8n or do further processings.\n\nFill in your **Credentials and Settings** in the Nodes marked with _\"*\"_.\n\n![Image](https://let-the-work-flow.com/logo-64.png)\nEnjoy the Workflow! \u2764\ufe0f \nhttps://let-the-work-flow.com\nWorkflow Automation & Development"
+        "content": "## Instructions\n\nThis workflow downloads all Files from a specific folder in a S3 Bucket and compresses them so you can download it via n8n or do further processings.\n\nFill in your **Credentials and Settings** in the Nodes marked with _\"*\"_.\n\n![Image](https://let-the-work-flow.com/logo-64.png)\nEnjoy the Workflow! ❤️ \nhttps://let-the-work-flow.com\nWorkflow Automation & Development"
       },
       "typeVersion": 1
     },
@@ -113,7 +113,7 @@
         ]
       ]
     },
-    "When clicking \u2018Test workflow\u2019": {
+    "When clicking ‘Test workflow’": {
       "main": [
         [
           {
@@ -135,5 +135,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 6,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

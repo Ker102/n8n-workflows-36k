@@ -320,7 +320,7 @@
         "sendTo": "n8n.ninja@gmail.com",
         "message": "=<h3>Price reduction alert for {{ $('Format Product').item.json[\"name\"] }}</h3>\n\n<p>New price {{ $('Format Product').item.json[\"price\"] }} CHF is bellow {{ $('List Products').item.json[\"price_alert\"] }} CHF</p>\n\nView product: {{ $('List Products').item.json[\"link\"] }}\n\n\n",
         "options": {},
-        "subject": "=\u26a0\ufe0f Price Reduction: {{ $('Format Product').item.json.name }}\n"
+        "subject": "=⚠️ Price Reduction: {{ $('Format Product').item.json.name }}\n"
       },
       "credentials": {
         "gmailOAuth2": {
@@ -468,7 +468,7 @@
         "color": 6,
         "width": 275.01592825011585,
         "height": 439.37809705210145,
-        "content": "# Setup\n### 1/ Add Your credentials\n[Google SHeet](https://docs.n8n.io/integrations/builtin/credentials/google/)\n\n### 2/ Create a Google Spreadsheet that will be your database.\nCopy this template: \nhttps://docs.google.com/spreadsheets/d/1sM66Rk10ZOhQKbawVB-xZ2WYhBeSr6wnJqvX6Aspbkg/edit?usp=sharing\n\n### 3/ Add products to monitor from this form \n# \ud83d\udc47"
+        "content": "# Setup\n### 1/ Add Your credentials\n[Google SHeet](https://docs.n8n.io/integrations/builtin/credentials/google/)\n\n### 2/ Create a Google Spreadsheet that will be your database.\nCopy this template: \nhttps://docs.google.com/spreadsheets/d/1sM66Rk10ZOhQKbawVB-xZ2WYhBeSr6wnJqvX6Aspbkg/edit?usp=sharing\n\n### 3/ Add products to monitor from this form \n# 👇"
       },
       "typeVersion": 1
     },
@@ -484,7 +484,7 @@
         "color": 6,
         "width": 275.01592825011585,
         "height": 93.37809705210145,
-        "content": "### Fill with your email\n# \ud83d\udc47"
+        "content": "### Fill with your email\n# 👇"
       },
       "typeVersion": 1
     },
@@ -500,7 +500,7 @@
         "color": 6,
         "width": 275.01592825011585,
         "height": 136.37809705210145,
-        "content": "### Change frequency \ud83d\udc49\ud83c\udffb\n\n(don't put less than once a day, or you will need to also add the hour in the format product node)\n"
+        "content": "### Change frequency 👉🏻\n\n(don't put less than once a day, or you will need to also add the hour in the format product node)\n"
       },
       "typeVersion": 1
     },
@@ -516,7 +516,7 @@
         "color": 7,
         "width": 202.64787116404852,
         "height": 85.79488430601403,
-        "content": "### Crafted by the\n## [\ud83e\udd77 n8n.ninja](n8n.ninja)"
+        "content": "### Crafted by the\n## [🥷 n8n.ninja](n8n.ninja)"
       },
       "typeVersion": 1
     }
@@ -609,5 +609,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "intermediate",
+    "nodeCount": 14,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

@@ -717,5 +717,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "advanced",
+    "nodeCount": 29,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

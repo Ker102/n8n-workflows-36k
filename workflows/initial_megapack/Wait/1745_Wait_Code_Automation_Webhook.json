@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 33,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "High-Level Service Page SEO Blueprint Report",
   "tags": [

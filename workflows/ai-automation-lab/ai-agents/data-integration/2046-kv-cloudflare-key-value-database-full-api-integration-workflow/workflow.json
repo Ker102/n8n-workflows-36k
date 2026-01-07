@@ -187,7 +187,7 @@
         "color": 7,
         "width": 1264.141937886304,
         "height": 607,
-        "content": "#  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c **`Cloudflare Key-Value Full API integration Workflow`**\n[![Hetzner Cloud](https://developers.cloudflare.com/assets/kv-write-fdb5578b.svg)](https://www.hetzner.com/cloud)\n##  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c _Integrate your N8N with CF KV Free instead of selfhosting Redis or any RAM based Storages!!_"
+        "content": "#  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ **`Cloudflare Key-Value Full API integration Workflow`**\n[![Hetzner Cloud](https://developers.cloudflare.com/assets/kv-write-fdb5578b.svg)](https://www.hetzner.com/cloud)\n##  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ _Integrate your N8N with CF KV Free instead of selfhosting Redis or any RAM based Storages!!_"
       },
       "typeVersion": 1
     },
@@ -346,7 +346,7 @@
         "color": 7,
         "width": 878.0751770171937,
         "height": 920.8960116234484,
-        "content": "##     \u200c \u200c\u200c\u200c\u200c \u200c \u200c \u200c \u200c\u200c\u200c\u200c \u200c   Bulk Actions"
+        "content": "##     ‌ ‌‌‌‌ ‌ ‌ ‌ ‌‌‌‌ ‌   Bulk Actions"
       },
       "typeVersion": 1
     },
@@ -470,7 +470,7 @@
         "color": 7,
         "width": 817.7528311355856,
         "height": 917.7366431832784,
-        "content": "##     \u200c \u200c\u200c\u200c\u200c \u200c \u200c \u200c Specific Actions"
+        "content": "##     ‌ ‌‌‌‌ ‌ ‌ ‌ Specific Actions"
       },
       "typeVersion": 1
     },
@@ -486,7 +486,7 @@
         "color": 7,
         "width": 876.5452405896403,
         "height": 913.7927070441785,
-        "content": "##     \u200c \u200c\u200c\u200c\u200c \u200c \u200c \u200c  \u200c\u200c\u200c\u200c \u200c \u200c\u200c\u200c\u200c \u200c \u200c \u200c  \u200c \u200c Single Actions"
+        "content": "##     ‌ ‌‌‌‌ ‌ ‌ ‌  ‌‌‌‌ ‌ ‌‌‌‌ ‌ ‌ ‌  ‌ ‌ Single Actions"
       },
       "typeVersion": 1
     },
@@ -502,7 +502,7 @@
         "color": 7,
         "width": 1389.3461161034518,
         "height": 607,
-        "content": "## This n8n template provides a seamless and efficient way to manage Key-Value (KV) pairs in Cloudflare's KV storage. all you need just take the part of action you want then use it with your workflow, keep in mind that the **_`Account Path`_** node is required for all actions as it's used to set the path of account, other authentication values is automatically set by n8n pre configured cloudflare api.\n \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c   \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c   \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c  ![Cloudflare Logo](https://cf-assets.www.cloudflare.com/slt3lc6tev37/7bIgGp4hk4SFO0o3SBbOKJ/546b2df59d9ef1ac226d70c40b17d019/Cloudflare-logo-transparent-v-rgb_thumbnail.png)\n\n\n# shortcuts:\n- ## **`NM`** or **`NMs`** =  _**`NameSpace/s`**_\n- ## **`KV`** or **`KVs`** = _**`Key/s - Value/s`**_\n- ## **`MD`** = _**`MetaData`**_"
+        "content": "## This n8n template provides a seamless and efficient way to manage Key-Value (KV) pairs in Cloudflare's KV storage. all you need just take the part of action you want then use it with your workflow, keep in mind that the **_`Account Path`_** node is required for all actions as it's used to set the path of account, other authentication values is automatically set by n8n pre configured cloudflare api.\n ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌   ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌   ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌ ‌  ![Cloudflare Logo](https://cf-assets.www.cloudflare.com/slt3lc6tev37/7bIgGp4hk4SFO0o3SBbOKJ/546b2df59d9ef1ac226d70c40b17d019/Cloudflare-logo-transparent-v-rgb_thumbnail.png)\n\n\n# shortcuts:\n- ## **`NM`** or **`NMs`** =  _**`NameSpace/s`**_\n- ## **`KV`** or **`KVs`** = _**`Key/s - Value/s`**_\n- ## **`MD`** = _**`MetaData`**_"
       },
       "typeVersion": 1
     },
@@ -1429,5 +1429,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "advanced",
+    "nodeCount": 47,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

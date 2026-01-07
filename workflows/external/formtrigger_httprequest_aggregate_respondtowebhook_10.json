@@ -1,5 +1,8 @@
 {
-  "meta": {},
+  "meta": {
+    "complexity": "advanced",
+    "nodeCount": 20
+  },
   "name": "[n8n] YouTube Channel Advanced RSS Feeds Generator",
   "tags": [
     {

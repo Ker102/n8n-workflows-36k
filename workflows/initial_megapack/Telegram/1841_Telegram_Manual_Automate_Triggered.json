@@ -512,7 +512,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 18,
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "notes": "Excellent quality workflow: Gmail Workflow. This workflow has been optimized for production use with comprehensive error handling, security, and documentation."
 }

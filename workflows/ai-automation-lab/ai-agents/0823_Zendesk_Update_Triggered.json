@@ -26,5 +26,11 @@
   ],
   "active": false,
   "settings": {},
-  "connections": {}
+  "connections": {},
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 1,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
+  }
 }

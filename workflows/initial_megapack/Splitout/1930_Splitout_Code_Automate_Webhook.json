@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 34,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "AI powered SEO Keyword Research Automation - The vibe Marketer",
   "tags": [

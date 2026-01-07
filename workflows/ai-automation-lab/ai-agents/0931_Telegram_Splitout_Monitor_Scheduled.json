@@ -2,7 +2,11 @@
   "id": "3BkxvtCbF6hHGUgM",
   "meta": {
     "instanceId": "d847dccbed2cefba539a228a44c266869b59eafbd4f307c4928a1149fb542a9e",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 28,
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "name": "N8N Financial Tracker Telegram Invoices to Notion with AI Summaries & Reports",
   "tags": [

@@ -2,7 +2,11 @@
   "id": "2LFEJVoSkeZMndiM",
   "meta": {
     "instanceId": "d73587d68bda6969e611b1d966e9e2b0ae078a8d2666ab57d6d9dcd379a0ce36",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 23,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "YT AI News Playlist Creator/AI News Form Updater",
   "tags": [],

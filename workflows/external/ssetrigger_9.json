@@ -16,5 +16,9 @@
   ],
   "active": false,
   "settings": {},
-  "connections": {}
+  "connections": {},
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 1
+  }
 }

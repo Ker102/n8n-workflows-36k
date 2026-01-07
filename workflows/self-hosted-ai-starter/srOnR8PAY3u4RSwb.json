@@ -78,7 +78,11 @@
   },
   "staticData": null,
   "meta": {
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "basic",
+    "nodeCount": 3,
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "pinData": {},
   "versionId": "4e2affe6-bb1c-4ddc-92f9-dde0b7656796",

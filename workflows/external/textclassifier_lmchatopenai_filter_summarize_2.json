@@ -2,7 +2,9 @@
   "id": "",
   "meta": {
     "instanceId": "",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 23
   },
   "name": "Generate AI-Ready llms.txt Files from Screaming Frog Website Crawls",
   "tags": [],

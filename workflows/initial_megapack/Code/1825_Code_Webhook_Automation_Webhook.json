@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 34,
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "puq-docker-n8n-deploy",
   "tags": [

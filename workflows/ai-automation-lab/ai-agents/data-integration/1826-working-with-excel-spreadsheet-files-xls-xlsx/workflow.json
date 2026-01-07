@@ -11,7 +11,7 @@
       "parameters": {
         "width": 476.4578377639565,
         "height": 299.6468819708682,
-        "content": "## Working with Excel files\n1. Load the spreadsheet file into the workflow (.xls, .xlsx, .csv).\n2. Convert the file with **Spreadsheet File** node. This allows other nodes to access the data.\n3. Transform and manipulate the spreadsheet data as needed\n4. [Optional] Convert back to a spreadsheet file\n5. [Optional] Save file locally or upload to a server\n\n\n\n\u2139\ufe0f This template shows how to work with spreadsheet files themselves. Use the **Microsoft Excel 365** node to interact with the Microsoft Office 365 cloud platform. "
+        "content": "## Working with Excel files\n1. Load the spreadsheet file into the workflow (.xls, .xlsx, .csv).\n2. Convert the file with **Spreadsheet File** node. This allows other nodes to access the data.\n3. Transform and manipulate the spreadsheet data as needed\n4. [Optional] Convert back to a spreadsheet file\n5. [Optional] Save file locally or upload to a server\n\n\n\nℹ️ This template shows how to work with spreadsheet files themselves. Use the **Microsoft Excel 365** node to interact with the Microsoft Office 365 cloud platform. "
       },
       "typeVersion": 1
     },
@@ -528,5 +528,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "advanced",
+    "nodeCount": 24,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

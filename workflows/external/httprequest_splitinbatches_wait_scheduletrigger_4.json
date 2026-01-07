@@ -1,6 +1,8 @@
 {
   "meta": {
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "intermediate",
+    "nodeCount": 10
   },
   "nodes": [
     {

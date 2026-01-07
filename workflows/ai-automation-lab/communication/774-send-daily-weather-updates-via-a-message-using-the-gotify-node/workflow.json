@@ -41,7 +41,7 @@
         340
       ],
       "parameters": {
-        "message": "=Hey! The temperature outside is {{$node[\"OpenWeatherMap\"].json[\"main\"][\"temp\"]}}\u00b0C.",
+        "message": "=Hey! The temperature outside is {{$node[\"OpenWeatherMap\"].json[\"main\"][\"temp\"]}}°C.",
         "additionalFields": {
           "title": "Today's Weather Update"
         }
@@ -75,5 +75,11 @@
         ]
       ]
     }
+  },
+  "meta": {
+    "complexity": "basic",
+    "nodeCount": 3,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

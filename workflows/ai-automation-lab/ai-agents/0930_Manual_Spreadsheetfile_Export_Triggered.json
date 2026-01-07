@@ -1,7 +1,11 @@
 {
   "id": "39",
   "meta": {
-    "instanceId": "a2434c94d549548a685cca39cc4614698e94f527bcea84eefa363f1037ae14cd"
+    "instanceId": "a2434c94d549548a685cca39cc4614698e94f527bcea84eefa363f1037ae14cd",
+    "complexity": "basic",
+    "nodeCount": 4,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "PostgreSQL export to CSV",
   "tags": [],

@@ -1,7 +1,9 @@
 {
   "meta": {
     "instanceId": "1dd912a1610cd0376bae7bb8f1b5838d2b601f42ac66a48e012166bb954fed5a",
-    "templateId": "2305"
+    "templateId": "2305",
+    "complexity": "basic",
+    "nodeCount": 5
   },
   "nodes": [
     {

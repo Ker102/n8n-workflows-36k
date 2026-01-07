@@ -2,7 +2,9 @@
   "id": "",
   "meta": {
     "instanceId": "",
-    "templateCredsSetupCompleted": true
+    "templateCredsSetupCompleted": true,
+    "complexity": "advanced",
+    "nodeCount": 21
   },
   "name": "Easily Compare LLMs Using OpenAI and Google Sheets",
   "tags": [],

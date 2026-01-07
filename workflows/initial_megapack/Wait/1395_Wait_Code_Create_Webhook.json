@@ -10,7 +10,11 @@
     "category": "automation",
     "status": "active",
     "priority": "high",
-    "environment": "production"
+    "environment": "production",
+    "complexity": "advanced",
+    "nodeCount": 51,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "Create Animated Stories using GPT-4o-mini, Midjourney, Kling and Creatomate API",
   "tags": [
