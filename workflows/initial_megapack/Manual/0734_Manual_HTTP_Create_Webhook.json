@@ -186,7 +186,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "basic",
-    "nodeCount": 3
+    "nodeCount": 3,
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   },
   "notes": "Excellent quality workflow: Generate Image Workflow. This workflow has been optimized for production use with comprehensive error handling, security, and documentation."
 }

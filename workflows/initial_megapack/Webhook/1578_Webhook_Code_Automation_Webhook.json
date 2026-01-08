@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 23,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "Obsidian Notes Read Aloud: Available as a Podcast Feed",
   "tags": [

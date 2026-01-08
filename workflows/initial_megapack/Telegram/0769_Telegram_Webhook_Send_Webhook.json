@@ -11,7 +11,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "advanced",
-    "nodeCount": 35
+    "nodeCount": 35,
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "nodes": [
     {

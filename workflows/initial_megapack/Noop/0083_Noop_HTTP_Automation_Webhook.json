@@ -511,8 +511,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 22,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "tags": [
     "automation",

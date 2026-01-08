@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   },
   "name": "Restore your credentials from GitHub",
   "tags": [

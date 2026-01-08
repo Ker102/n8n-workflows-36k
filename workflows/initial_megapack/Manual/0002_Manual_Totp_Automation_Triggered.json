@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Backup & Recovery",
-    "clusterId": 15
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Complete Guide to Setting Up and Generating TOTP Codes in n8n 🔐",
   "tags": [

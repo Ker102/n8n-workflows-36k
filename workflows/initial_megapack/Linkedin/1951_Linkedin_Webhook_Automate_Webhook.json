@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Training Feedback Automation",
   "tags": [

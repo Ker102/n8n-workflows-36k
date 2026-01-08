@@ -125,7 +125,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "intermediate",
-    "nodeCount": 7
+    "nodeCount": 7,
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "tags": [
     "automation",

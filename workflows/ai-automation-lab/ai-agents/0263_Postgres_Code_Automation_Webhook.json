@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
     "nodeCount": 46,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "Auto WordPress Blog Generator (GPT + Postgres + WP Media)",
   "tags": [

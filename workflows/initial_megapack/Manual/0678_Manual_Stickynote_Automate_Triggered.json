@@ -193,7 +193,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "intermediate",
-    "nodeCount": 8
+    "nodeCount": 8,
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "tags": [
     "automation",

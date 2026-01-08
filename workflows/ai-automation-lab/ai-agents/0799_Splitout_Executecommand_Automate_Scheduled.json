@@ -3,8 +3,8 @@
     "instanceId": "2039b9ae6bdd2cfe7f6a132b7dee66390e92afbc2ec29f67cafa1edf6cad8d55",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Scheduling & Triggers",
-    "clusterId": 10
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "nodes": [
     {

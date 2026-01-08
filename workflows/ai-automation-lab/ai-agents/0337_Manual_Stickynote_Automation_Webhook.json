@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Structured Data Extract, Data Mining with Bright Data & Google Gemini",
   "tags": [

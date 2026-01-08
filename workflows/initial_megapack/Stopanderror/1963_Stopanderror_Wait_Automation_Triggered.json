@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   },
   "name": "Retry on fail except for known error Template",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Content Management",
+    "clusterId": 17
   },
   "name": "Push Multiple Files to Github Repo via Github REST API",
   "tags": [

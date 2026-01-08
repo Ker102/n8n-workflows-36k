@@ -214,7 +214,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   }
 }

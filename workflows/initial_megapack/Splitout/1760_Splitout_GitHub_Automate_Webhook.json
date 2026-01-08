@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "name": "Restore your workflows from GitHub",
   "tags": [

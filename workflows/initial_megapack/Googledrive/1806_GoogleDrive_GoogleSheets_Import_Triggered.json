@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Fetch the Most Recent Document from Google Drive",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "name": "Google Page Entity Extraction Template",
   "tags": [

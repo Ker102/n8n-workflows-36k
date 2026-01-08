@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Text to Speech (OpenAI)",
   "tags": [

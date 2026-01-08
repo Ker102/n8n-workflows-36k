@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 25,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "#️⃣Nostr #damus AI Powered Reporting + Gmail + Telegram",
   "tags": [

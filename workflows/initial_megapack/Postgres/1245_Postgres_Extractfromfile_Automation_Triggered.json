@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 27,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "Translate questions about e-mails into SQL queries and run them",
   "tags": [

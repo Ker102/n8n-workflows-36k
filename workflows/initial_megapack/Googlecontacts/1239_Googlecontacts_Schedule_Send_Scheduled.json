@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Send Daily Birthday Reminders from Google Contacts to Slack",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 21,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "e-mail Chatbot with both semantic and structured RAG, using Telegram and Pgvector",
   "tags": [

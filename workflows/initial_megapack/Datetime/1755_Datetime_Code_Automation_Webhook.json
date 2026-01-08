@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 22,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Testing Mulitple Local LLM with LM Studio",
   "tags": [

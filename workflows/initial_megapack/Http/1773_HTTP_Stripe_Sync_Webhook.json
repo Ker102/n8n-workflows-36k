@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Stripe Payment Order Sync – Auto Retrieve Customer & Product Purchased",
   "tags": [

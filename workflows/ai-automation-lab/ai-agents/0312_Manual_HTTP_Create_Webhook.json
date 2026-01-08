@@ -137,7 +137,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   }
 }

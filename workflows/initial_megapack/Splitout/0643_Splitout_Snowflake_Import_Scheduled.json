@@ -11,7 +11,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "advanced",
-    "nodeCount": 35
+    "nodeCount": 35,
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "Import Productboard Notes, Companies and Features into Snowflake",
   "tags": [

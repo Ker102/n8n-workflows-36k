@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "🔐🦙🤖 Private & Local Ollama Self-Hosted LLM Router",
   "tags": [

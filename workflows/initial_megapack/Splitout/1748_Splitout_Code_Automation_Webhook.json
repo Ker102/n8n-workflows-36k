@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "name": "Real Estate Market Scanning",
   "tags": [

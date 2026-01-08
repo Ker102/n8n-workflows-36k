@@ -366,8 +366,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "id": "0NtlJ41IozGhtFa6",
   "tags": [

@@ -160,8 +160,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "id": "K0TLA1k7P0hL2Ysg",
   "tags": [

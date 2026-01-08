@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "name": "Dynamically create tables in Airtable for your Webflow form submissions",
   "tags": [

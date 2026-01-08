@@ -64,7 +64,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "basic",
-    "nodeCount": 2
+    "nodeCount": 2,
+    "semanticLabel": "Content Management",
+    "clusterId": 17
   },
   "tags": [
     "automation",

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 25,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "🔍🛠️Generate SEO-Optimized WordPress Content with Perplexity Research",
   "tags": [

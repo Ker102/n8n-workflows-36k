@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 41,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "AI Automated TikTok/Youtube Shorts/Reels Generator",
   "tags": [

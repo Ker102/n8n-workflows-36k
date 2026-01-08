@@ -91,8 +91,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "tags": [
     "automation",

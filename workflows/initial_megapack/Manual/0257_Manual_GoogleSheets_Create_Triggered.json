@@ -301,7 +301,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "intermediate",
-    "nodeCount": 13
+    "nodeCount": 13,
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "tags": [
     "automation",

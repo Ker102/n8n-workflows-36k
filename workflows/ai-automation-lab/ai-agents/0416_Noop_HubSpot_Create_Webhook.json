@@ -360,7 +360,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   }
 }

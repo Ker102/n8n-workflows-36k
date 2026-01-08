@@ -138,7 +138,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "basic",
-    "nodeCount": 6
+    "nodeCount": 6,
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "tags": [
     "automation",

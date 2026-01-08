@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 34,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Project Management",
+    "clusterId": 6
   },
   "name": "puq-docker-n8n-deploy",
   "tags": [

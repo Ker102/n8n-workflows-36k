@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "name": "Summarize Google Sheets form feedback via OpenAI's GPT-4",
   "tags": [

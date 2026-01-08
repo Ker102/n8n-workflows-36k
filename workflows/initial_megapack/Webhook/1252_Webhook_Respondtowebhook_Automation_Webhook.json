@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 30,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "AI Agent to chat with you Search Console Data, using OpenAI and Postgres",
   "tags": [

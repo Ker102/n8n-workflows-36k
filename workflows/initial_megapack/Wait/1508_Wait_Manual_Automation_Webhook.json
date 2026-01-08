@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "Indeed Company Data Scraper & Summarization with Airtable, Bright Data and Google Gemini",
   "tags": [

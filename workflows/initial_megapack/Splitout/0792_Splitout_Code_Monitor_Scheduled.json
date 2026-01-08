@@ -11,7 +11,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "intermediate",
-    "nodeCount": 11
+    "nodeCount": 11,
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "nodes": [
     {

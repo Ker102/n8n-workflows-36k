@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Exponential Backoff for Google APIs",
   "tags": [

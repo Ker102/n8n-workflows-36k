@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "Image-to-3D",
   "tags": [

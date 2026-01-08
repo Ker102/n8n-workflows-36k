@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Umami analytics template",
   "tags": [

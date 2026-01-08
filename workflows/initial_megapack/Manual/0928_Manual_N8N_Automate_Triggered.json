@@ -153,7 +153,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "basic",
-    "nodeCount": 6
+    "nodeCount": 6,
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "tags": [
     "automation",

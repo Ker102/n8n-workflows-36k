@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Reschedule overdue Asana tasks and clean up completed tasks",
   "tags": [

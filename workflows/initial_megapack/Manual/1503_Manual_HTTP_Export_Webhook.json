@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Export Zammad Objects Users, Roles, Groups and Organizations to Excel",
   "tags": [

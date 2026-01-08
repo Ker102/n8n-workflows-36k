@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 42,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "Generate Leads with Google Maps - AlexK1919",
   "tags": [

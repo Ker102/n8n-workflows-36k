@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
     "nodeCount": 28,
-    "semanticLabel": "Analytics & Reporting",
-    "clusterId": 11
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "N8N Financial Tracker Telegram Invoices to Notion with AI Summaries & Reports",
   "tags": [

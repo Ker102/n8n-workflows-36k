@@ -11,7 +11,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Transform Image to Lego Style Using Line and Dall-E",
   "tags": [

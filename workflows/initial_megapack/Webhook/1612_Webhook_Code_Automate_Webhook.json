@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "LINE BOT - Google Sheets Record Receipt",
   "tags": [

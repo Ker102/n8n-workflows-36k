@@ -49,7 +49,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   }
 }

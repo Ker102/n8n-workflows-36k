@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 44,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "PUQ Docker NextCloud deploy",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 24,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Get all scaleway server info copy",
   "tags": [

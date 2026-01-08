@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "Log errors and avoid sending too many emails",
   "tags": [

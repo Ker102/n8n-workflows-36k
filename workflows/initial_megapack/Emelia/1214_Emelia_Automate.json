@@ -110,7 +110,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "tags": [
     "automation",

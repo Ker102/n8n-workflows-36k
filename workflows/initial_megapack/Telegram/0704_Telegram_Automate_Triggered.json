@@ -146,8 +146,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Analytics & Reporting",
-    "clusterId": 11
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "tags": [
     "automation",

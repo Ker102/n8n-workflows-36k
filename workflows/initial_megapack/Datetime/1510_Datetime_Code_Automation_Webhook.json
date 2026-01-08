@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "name": "Intelligent Web Query and Semantic Re-Ranking Flow",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 28,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Business WhatsApp AI RAG Chatbot",
   "tags": [

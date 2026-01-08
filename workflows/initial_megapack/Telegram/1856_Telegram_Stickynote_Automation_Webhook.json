@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 36,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "name": "Agent Access Control Template",
   "tags": [

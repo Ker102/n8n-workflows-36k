@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "💥workflow n8n d'Auto-Post sur les réseaux sociaux - vide",
   "tags": [

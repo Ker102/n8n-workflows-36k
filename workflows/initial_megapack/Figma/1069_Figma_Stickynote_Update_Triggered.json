@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "Automate Figma Versioning and Jira Updates with n8n Webhook Integration",
   "tags": [

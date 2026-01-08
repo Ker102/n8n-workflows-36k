@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "Fine-tuning with OpenAI models",
   "tags": [

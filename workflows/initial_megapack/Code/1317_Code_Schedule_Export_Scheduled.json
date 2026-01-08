@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   },
   "name": "🧹 Archive (delete) duplicate items from a Notion database",
   "tags": [

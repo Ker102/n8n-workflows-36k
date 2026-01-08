@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "General 3D Presentation",
   "tags": [

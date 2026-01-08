@@ -4,8 +4,8 @@
     "instanceId": "d47f3738b860eed937a1b18d7345fa2c65cf4b4957554e29477cb064a7039870",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   },
   "name": "Workflow Results to Markdown Notes in Your Obsidian Vault, via Google Drive",
   "tags": [],

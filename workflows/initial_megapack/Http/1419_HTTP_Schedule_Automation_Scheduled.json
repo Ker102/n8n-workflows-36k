@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "Scans von PDF zu Nextcloud",
   "tags": [

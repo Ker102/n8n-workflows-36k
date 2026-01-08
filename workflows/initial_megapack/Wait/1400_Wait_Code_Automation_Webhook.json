@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 28,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "AutoQoutesV2_template",
   "tags": [

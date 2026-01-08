@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 23,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "name": "✨😃Automated Workflow Backups to Google Drive",
   "tags": [

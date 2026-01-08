@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Blockchain DEX Screener Insights Agent",
   "tags": [],

@@ -12,7 +12,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "advanced",
-    "nodeCount": 23
+    "nodeCount": 23,
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "name": "Easily Compare LLMs Using OpenAI and Google Sheets",
   "tags": [

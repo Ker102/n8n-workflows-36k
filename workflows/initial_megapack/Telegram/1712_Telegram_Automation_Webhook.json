@@ -553,8 +553,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "id": "NJ5zK0UP9WFl8ckM",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Email & Notifications",
+    "clusterId": 3
   },
   "name": "[OPS] Restore workflows from GitHub to n8n",
   "tags": [

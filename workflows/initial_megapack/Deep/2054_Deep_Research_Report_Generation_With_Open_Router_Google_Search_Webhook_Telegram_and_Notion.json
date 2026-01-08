@@ -1402,8 +1402,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 38,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "id": "3ycewf83b8KVQi8N",
   "tags": [

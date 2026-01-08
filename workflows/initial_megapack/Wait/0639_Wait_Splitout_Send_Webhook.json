@@ -685,7 +685,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "advanced",
-    "nodeCount": 26
+    "nodeCount": 26,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "notes": "Excellent quality workflow: Google Maps Email Scraper Template. This workflow has been optimized for production use with comprehensive error handling, security, and documentation."
 }

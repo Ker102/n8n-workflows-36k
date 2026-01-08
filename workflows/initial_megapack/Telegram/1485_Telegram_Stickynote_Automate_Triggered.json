@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Telegram AI multi-format chatbot",
   "tags": [

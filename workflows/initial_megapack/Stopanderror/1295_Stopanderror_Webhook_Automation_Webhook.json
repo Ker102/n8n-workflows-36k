@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "Auth0 User Login",
   "tags": [

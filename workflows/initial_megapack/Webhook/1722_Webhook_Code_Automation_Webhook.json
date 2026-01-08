@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 32,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Content Management",
+    "clusterId": 17
   },
   "name": "Basic PDF Digital Sign Service",
   "tags": [

@@ -25,7 +25,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 1,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   }
 }

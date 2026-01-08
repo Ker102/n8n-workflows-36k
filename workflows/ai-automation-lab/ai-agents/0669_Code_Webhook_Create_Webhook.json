@@ -601,7 +601,7 @@
   "meta": {
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   }
 }

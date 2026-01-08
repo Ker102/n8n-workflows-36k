@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   },
   "name": "Automated Image Metadata Tagging (Community Node)",
   "tags": [

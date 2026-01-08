@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 63,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "Selenium Ultimate Scraper Workflow",
   "tags": [

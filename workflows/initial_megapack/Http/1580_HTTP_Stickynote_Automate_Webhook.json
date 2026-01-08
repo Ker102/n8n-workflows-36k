@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Open Deep Research - AI-Powered Autonomous Research Workflow",
   "tags": [

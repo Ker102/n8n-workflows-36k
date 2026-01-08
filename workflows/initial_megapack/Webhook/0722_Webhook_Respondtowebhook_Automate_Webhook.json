@@ -11,7 +11,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "advanced",
-    "nodeCount": 16
+    "nodeCount": 16,
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   },
   "name": "Automate Drive-To-Store Lead Generation System (with coupon) on SuiteCRM",
   "tags": [

@@ -106,7 +106,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   }
 }

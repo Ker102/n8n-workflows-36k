@@ -282,8 +282,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "notes": "Excellent quality workflow: Todoist Weekly Review Template. This workflow has been optimized for production use with comprehensive error handling, security, and documentation."
 }

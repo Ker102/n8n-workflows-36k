@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 51,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "AI-Powered Short-Form Video Generator with OpenAI, Flux, Kling, and ElevenLabs and upload to all ...",
   "tags": [

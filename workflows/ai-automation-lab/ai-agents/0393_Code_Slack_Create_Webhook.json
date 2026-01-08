@@ -4,8 +4,8 @@
     "templateId": "2070",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "nodes": [
     {

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Project Management",
+    "clusterId": 6
   },
   "name": "Vector DB Loader from Google Drive",
   "tags": [

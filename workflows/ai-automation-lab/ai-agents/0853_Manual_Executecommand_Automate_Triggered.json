@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Content Management",
+    "clusterId": 17
   },
   "nodes": [
     {

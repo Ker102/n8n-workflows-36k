@@ -4,8 +4,8 @@
     "instanceId": "d868e3d040e7bda892c81b17cf446053ea25d2556fcef89cbe19dd61a3e876e9",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Exponential Backoff for Google APIs",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "Load Prompts from Github Repo and auto populate n8n expressions",
   "tags": [

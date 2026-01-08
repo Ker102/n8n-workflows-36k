@@ -1,7 +1,9 @@
 {
   "meta": {
     "complexity": "advanced",
-    "nodeCount": 56
+    "nodeCount": 56,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "[n8n] Advanced URL Parsing and Shortening Workflow - Switchy.io Integration",
   "tags": [

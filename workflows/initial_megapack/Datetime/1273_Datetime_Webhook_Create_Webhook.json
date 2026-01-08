@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 32,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "AI-Generated Summary Block for WordPress Posts - with OpenAI, WordPress, Google Sheets & Slack",
   "tags": [

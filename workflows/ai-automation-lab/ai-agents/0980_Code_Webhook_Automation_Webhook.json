@@ -4,8 +4,8 @@
     "instanceId": "f46651348590f9c7e3e7fe91218ed49590c553ab737d5cc247951397ff85fa93",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "name": "Google Page Entity Extraction Template",
   "tags": [

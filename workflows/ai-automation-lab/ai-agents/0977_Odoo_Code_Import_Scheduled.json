@@ -5,8 +5,8 @@
     "templateId": "3181",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "Import Odoo Product Images from Google Drive",
   "tags": [],

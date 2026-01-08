@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 31,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Effortless Email Management with AI",
   "tags": [

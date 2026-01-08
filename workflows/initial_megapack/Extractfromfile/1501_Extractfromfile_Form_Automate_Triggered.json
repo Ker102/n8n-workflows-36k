@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Content Management",
+    "clusterId": 17
   },
   "name": "Automated Resume Review System Using OpenAI + Google Sheets",
   "tags": [

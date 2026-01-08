@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 36,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "name": "My workflow 3",
   "tags": [

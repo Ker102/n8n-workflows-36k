@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "name": "Generate google meet links in slack",
   "tags": [

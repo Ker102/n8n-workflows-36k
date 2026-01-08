@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Create_Unique_Jira_tickets_from_Splunk_alerts",
   "tags": [

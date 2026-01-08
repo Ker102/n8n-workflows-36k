@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "template-demo-chatgpt-image-1-with-drive-and-sheet copy",
   "tags": [

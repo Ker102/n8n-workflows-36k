@@ -124,7 +124,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "tags": [
     "automation",

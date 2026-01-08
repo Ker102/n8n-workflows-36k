@@ -137,8 +137,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "tags": [
     "automation",

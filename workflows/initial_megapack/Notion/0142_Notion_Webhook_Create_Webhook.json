@@ -555,7 +555,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "advanced",
-    "nodeCount": 24
+    "nodeCount": 24,
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "tags": [
     "automation",

@@ -162,7 +162,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   }
 }

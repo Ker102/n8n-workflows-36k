@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "Add new incoming emails to a Google Sheets spreadsheet as a new row.",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 51,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "Create Animated Stories using GPT-4o-mini, Midjourney, Kling and Creatomate API",
   "tags": [

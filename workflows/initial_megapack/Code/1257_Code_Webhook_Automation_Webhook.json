@@ -1738,7 +1738,9 @@
     "priority": "high",
     "environment": "production",
     "complexity": "advanced",
-    "nodeCount": 51
+    "nodeCount": 51,
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "tags": [
     "automation",

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Connect Airtable Contacts to telli for Automated AI Voice Call Scheduling",
   "tags": [

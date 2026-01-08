@@ -1,7 +1,9 @@
 {
   "meta": {
     "complexity": "advanced",
-    "nodeCount": 20
+    "nodeCount": 20,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "[n8n] YouTube Channel Advanced RSS Feeds Generator",
   "tags": [

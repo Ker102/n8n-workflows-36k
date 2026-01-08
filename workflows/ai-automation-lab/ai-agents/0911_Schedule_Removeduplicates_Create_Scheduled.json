@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "nodes": [
     {

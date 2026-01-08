@@ -515,8 +515,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 30,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "tags": [
     "automation",

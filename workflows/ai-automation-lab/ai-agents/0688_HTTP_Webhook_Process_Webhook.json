@@ -3,7 +3,9 @@
     "instanceId": "c59c4acfed171bdc864e7c432be610946898c3ee271693e0303565c953d88c1d",
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Transform Image to Lego Style Using Line and Dall-E",
   "tags": [],

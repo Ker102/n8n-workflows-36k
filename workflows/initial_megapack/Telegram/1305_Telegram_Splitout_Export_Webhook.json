@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 48,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "All-in-One Telegram/Baserow AI Assistant 🤖🧠 Voice/Photo/Save Notes/Long Term Mem",
   "tags": [
