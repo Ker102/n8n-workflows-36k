@@ -13,6 +13,12 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![ES Modules](https://img.shields.io/badge/ES%20Modules-.mjs-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+### AI & Embeddings
+![Together AI](https://img.shields.io/badge/Together%20AI-FF6B6B?style=flat-square)
+![M2-BERT-32k](https://img.shields.io/badge/M2--BERT--32k-Embeddings-blue?style=flat-square)
+![Gemini](https://img.shields.io/badge/Gemini%202.0-Flash-4285F4?style=flat-square&logo=google&logoColor=white)
 
 > **36,985 n8n workflows** — organized by category, ready to download and import into your n8n instance.
 
