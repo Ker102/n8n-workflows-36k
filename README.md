@@ -18,6 +18,7 @@
 ### AI & Embeddings
 ![Together AI](https://img.shields.io/badge/Together%20AI-FF6B6B?style=flat-square)
 ![M2-BERT-32k](https://img.shields.io/badge/M2--BERT--32k-Embeddings-blue?style=flat-square)
+![Gemini Embedding](https://img.shields.io/badge/Gemini-Embedding--001-4285F4?style=flat-square&logo=google&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini%202.0-Flash-4285F4?style=flat-square&logo=google&logoColor=white)
 
 > **36,985 n8n workflows** — organized by category, ready to download and import into your n8n instance.
