@@ -4,7 +4,9 @@
     "templateId": "2931",
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
-    "nodeCount": 10
+    "nodeCount": 10,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "nodes": [
     {

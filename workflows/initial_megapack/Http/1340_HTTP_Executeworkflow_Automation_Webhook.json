@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "name": "[3/3] Anomaly detection tool (crops dataset)",
   "tags": [

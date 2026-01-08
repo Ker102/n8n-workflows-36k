@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Email form",
   "tags": [],

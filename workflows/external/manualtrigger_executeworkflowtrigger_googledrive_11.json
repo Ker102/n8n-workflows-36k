@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "4de3652773c3e67f6210deb1e1d390d75b23715f2e2cca0340008f99419607e6",
     "complexity": "advanced",
-    "nodeCount": 16
+    "nodeCount": 16,
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "nodes": [
     {

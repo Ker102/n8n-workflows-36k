@@ -3,8 +3,8 @@
     "instanceId": "1eadd5bc7c3d70c587c28f782511fd898c6bf6d97963d92e836019d2039d1c79",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "nodes": [
     {

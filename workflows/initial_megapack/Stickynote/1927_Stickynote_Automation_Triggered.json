@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "SearchApi AI Agent",
   "tags": [

@@ -3,8 +3,8 @@
     "instanceId": "f9c40bccfbfb973b8ba2bfd7b70b906c2376bb9900216d1ce424582c3097fb66",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "nodes": [
     {

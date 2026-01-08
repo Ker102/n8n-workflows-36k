@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "E-commerce",
-    "clusterId": 5
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "nodes": [
     {

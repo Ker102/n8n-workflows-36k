@@ -791,6 +791,8 @@
   },
   "meta": {
     "complexity": "advanced",
-    "nodeCount": 26
+    "nodeCount": 26,
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   }
 }

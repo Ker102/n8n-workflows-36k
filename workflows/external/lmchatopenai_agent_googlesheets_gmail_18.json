@@ -3,7 +3,9 @@
     "instanceId": "=",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 21
+    "nodeCount": 21,
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "nodes": [
     {

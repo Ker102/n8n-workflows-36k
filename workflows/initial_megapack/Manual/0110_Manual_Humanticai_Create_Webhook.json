@@ -125,8 +125,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "tags": [
     "automation",

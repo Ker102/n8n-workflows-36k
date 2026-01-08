@@ -108,6 +108,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Project Management",
+    "clusterId": 6
   }
 }

@@ -19,6 +19,8 @@
   "connections": {},
   "meta": {
     "complexity": "basic",
-    "nodeCount": 1
+    "nodeCount": 1,
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

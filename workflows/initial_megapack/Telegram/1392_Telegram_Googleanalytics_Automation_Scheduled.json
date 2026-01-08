@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "Google Analytics: Weekly Report",
   "tags": [

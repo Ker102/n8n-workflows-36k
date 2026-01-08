@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 55,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   },
   "nodes": [
     {

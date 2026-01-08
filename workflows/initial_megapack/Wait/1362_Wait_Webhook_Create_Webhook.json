@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Build a Phone Agent to qualify outbound leads and inbound calls with RetellAI -vide",
   "tags": [

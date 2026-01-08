@@ -4,8 +4,8 @@
     "templateId": "2473",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

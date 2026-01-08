@@ -1433,7 +1433,7 @@
   "meta": {
     "complexity": "advanced",
     "nodeCount": 47,
-    "semanticLabel": "Data Sync & ETL",
-    "clusterId": 1
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   }
 }

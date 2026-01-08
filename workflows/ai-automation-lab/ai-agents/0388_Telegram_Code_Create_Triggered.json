@@ -3,8 +3,8 @@
     "instanceId": "ac9d33c4ed758aeca18fdf8990bc14f18826f99beb38fb06a023fa013ee39a0b",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

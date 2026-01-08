@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "CV Evaluation - Error Handling",
   "tags": [

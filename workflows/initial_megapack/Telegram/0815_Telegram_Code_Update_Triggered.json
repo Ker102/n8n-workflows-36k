@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 40,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "nodes": [
     {

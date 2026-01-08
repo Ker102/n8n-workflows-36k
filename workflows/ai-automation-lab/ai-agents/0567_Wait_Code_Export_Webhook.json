@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Backup n8n Workflows to Bitbucket",
   "tags": [],

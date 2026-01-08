@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 24,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Colombian Invoices Processing",
   "tags": [

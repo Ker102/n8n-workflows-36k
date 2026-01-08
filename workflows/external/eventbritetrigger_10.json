@@ -26,6 +26,8 @@
   "connections": {},
   "meta": {
     "complexity": "basic",
-    "nodeCount": 1
+    "nodeCount": 1,
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

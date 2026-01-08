@@ -349,8 +349,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "tags": [
     "automation",

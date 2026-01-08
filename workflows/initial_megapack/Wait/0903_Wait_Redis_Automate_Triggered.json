@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 31,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "nodes": [
     {

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "CoinMarketCap_Exchange_and_Community_Agent_Tool",
   "tags": [

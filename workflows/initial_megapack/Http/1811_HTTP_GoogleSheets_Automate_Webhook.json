@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Line_Chatbot_Extract_Text_from_Pay_Slip_with_Gemini",
   "tags": [

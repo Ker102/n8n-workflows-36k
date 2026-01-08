@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Shopify order UTM to Baserow",
   "tags": [

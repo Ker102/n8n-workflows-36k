@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Development & DevOps",
-    "clusterId": 24
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "SQL agent with memory",
   "tags": [

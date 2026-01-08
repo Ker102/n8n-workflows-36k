@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "My workflow",
   "tags": [

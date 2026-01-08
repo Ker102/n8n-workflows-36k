@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "INSEE Enrichment for Agile CRM",
   "tags": [

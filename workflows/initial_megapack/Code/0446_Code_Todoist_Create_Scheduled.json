@@ -332,8 +332,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "tags": [
     "automation",

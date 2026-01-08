@@ -158,8 +158,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   },
   "tags": [
     "automation",

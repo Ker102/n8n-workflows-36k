@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "nodes": [
     {

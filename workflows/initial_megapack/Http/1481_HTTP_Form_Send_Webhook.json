@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Send TTS (Text-to-speech) voice calls",
   "tags": [

@@ -112,6 +112,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 4
+    "nodeCount": 4,
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   }
 }

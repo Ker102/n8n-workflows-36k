@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 32,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Build your first AI MCP Server",
   "tags": [

@@ -3,7 +3,9 @@
     "instanceId": "67d4d33d8b0ad4e5e12f051d8ad92fc35893d7f48d7f801bc6da4f39967b3592",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 24
+    "nodeCount": 24,
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "nodes": [
     {

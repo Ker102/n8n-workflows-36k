@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 21,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "AI Agent - Cv Resume - Automated Screening , Sorting , Rating and Tracker System",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 37,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "name": "Generate Exam Questions",
   "tags": [

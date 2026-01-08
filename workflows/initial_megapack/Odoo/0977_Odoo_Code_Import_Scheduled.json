@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "name": "Import Odoo Product Images from Google Drive",
   "tags": [

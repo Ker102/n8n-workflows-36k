@@ -793,7 +793,7 @@
   "meta": {
     "complexity": "advanced",
     "nodeCount": 26,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   }
 }

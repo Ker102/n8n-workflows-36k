@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "name": "Forward Filtered Gmail Notifications to Telegram Chat",
   "tags": [

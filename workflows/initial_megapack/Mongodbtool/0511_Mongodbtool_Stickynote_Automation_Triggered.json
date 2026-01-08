@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "MongoDB Agent",
   "tags": [

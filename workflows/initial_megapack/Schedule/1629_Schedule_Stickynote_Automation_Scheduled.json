@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Reschedule overdue Asana tasks and clean up completed tasks",
   "tags": [

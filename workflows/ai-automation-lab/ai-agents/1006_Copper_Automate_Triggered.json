@@ -22,7 +22,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 1,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   }
 }

@@ -553,8 +553,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "id": "NJ5zK0UP9WFl8ckM",
   "tags": [

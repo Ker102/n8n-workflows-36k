@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 37,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "nodes": [
     {

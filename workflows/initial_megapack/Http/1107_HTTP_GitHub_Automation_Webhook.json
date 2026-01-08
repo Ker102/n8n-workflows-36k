@@ -663,8 +663,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 25,
-    "semanticLabel": "Data Sync & ETL",
-    "clusterId": 1
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "tags": [
     "automation",

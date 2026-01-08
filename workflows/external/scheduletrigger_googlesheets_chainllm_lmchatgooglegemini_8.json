@@ -3,7 +3,9 @@
     "instanceId": "02e782574ebb30fbddb2c3fd832c946466d718819d25f6fe4b920124ff3fc2c1",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 26
+    "nodeCount": 26,
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "nodes": [
     {

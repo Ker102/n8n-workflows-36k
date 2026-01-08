@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "bb6a1286a4ce98dce786d6c2748b867c1252d53458c87d87fbf6824b862d4c9c",
     "complexity": "advanced",
-    "nodeCount": 19
+    "nodeCount": 19,
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "nodes": [
     {

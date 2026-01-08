@@ -3,8 +3,8 @@
     "instanceId": "e0be1457dbb383bea07059c263a59b383a5b9420e6a22d3e5f1d80ae7f4f6629",
     "complexity": "advanced",
     "nodeCount": 27,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "nodes": [
     {

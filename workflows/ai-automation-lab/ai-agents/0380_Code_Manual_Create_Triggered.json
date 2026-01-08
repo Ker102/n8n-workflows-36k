@@ -3,8 +3,8 @@
     "instanceId": "c59a6b1daf09a846754bc2cf0a94db3299bd5a69fb14687c3a5e692704c548dd",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "nodes": [
     {

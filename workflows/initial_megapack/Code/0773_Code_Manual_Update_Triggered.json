@@ -224,8 +224,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "notes": "Excellent quality workflow: Automatically Update YouTube Video Descriptions with Inserted Text. This workflow has been optimized for production use with comprehensive error handling, security, and documentation."
 }

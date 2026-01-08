@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 36,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "AI Phone Agent with RetellAI",
   "tags": [

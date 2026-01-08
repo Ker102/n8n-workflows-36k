@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 27,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Noco Kanban Board with AI Prioritization",
   "tags": [

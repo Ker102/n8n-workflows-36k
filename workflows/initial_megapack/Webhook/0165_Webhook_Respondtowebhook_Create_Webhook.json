@@ -324,8 +324,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "tags": [
     "automation",

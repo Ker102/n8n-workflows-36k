@@ -3,8 +3,8 @@
     "instanceId": "2e4938c532d5f4536554a31b1fe1b04df825b7a8238ff0fb3c5eaaa749e140bd",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

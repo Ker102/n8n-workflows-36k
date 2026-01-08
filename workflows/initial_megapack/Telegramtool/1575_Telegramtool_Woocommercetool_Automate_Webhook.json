@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 31,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "WooCommerce AI Chatbot Workflow for Post-Sales Support",
   "tags": [

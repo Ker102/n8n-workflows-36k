@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
     "nodeCount": 30,
-    "semanticLabel": "E-commerce",
-    "clusterId": 5
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "nodes": [
     {

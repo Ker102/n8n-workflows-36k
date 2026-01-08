@@ -191,8 +191,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Data Sync & ETL",
-    "clusterId": 1
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   },
   "tags": [
     "automation",

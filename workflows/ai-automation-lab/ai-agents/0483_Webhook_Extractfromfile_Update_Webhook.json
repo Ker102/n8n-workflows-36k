@@ -4,8 +4,8 @@
     "templateId": "2222",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "nodes": [
     {

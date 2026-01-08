@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "408f9fb9940c3cb18ffdef0e0150fe342d6e655c3a9fac21f0f644e8bedabcd9",
     "complexity": "intermediate",
-    "nodeCount": 9
+    "nodeCount": 9,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "nodes": [
     {

@@ -179,7 +179,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   }
 }

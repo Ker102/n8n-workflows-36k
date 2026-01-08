@@ -61,8 +61,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "tags": [
     "automation",

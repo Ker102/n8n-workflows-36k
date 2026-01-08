@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "Play with Spotify from Telegram",
   "tags": [

@@ -3,7 +3,9 @@
     "instanceId": "21b41c2deb1c9e3f543253a0aa6a6e2c7bd7ef6bab90ffd478aa947c17d3b352",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 17
+    "nodeCount": 17,
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "Linear Project Status and End Date to Productboard feature Sync",
   "tags": [

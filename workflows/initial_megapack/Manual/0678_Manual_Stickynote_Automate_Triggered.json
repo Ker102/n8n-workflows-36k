@@ -194,8 +194,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "tags": [
     "automation",

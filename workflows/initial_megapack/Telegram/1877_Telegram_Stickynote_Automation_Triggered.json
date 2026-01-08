@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Optimize Prompt",
   "tags": [

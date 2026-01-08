@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Search news using Perplexity AI and post to X (Twitter)",
   "tags": [

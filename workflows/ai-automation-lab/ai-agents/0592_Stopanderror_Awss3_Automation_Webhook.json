@@ -3,8 +3,8 @@
     "instanceId": "9e331a89ae45a204c6dee51c77131d32a8c962ec20ccf002135ea60bd285dba9",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "nodes": [
     {

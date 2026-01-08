@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Streamline Your Zoom Meetings with Secure, Automated Stripe Payments",
   "tags": [

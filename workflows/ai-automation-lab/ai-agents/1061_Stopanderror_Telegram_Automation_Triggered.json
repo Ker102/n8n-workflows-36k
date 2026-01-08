@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Telegram RAG pdf",
   "tags": [],

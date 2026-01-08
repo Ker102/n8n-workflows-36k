@@ -4,7 +4,9 @@
     "instanceId": "",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 21
+    "nodeCount": 21,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Easily Compare LLMs Using OpenAI and Google Sheets",
   "tags": [],

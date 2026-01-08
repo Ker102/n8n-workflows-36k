@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 24,
-    "semanticLabel": "Analytics & Reporting",
-    "clusterId": 11
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "name": "Auto Knowledge Base Article Generator",
   "tags": [

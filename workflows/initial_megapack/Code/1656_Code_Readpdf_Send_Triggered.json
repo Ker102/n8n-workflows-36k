@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "Backup & Recovery",
-    "clusterId": 15
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "nodes": [
     {

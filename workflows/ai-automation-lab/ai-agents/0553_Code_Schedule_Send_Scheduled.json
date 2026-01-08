@@ -153,7 +153,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

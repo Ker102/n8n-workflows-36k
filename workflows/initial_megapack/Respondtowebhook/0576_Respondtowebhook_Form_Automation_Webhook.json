@@ -794,8 +794,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "tags": [
     "automation",

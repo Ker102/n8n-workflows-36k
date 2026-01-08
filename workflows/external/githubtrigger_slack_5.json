@@ -122,6 +122,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 4
+    "nodeCount": 4,
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

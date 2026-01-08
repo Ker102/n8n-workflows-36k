@@ -172,6 +172,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 6
+    "nodeCount": 6,
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   }
 }

@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 30,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

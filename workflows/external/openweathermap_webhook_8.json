@@ -95,6 +95,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 3
+    "nodeCount": 3,
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   }
 }

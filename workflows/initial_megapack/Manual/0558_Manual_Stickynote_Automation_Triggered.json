@@ -151,8 +151,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "tags": [
     "automation",

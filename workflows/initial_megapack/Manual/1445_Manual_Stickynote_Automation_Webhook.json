@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "name": "Extract Amazon Best Seller Electronic Information with Bright Data and Google Gemini",
   "tags": [

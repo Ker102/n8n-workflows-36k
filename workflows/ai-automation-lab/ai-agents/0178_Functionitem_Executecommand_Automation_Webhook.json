@@ -654,7 +654,7 @@
   "meta": {
     "complexity": "advanced",
     "nodeCount": 23,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   }
 }

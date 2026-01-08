@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 246,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "Realtime Notion Todoist 2-way Sync Template",
   "tags": [

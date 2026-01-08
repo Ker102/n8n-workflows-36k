@@ -3,7 +3,9 @@
     "instanceId": "b41148c809c7896d124743d940fc0964703e540af66564ef95e25a4ceea61c77",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 16
+    "nodeCount": 16,
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "nodes": [
     {

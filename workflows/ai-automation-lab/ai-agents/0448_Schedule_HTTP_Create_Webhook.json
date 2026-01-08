@@ -414,7 +414,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

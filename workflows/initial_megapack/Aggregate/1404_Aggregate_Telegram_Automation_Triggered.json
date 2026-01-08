@@ -568,8 +568,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "id": "WjyQKQIrpF9AO1Zf",
   "tags": [

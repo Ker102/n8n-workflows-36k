@@ -146,6 +146,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

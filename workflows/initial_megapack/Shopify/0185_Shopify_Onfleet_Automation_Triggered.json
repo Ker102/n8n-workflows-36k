@@ -77,8 +77,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "tags": [
     "automation",

@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "nodes": [
     {

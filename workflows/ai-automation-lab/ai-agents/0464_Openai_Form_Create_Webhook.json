@@ -3,8 +3,8 @@
     "instanceId": "96cab4456c8d5d47ff3acba57e93f1f3750005103b819e4580442bcd2bb6cc4d",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "nodes": [
     {

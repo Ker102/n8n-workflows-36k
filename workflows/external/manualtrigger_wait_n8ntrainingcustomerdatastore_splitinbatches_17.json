@@ -293,6 +293,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 13
+    "nodeCount": 13,
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   }
 }

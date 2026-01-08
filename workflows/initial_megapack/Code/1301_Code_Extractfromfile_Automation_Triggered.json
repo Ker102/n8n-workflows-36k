@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 23,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Amazon Ads AI Optimization",
   "tags": [

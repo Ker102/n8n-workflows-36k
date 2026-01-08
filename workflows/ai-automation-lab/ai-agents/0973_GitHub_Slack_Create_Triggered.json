@@ -123,7 +123,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

@@ -4,8 +4,8 @@
     "instanceId": "03e9d14e9196363fe7191ce21dc0bb17387a6e755dcc9acc4f5904752919dca8",
     "complexity": "advanced",
     "nodeCount": 35,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Analyze_email_headers_for_IPs_and_spoofing__3",
   "tags": [

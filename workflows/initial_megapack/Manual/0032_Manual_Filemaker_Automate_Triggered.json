@@ -161,8 +161,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Analytics & Reporting",
-    "clusterId": 11
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "tags": [
     "automation",

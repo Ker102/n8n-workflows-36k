@@ -3,8 +3,8 @@
     "instanceId": "4de3652773c3e67f6210deb1e1d390d75b23715f2e2cca0340008f99419607e6",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

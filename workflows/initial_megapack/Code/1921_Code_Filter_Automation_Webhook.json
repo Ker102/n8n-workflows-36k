@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 38,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "mails2notion V2",
   "tags": [

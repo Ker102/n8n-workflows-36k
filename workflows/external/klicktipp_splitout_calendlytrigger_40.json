@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "95b3ab5a70ab1c8c1906357a367f1b236ef12a1409406fd992f60255f0f95f85",
     "complexity": "advanced",
-    "nodeCount": 19
+    "nodeCount": 19,
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   },
   "nodes": [
     {

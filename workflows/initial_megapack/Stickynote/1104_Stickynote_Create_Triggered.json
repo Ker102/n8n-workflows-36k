@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "💥🛠️Build a Web Search Chatbot with GPT-4o and MCP Brave Search",
   "tags": [

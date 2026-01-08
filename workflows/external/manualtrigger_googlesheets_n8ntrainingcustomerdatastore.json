@@ -147,6 +147,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 6
+    "nodeCount": 6,
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   }
 }

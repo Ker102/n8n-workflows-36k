@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 38,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "name": "Spot Workplace Discrimination Patterns with AI",
   "tags": [

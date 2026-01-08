@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "Email & Notifications",
-    "clusterId": 3
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "RAG Workflow For Company Documents stored in Google Drive",
   "tags": [

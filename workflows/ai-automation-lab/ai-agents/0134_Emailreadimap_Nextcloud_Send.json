@@ -70,7 +70,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

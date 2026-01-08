@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "nodes": [
     {

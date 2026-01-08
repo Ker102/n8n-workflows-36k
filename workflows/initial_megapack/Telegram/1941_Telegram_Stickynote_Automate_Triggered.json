@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Telegram echo-bot",
   "tags": [

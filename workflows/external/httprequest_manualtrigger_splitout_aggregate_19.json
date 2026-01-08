@@ -3,7 +3,9 @@
     "instanceId": "1dd912a1610cd0376bae7bb8f1b5838d2b601f42ac66a48e012166bb954fed5a",
     "templateId": "2301",
     "complexity": "intermediate",
-    "nodeCount": 15
+    "nodeCount": 15,
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "nodes": [
     {

@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "dbd43d88d26a9e30d8aadc002c9e77f1400c683dd34efe3778d43d27250dde50",
     "complexity": "advanced",
-    "nodeCount": 47
+    "nodeCount": 47,
+    "semanticLabel": "Email & Notifications",
+    "clusterId": 3
   },
   "nodes": [
     {

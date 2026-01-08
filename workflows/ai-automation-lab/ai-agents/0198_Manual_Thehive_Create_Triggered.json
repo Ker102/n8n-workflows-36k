@@ -113,7 +113,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

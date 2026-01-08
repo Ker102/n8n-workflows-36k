@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Podcast Digest",
   "tags": [

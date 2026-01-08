@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "nodes": [
     {

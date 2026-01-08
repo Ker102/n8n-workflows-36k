@@ -133,8 +133,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "tags": [
     "automation",

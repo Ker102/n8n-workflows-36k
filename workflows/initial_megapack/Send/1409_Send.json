@@ -85,8 +85,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Unnamed Workflow",
   "tags": [

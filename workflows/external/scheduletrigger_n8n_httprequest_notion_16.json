@@ -413,6 +413,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 10
+    "nodeCount": 10,
+    "semanticLabel": "Email & Notifications",
+    "clusterId": 3
   }
 }

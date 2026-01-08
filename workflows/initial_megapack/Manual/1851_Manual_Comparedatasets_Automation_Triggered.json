@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Compare 2 SQL datasets",
   "tags": [

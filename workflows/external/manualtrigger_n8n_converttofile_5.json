@@ -3,7 +3,9 @@
     "instanceId": "d7fca24febd307481e0bbb00524fea1b07b7a70804c772daa0c99b9ce35883b9",
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
-    "nodeCount": 7
+    "nodeCount": 7,
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "nodes": [
     {

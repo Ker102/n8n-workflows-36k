@@ -139,8 +139,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "tags": [
     "automation",

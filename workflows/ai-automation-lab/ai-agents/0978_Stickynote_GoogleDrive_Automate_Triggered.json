@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Development & DevOps",
-    "clusterId": 24
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "name": "Automated Image Metadata Tagging (Community Node)",
   "tags": [],

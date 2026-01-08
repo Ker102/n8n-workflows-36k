@@ -4,7 +4,9 @@
     "instanceId": "",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 23
+    "nodeCount": 23,
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   },
   "name": "Generate AI-Ready llms.txt Files from Screaming Frog Website Crawls",
   "tags": [],

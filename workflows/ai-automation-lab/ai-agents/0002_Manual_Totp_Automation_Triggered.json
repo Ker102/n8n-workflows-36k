@@ -4,8 +4,8 @@
     "instanceId": "2e75c9fb3cdcf631da470c0180f0739986baa0ee860de53281e9edc3491b82a3",
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Complete Guide to Setting Up and Generating TOTP Codes in n8n 🔐",
   "tags": [],

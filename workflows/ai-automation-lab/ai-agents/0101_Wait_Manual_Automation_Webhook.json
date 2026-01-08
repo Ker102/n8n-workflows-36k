@@ -152,7 +152,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

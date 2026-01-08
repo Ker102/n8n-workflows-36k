@@ -104,8 +104,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "tags": [
     "automation",

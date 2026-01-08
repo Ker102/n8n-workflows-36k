@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Search LinkedIn companies and add them to Airtable CRM",
   "tags": [

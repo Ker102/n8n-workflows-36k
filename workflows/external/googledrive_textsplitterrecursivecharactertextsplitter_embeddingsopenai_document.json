@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "62b3b6db4f4d3641a1fa1da6dfb9699a19380a1f60cbc18fc75d6d145f35552b",
     "complexity": "advanced",
-    "nodeCount": 16
+    "nodeCount": 16,
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "nodes": [
     {

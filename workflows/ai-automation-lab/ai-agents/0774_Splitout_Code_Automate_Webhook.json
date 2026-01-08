@@ -3,8 +3,8 @@
     "instanceId": "4bcdfa475d937e8c2fc1d40936bca36ec49bdb2525076e1bd53cc12fc6c8756d",
     "complexity": "advanced",
     "nodeCount": 28,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "My workflow 2",
   "tags": [],

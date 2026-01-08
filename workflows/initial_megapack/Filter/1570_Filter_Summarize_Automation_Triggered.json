@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   },
   "name": "Prod: Notion to Vector Store - Dimension 768",
   "tags": [

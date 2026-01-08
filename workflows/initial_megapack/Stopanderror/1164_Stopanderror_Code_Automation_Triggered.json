@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Slack Webhook - Verify Signature",
   "tags": [

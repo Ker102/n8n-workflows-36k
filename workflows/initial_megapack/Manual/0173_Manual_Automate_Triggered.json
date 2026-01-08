@@ -83,8 +83,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "tags": [
     "automation",

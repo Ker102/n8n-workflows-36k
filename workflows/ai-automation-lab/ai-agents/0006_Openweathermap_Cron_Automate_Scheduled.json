@@ -76,7 +76,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

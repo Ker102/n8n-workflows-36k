@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Dynamically generate HTML page from user request using OpenAI Structured Output",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Agentic Telegram AI bot with LangChain nodes and new tools",
   "tags": [

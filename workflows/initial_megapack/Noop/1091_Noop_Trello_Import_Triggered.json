@@ -173,8 +173,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "tags": [
     "automation",

@@ -202,7 +202,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   }
 }

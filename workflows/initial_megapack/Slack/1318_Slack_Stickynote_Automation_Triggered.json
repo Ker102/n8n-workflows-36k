@@ -360,8 +360,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "tags": [
     "automation",

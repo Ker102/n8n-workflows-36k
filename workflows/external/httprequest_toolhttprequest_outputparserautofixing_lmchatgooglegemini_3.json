@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "n8n.syncbricks.com",
     "complexity": "advanced",
-    "nodeCount": 35
+    "nodeCount": 35,
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "nodes": [
     {

@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "a4bfc93e975ca233ac45ed7c9227d84cf5a2329310525917adaf3312e10d5462",
     "complexity": "advanced",
-    "nodeCount": 16
+    "nodeCount": 16,
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Automate Drive-To-Store Lead Generation System (with coupon) on SuiteCRM",
   "tags": [],

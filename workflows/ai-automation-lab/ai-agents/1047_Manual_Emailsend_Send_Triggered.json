@@ -48,7 +48,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   }
 }

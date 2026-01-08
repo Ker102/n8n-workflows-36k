@@ -237,8 +237,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Data Sync & ETL",
-    "clusterId": 1
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "tags": [
     "automation",

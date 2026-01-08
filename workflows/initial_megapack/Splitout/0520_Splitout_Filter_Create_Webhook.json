@@ -950,8 +950,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 38,
-    "semanticLabel": "Email & Notifications",
-    "clusterId": 3
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "tags": [
     "automation",

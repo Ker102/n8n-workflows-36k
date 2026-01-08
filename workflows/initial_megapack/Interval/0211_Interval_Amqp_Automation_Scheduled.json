@@ -124,8 +124,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "tags": [
     "automation",

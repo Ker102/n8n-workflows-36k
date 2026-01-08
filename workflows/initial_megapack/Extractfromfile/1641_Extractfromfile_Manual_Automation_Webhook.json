@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "youtube chapter generator",
   "tags": [

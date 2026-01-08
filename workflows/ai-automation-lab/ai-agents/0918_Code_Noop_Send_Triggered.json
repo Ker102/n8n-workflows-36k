@@ -3,8 +3,8 @@
     "instanceId": "d73282515b90623d4a8783919a2d772c706425d649e1512792f37ac51e07e4a8",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

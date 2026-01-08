@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Extract & Summarize Wikipedia Data with Bright Data and Gemini AI",
   "tags": [

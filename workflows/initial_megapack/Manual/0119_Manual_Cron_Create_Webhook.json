@@ -317,8 +317,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Development & DevOps",
-    "clusterId": 24
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "tags": [
     "automation",

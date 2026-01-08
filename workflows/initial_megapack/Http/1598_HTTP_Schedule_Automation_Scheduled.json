@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "AirQuality Scheduler",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "name": "Extract text from PDF and image using Vertex AI (Gemini) into CSV",
   "tags": [

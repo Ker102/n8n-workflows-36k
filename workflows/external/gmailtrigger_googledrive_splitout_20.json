@@ -3,7 +3,9 @@
     "instanceId": "abc123",
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
-    "nodeCount": 8
+    "nodeCount": 8,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "nodes": [
     {

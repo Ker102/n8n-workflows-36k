@@ -209,7 +209,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

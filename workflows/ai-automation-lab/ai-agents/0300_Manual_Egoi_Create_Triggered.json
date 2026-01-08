@@ -109,7 +109,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   }
 }

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Analytics & Reporting",
-    "clusterId": 11
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Import CSV from URL to Excel",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 25,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "name": "Personalized AI Tech Newsletter Using RSS, OpenAI and Gmail",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   },
   "name": "Calculate the Centroid of a Set of Vectors",
   "tags": [

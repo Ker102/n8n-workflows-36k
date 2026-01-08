@@ -4,7 +4,9 @@
     "templateId": "2931",
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
-    "nodeCount": 10
+    "nodeCount": 10,
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "nodes": [
     {

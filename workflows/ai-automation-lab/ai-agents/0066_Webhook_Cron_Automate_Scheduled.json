@@ -721,7 +721,7 @@
   "meta": {
     "complexity": "advanced",
     "nodeCount": 29,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

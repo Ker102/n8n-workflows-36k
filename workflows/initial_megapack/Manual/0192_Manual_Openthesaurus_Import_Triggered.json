@@ -72,8 +72,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Project Management",
+    "clusterId": 6
   },
   "tags": [
     "automation",

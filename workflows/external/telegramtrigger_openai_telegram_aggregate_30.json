@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "f691e434c527bcfc50a22f01094756f14427f055aa0b6917a75441617ecd7fb2",
     "complexity": "intermediate",
-    "nodeCount": 12
+    "nodeCount": 12,
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "nodes": [
     {

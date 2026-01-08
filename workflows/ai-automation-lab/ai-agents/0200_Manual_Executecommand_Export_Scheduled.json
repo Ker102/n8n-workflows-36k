@@ -173,7 +173,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

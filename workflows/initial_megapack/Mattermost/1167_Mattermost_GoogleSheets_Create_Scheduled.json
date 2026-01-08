@@ -120,8 +120,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "tags": [
     "automation",

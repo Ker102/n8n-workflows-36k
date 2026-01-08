@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Stock Q&A Workflow",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "name": "Backup Squarespace code Injections to Github",
   "tags": [

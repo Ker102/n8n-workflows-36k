@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Gmail AI auto-responder: create draft replies to incoming emails",
   "tags": [

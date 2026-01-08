@@ -1623,7 +1623,7 @@
   "meta": {
     "complexity": "advanced",
     "nodeCount": 51,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

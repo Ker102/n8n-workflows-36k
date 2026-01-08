@@ -292,8 +292,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "tags": [
     "automation",

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "GROQ LLAVA V1.5 7B",
   "tags": [

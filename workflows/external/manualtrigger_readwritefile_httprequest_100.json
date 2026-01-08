@@ -4,7 +4,9 @@
     "templateId": "2294",
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "nodes": [
     {

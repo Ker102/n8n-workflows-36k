@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
     "nodeCount": 39,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "nodes": [
     {

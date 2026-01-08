@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "CoinMarketCap_DEXScan_Agent_Tool",
   "tags": [

@@ -427,8 +427,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "E-commerce",
-    "clusterId": 5
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "tags": [
     "automation",

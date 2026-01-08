@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 25,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Build an MCP Server with Google Calendar",
   "tags": [

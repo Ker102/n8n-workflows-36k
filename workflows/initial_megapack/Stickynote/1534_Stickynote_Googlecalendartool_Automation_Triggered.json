@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 22,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Personal Assistant MCP server",
   "tags": [

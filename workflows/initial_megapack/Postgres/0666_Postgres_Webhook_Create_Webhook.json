@@ -747,8 +747,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "tags": [
     "automation",

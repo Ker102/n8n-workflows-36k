@@ -379,8 +379,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "tags": [
     "automation",

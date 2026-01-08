@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "Sell a Used Car",
   "tags": [

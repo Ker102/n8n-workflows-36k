@@ -463,6 +463,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 15
+    "nodeCount": 15,
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   }
 }

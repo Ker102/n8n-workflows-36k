@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "8eadf351d49a11e77d3a57adf374670f06c5294af8b1b7c86a1123340397e728",
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "nodes": [
     {

@@ -293,8 +293,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "tags": [
     "automation",

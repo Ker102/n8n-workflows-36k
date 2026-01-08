@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 39,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "name": "Content to 9:16 Aspect Image Generator v1",
   "tags": [

@@ -1,7 +1,9 @@
 {
   "meta": {
     "complexity": "advanced",
-    "nodeCount": 20
+    "nodeCount": 20,
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "[n8n] YouTube Channel Advanced RSS Feeds Generator",
   "tags": [

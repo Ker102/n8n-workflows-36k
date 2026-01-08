@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 35,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Analyze_email_headers_for_IPs_and_spoofing__3",
   "tags": [

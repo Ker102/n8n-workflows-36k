@@ -86,7 +86,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   }
 }

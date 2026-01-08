@@ -950,8 +950,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 38,
-    "semanticLabel": "Email & Notifications",
-    "clusterId": 3
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "tags": [
     "automation",

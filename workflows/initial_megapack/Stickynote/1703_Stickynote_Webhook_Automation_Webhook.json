@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Travel Planning Agent with Couchbase Vector Search, Gemini 2.0 Flash and OpenAI",
   "tags": [

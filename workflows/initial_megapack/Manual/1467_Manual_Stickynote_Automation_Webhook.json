@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Google Search Engine Results Page Extraction with Bright Data",
   "tags": [

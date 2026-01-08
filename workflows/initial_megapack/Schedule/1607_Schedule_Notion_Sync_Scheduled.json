@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "Sync Todoist tasks to Notion",
   "tags": [

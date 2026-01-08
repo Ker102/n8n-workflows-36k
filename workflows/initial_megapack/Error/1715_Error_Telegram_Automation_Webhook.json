@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "name": "template in store",
   "tags": [

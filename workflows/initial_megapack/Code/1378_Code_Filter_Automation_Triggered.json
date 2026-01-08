@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Chat with Google Sheet",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 26,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Email AI Auto-responder. Summerize and send email",
   "tags": [

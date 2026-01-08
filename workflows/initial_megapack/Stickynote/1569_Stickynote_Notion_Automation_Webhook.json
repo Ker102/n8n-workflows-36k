@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Email & Notifications",
+    "clusterId": 3
   },
   "nodes": [
     {

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Gumroad sale trigger",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 24,
-    "semanticLabel": "Scheduling & Triggers",
-    "clusterId": 10
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "Generate AI-Ready llms.txt Files from Screaming Frog Website Crawls",
   "tags": [

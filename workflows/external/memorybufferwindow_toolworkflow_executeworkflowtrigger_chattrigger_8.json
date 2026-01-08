@@ -367,6 +367,8 @@
   },
   "meta": {
     "complexity": "advanced",
-    "nodeCount": 17
+    "nodeCount": 17,
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

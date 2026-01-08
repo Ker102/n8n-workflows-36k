@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 29,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "Vision-Based AI Agent Scraper - with Google Sheets, ScrapingBee, and Gemini",
   "tags": [

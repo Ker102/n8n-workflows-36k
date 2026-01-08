@@ -248,8 +248,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "tags": [
     "automation",

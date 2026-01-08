@@ -1387,8 +1387,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 33,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "tags": [
     "automation",

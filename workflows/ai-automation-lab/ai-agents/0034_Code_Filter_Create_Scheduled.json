@@ -3,8 +3,8 @@
     "instanceId": "0c99324b4b0921a9febd4737c606882881f3ca11d9b1d7e22b0dad4784eb24c7",
     "complexity": "advanced",
     "nodeCount": 30,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "nodes": [
     {

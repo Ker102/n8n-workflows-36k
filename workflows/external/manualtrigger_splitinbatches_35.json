@@ -131,6 +131,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   }
 }

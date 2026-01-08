@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Development & DevOps",
-    "clusterId": 24
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "SQL agent with memory",
   "tags": [

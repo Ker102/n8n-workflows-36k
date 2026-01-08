@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 23,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "🐋🤖 DeepSeek AI Agent + Telegram + LONG TERM Memory 🧠",
   "tags": [

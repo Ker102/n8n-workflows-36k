@@ -3,8 +3,8 @@
     "instanceId": "4eea70f6789129b82c5f438f374db25affb0eba28902cc3663e308cff7659044",
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "nodes": [
     {

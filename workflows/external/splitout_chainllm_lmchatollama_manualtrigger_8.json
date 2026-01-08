@@ -3,7 +3,9 @@
     "instanceId": "6e361bfcd1e8378c9b07774b22409c7eaea7080f01d5248da45077c0c6108b99",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 18
+    "nodeCount": 18,
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   },
   "nodes": [
     {

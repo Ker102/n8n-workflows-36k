@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
     "nodeCount": 22,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "nodes": [
     {

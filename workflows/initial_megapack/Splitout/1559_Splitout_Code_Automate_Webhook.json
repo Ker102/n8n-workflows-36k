@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Automate PDF Image Extraction & Analysis with GPT-4o and Google Drive",
   "tags": [

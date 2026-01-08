@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 30,
-    "semanticLabel": "E-commerce",
-    "clusterId": 5
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Generate SQL queries from schema only - AI-powered",
   "tags": [

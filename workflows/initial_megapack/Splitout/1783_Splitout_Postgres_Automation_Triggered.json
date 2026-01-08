@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 21,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Gmail to Vector Embeddings with PGVector and Ollama",
   "tags": [

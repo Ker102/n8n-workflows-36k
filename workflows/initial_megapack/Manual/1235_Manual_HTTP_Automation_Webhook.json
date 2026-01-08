@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Google Trend Data Extract, Summarization with Bright Data & Google Gemini",
   "tags": [

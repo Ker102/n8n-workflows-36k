@@ -112,8 +112,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "tags": [
     "automation",

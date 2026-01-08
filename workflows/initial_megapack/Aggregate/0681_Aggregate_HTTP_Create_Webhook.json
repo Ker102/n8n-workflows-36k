@@ -1670,8 +1670,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 41,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "tags": [
     "automation",

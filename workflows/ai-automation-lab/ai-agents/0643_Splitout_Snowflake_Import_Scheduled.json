@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
     "nodeCount": 35,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "name": "Import Productboard Notes, Companies and Features into Snowflake",
   "tags": [

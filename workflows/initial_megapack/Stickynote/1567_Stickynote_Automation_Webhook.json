@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "Integrating AI with Open-Meteo API for Enhanced Weather Forecasting",
   "tags": [

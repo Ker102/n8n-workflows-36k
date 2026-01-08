@@ -332,8 +332,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "id": "C3hLlOS4O6ZJtVFy",
   "tags": [

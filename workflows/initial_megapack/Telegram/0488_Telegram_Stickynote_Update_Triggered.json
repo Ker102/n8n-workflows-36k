@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "nodes": [
     {

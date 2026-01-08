@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Clone n8n Workflows between Instances using n8n API",
   "tags": [

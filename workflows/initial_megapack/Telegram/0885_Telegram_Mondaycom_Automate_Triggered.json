@@ -208,8 +208,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "tags": [
     "automation",

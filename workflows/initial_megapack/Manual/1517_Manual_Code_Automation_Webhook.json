@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Perform a domain search (single) with Icypeas",
   "tags": [

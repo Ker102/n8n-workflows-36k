@@ -211,7 +211,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

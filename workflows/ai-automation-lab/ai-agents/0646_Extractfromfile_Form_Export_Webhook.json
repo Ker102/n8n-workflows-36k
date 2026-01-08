@@ -3,8 +3,8 @@
     "instanceId": "408f9fb9940c3cb18ffdef0e0150fe342d6e655c3a9fac21f0f644e8bedabcd9",
     "complexity": "advanced",
     "nodeCount": 23,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "nodes": [
     {

@@ -61,8 +61,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "tags": [
     "automation",

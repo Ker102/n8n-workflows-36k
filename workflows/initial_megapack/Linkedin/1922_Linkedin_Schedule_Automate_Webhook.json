@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Automate LinkedIn Posts with AI",
   "tags": [

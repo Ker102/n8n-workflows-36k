@@ -3,7 +3,9 @@
     "instanceId": "02e782574ebb30fbddb2c3fd832c946466d718819d25f6fe4b920124ff3fc2c1",
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "nodes": [
     {

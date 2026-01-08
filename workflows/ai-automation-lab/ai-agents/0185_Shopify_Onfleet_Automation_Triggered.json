@@ -49,7 +49,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   }
 }

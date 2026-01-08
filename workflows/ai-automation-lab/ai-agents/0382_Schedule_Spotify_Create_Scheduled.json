@@ -3,8 +3,8 @@
     "instanceId": "dbd383feb42b0206c833e3d762df280d0cce35cf96037fb2d6f3533c171dc540",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

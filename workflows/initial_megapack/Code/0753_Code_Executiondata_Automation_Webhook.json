@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Luma AI Dream Machine - Simple v1 - AK",
   "tags": [

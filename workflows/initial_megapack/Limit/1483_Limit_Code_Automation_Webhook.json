@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Linkedin Chrome Extensions",
   "tags": [

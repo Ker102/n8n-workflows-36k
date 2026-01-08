@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 27,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "OpenAI-model-examples",
   "tags": [

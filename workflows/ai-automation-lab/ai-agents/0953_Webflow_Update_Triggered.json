@@ -26,7 +26,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 1,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   }
 }

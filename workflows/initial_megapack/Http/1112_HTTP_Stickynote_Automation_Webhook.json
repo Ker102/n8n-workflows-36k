@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "AI Agent with charts capabilities using OpenAI Structured Output",
   "tags": [

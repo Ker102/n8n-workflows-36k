@@ -94,6 +94,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 4
+    "nodeCount": 4,
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   }
 }

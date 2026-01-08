@@ -68,7 +68,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

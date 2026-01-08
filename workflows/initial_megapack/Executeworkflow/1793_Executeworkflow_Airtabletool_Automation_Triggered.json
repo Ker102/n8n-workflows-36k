@@ -282,8 +282,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "id": "IsSUyrla7wc1cDLE",
   "tags": [

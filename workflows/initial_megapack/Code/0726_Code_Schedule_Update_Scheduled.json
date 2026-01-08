@@ -233,8 +233,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Project Management",
-    "clusterId": 6
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "tags": [
     "automation",

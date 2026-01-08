@@ -71,7 +71,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   }
 }

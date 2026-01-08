@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "RAG AI Agent with Milvus and Cohere",
   "tags": [

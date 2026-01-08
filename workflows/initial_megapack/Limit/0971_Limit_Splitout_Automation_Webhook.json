@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 73,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "name": "⚡AI-Powered YouTube Playlist & Video Summarization and Analysis v2",
   "tags": [

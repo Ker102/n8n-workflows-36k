@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "name": "POC - Chatbot Order by Sheet Data",
   "tags": [],

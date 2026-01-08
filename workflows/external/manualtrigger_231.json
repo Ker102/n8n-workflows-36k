@@ -181,6 +181,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 7
+    "nodeCount": 7,
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   }
 }

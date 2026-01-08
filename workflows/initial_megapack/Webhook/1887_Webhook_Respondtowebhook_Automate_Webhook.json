@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 23,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Voice RAG Chatbot with ElevenLabs and OpenAI",
   "tags": [

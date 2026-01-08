@@ -304,8 +304,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "tags": [
     "automation",

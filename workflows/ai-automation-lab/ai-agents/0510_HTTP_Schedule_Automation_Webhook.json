@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "nodes": [
     {

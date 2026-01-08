@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Data Sync & ETL",
-    "clusterId": 1
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "Image to license plate number",
   "tags": [

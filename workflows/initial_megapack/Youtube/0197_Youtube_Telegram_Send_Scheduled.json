@@ -160,8 +160,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "tags": [
     "automation",

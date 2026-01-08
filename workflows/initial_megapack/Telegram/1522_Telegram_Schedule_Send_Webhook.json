@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 21,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Template - SSL Expiry Alert System",
   "tags": [

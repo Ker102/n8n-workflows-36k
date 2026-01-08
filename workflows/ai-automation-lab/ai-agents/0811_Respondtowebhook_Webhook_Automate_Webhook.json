@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

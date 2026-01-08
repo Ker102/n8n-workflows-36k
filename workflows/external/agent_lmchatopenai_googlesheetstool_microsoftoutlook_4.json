@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "e4f78845dfed9ddcfba1945ae00d12e9a7d76eab052afd19299228ce02349d86",
     "complexity": "advanced",
-    "nodeCount": 27
+    "nodeCount": 27,
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "nodes": [
     {

@@ -47,7 +47,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

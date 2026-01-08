@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 31,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "AI-Powered Information Monitoring with OpenAI, Google Sheets, Jina AI and Slack",
   "tags": [

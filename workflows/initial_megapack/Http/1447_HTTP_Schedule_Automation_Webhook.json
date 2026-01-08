@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "URL Pinger",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "RAG:Context-Aware Chunking | Google Drive to Pinecone via OpenRouter & Gemini",
   "tags": [

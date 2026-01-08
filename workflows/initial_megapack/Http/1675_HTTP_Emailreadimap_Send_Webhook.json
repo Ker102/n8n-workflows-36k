@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Summarize emails with A.I. then send to messenger",
   "tags": [

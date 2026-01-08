@@ -1159,7 +1159,9 @@
   "meta": {
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 35
+    "nodeCount": 35,
+    "semanticLabel": "Content Management",
+    "clusterId": 17
   },
   "tags": [
     {

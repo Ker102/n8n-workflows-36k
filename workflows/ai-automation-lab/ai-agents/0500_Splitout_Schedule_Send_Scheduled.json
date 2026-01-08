@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

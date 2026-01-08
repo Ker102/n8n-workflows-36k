@@ -116,8 +116,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "tags": [
     "automation",

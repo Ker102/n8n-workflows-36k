@@ -79,7 +79,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   }
 }

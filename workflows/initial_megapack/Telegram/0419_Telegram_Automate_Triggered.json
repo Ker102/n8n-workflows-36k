@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "E-commerce",
-    "clusterId": 5
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "nodes": [
     {

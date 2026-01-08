@@ -51,6 +51,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 2
+    "nodeCount": 2,
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   }
 }

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 35,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "↔️ Airtable Batch Processing",
   "tags": [

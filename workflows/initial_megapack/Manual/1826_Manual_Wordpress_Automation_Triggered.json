@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   },
   "name": "Auto categorize wordpress template",
   "tags": [

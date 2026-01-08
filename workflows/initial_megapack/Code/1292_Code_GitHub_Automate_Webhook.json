@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Code Review workflow",
   "tags": [

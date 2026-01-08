@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "Attachments Gmail to drive and google sheets",
   "tags": [

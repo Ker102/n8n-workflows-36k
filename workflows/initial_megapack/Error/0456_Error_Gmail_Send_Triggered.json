@@ -113,8 +113,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "tags": [
     "automation",

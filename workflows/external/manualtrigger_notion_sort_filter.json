@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "46264913bc099c31e7222b2cfd112772e1c7867192afd7716e58254079b3333f",
     "complexity": "advanced",
-    "nodeCount": 27
+    "nodeCount": 27,
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "nodes": [
     {

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "name": "Image-Based Data Extraction API using Gemini AI",
   "tags": [

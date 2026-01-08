@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Email & Notifications",
-    "clusterId": 3
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Automated PDF to HTML Conversion",
   "tags": [],

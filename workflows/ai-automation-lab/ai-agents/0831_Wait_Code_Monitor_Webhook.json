@@ -583,7 +583,7 @@
   "meta": {
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

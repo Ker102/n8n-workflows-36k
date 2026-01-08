@@ -184,7 +184,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

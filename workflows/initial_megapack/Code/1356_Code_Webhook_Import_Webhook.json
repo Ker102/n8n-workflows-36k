@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 21,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "Bitrix24 Task Form Widget Application Workflow example with Webhook Integration",
   "tags": [

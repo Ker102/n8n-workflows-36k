@@ -3,7 +3,9 @@
     "instanceId": "6f3fb2495ae05d668c93cbf9e1649128d6e08178f8a900941cf97e588f18fdfc",
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
-    "nodeCount": 10
+    "nodeCount": 10,
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   },
   "nodes": [
     {

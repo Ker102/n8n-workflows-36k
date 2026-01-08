@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 22,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   },
   "name": "Summarize YouTube Videos & Chat About Content with GPT-4o-mini via Telegram",
   "tags": [

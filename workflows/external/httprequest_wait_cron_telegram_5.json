@@ -178,6 +178,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 7
+    "nodeCount": 7,
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   }
 }

@@ -98,8 +98,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Backup & Recovery",
-    "clusterId": 15
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "tags": [
     "automation",

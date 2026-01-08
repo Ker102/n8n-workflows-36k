@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Very simple Human in the loop system email with AI e IMAP",
   "tags": [

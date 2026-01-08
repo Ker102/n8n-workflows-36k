@@ -3,8 +3,8 @@
     "instanceId": "854c212d3baca2d6108faeb1187a4f6d9a3e60117068e7e872ad5e663327af93",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "nodes": [
     {

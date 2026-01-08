@@ -126,7 +126,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

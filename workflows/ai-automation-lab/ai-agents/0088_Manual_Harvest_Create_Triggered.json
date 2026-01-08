@@ -49,7 +49,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   }
 }

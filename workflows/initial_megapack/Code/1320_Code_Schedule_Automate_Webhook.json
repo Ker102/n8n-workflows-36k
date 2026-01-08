@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 35,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Blog Automation TEMPLATE",
   "tags": [

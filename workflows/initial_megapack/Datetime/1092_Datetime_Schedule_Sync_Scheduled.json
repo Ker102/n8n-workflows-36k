@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "Two Way Sync Pipedrive and MySQL",
   "tags": [

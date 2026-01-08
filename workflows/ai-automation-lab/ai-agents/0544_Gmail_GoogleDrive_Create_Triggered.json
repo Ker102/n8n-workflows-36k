@@ -3,8 +3,8 @@
     "instanceId": "1a23006df50de49624f69e85993be557d137b6efe723a867a7d68a84e0b32704",
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "nodes": [
     {

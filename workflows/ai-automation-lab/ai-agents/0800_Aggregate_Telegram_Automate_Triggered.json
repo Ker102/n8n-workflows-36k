@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "nodes": [
     {

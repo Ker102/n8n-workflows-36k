@@ -66,8 +66,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Backup & Recovery",
-    "clusterId": 15
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   },
   "tags": [
     "automation",

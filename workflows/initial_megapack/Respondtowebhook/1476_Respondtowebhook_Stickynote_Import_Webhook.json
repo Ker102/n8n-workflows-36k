@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "Get Airtable data in Obsidian Notes",
   "tags": [

@@ -225,8 +225,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "tags": [
     "automation",

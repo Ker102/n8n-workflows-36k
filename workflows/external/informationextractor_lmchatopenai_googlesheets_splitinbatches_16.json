@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "d73282515b90623d4a8783919a2d772c706425d649e1512792f37ac51e07e4a8",
     "complexity": "advanced",
-    "nodeCount": 19
+    "nodeCount": 19,
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "nodes": [
     {

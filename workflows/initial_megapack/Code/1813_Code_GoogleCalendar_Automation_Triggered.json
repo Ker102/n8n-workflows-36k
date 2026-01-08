@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 26,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "name": "Inverview Scheduler",
   "tags": [

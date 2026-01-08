@@ -119,7 +119,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   }
 }

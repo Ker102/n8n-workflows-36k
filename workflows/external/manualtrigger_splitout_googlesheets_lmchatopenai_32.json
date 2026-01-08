@@ -256,6 +256,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 7
+    "nodeCount": 7,
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   }
 }

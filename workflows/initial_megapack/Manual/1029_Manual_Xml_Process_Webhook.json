@@ -82,8 +82,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   },
   "tags": [
     "automation",

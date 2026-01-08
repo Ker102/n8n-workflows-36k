@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 33,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "puq-docker-influxdb-deploy",
   "tags": [

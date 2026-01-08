@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Automate Etsy Data Mining with Bright Data Scrape & Google Gemini",
   "tags": [

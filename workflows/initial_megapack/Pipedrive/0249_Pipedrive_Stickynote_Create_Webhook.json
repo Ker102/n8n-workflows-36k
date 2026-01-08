@@ -358,8 +358,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "tags": [
     "automation",

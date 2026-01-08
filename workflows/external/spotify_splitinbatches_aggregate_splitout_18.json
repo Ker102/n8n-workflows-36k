@@ -4,7 +4,9 @@
     "templateId": "2285",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 23
+    "nodeCount": 23,
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "nodes": [
     {

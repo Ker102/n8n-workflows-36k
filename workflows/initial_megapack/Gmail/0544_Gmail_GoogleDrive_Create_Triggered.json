@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "nodes": [
     {

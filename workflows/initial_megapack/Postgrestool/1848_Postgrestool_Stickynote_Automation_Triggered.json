@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Chat with Postgresql Database",
   "tags": [

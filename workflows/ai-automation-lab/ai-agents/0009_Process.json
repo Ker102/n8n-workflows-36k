@@ -112,7 +112,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Analytics & Reporting",
-    "clusterId": 11
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

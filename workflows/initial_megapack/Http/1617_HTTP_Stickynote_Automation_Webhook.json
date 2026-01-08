@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "🔍🛠️ Tavily Search & Extract - Template",
   "tags": [

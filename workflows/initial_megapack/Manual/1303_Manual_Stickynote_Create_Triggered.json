@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "Build an OpenAI Assistant with Google Drive Integration",
   "tags": [

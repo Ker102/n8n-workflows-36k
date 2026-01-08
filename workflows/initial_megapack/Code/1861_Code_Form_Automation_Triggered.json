@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 11,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "Streamline data from an n8n form into Google Sheet and Airtable",
   "tags": [

@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
     "nodeCount": 31,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "YogiAI",
   "tags": [],

@@ -652,8 +652,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "tags": [
     "automation",

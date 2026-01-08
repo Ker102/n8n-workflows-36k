@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "A/B Split Testing",
   "tags": [

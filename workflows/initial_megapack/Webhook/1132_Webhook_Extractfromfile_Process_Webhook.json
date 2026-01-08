@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Analytics & Reporting",
-    "clusterId": 11
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "Convert Squarespace Profiles to Shopify Customers in Google Sheets",
   "tags": [

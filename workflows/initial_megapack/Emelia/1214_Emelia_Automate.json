@@ -111,8 +111,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Email & Notifications",
+    "clusterId": 3
   },
   "tags": [
     "automation",

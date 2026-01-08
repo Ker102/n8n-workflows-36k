@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 36,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "HR Job Posting and Evaluation with AI",
   "tags": [

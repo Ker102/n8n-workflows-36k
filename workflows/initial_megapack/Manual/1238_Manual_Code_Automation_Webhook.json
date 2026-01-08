@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "3D Figurine Orthographic Views with Midjourney and GPT-4o-Image API",
   "tags": [

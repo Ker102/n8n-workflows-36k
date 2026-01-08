@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "name": "AI CV Screening Workflow",
   "tags": [

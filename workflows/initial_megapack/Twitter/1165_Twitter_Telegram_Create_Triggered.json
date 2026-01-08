@@ -109,8 +109,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "tags": [
     "automation",

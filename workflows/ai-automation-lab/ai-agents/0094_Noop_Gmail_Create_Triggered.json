@@ -218,7 +218,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "E-commerce",
-    "clusterId": 5
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

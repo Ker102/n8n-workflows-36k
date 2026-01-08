@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 34,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Bitrix24 Open Chanel RAG Chatbot Application Workflow example with Webhook Integration",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 13,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Receive_and_analyze_emails_with_rules_in_Sublime_Security",
   "tags": [

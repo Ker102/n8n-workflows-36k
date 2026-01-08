@@ -108,6 +108,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 4
+    "nodeCount": 4,
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   }
 }

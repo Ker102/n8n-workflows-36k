@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 41,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "Spotify Sync Liked Songs to Playlist",
   "tags": [

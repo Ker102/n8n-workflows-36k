@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "RAG AI Agent with Milvus and Cohere",
   "tags": [

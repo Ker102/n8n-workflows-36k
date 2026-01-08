@@ -3,7 +3,9 @@
     "instanceId": "97d44c78f314fab340d7a5edaf7e2c274a7fbb8a7cd138f53cc742341e706fe7",
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
-    "nodeCount": 9
+    "nodeCount": 9,
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "nodes": [
     {

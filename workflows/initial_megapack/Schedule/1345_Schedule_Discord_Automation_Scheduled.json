@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 29,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "YouTube to X Post- AlexK1919",
   "tags": [

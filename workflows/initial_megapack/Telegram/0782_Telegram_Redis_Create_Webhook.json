@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 40,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "nodes": [
     {

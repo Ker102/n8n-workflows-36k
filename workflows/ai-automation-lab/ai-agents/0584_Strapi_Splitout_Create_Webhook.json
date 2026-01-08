@@ -3,8 +3,8 @@
     "instanceId": "ff412ab2a6cd55af5dedbbab9b8e43f0f3a0cb16fb794fa8d3837f957b771ad2",
     "complexity": "advanced",
     "nodeCount": 36,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "nodes": [
     {

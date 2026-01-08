@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "ef45cd7f45f7589c4c252d786d5d1a3233cdbfc451efa7e17688db979f2dc6ae",
     "complexity": "intermediate",
-    "nodeCount": 9
+    "nodeCount": 9,
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   },
   "nodes": [
     {

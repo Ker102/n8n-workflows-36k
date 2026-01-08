@@ -3,8 +3,8 @@
     "instanceId": "",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "nodes": [
     {

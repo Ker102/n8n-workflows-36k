@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 24,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "SHEETS RAG",
   "tags": [

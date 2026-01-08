@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 61,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "nodes": [
     {

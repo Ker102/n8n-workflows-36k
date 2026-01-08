@@ -4,8 +4,8 @@
     "instanceId": "590b8a6424ded2dccf0f04ef13db2f02f968ec0b6d208436c385cdb410341348",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "name": "Snowflake CSV",
   "tags": [],

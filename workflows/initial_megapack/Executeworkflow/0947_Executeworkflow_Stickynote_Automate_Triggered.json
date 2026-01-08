@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Development & DevOps",
-    "clusterId": 24
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "name": "Workflow Results to Markdown Notes in Your Obsidian Vault, via Google Drive",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 37,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "name": "n8n Graphic Design Team",
   "tags": [

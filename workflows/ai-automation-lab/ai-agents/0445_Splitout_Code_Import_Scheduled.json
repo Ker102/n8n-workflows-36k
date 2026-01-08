@@ -414,7 +414,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "CRM Automation",
-    "clusterId": 2
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   }
 }

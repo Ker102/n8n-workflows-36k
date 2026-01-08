@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 48,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   },
   "name": "[2/3] Set up medoids (2 types) for anomaly detection (crops dataset)",
   "tags": [

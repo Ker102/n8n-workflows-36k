@@ -146,8 +146,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   },
   "tags": [
     "automation",

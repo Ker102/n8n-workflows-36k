@@ -4,8 +4,8 @@
     "instanceId": "d160e539d2f1a627c61dec8128071eca3529ebaa5ae124b8b92c197acd24da57",
     "complexity": "advanced",
     "nodeCount": 35,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "↔️ Airtable Batch Processing",
   "tags": [

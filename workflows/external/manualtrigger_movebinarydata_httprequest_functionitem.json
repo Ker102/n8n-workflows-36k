@@ -235,6 +235,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 9
+    "nodeCount": 9,
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   }
 }

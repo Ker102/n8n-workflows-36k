@@ -121,7 +121,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

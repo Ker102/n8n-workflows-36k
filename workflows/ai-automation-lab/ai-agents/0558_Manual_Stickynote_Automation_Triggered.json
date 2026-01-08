@@ -146,7 +146,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

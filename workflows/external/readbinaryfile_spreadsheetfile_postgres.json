@@ -65,6 +65,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 3
+    "nodeCount": 3,
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   }
 }

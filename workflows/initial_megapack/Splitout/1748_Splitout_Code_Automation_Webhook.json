@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Real Estate Market Scanning",
   "tags": [

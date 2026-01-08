@@ -3,7 +3,9 @@
     "instanceId": "d17dadc75de867b08b7744d7ba00e531e75580e2dec35d52f2d34e58481e1fb7",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 19
+    "nodeCount": 19,
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "nodes": [
     {

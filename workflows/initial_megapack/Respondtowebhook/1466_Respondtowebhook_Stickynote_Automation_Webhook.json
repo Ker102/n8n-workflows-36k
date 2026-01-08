@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "TEMPLATE - Multi Methods API Endpoint",
   "tags": [

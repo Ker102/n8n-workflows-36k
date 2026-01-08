@@ -248,8 +248,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   },
   "tags": [
     "automation",

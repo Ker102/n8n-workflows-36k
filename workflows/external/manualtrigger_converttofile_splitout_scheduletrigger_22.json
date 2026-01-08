@@ -3,7 +3,9 @@
     "instanceId": "568298fde06d3db80a2eea77fe5bf45f0c7bb898dea20b769944e9ac7c6c5a80",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 24
+    "nodeCount": 24,
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "nodes": [
     {

@@ -3,7 +3,9 @@
     "instanceId": "a6d5191e58fd6be87222f47435e6f9df8f98ec0d945d3e7b7f6373c59a6c3f37",
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
-    "nodeCount": 4
+    "nodeCount": 4,
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "nodes": [
     {

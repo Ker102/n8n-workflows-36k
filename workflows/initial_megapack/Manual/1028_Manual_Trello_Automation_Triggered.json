@@ -145,8 +145,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   },
   "tags": [
     "automation",

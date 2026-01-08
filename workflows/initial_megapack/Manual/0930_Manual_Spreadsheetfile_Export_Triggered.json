@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "PostgreSQL export to CSV",
   "tags": [

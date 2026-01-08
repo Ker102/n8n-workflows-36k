@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 12,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Daily AI News Translation & Summary with GPT-4 and Telegram Delivery",
   "tags": [

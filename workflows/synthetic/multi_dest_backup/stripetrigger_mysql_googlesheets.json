@@ -57,6 +57,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 3
+    "nodeCount": 3,
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   }
 }

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 34,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Build a Chatbot, Voice Agent and Phone Agent with Voiceflow, Google Calendar and RAG",
   "tags": [

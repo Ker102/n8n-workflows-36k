@@ -110,6 +110,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 4
+    "nodeCount": 4,
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   }
 }

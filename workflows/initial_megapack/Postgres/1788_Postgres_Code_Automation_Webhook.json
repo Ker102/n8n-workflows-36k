@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 21,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Youtube Searcher",
   "tags": [

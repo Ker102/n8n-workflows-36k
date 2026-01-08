@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "pdf to text",
   "tags": [

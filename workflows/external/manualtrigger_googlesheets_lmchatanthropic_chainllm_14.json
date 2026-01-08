@@ -3,7 +3,9 @@
     "instanceId": "5aaf4236c70e34e423fbdb2c7b754d19253a933bb1476d548f75848a01e473cf",
     "templateId": "3561",
     "complexity": "advanced",
-    "nodeCount": 21
+    "nodeCount": 21,
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "nodes": [
     {

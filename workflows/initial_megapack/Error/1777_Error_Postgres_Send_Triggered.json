@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Backup & Recovery",
-    "clusterId": 15
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Log errors and avoid sending too many emails",
   "tags": [

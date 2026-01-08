@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 17,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Search & Summarize Web Data with Perplexity, Gemini AI & Bright Data to Webhooks",
   "tags": [

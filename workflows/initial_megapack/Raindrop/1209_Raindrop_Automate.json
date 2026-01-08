@@ -136,8 +136,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Communication Tools",
+    "clusterId": 23
   },
   "tags": [
     "automation",

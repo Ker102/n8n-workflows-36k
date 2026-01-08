@@ -247,6 +247,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 8
+    "nodeCount": 8,
+    "semanticLabel": "Email & Notifications",
+    "clusterId": 3
   }
 }

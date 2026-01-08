@@ -3,7 +3,9 @@
     "instanceId": "=",
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
-    "nodeCount": 14
+    "nodeCount": 14,
+    "semanticLabel": "Email & Notifications",
+    "clusterId": 3
   },
   "nodes": [
     {

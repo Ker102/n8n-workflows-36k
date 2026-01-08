@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 15,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Project Management",
+    "clusterId": 6
   },
   "name": "Weekly_Shodan_Query___Report_Accidents__no_function_node_",
   "tags": [

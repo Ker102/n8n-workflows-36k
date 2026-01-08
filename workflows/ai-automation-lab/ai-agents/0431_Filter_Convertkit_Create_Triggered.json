@@ -4,8 +4,8 @@
     "templateId": "2130",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "nodes": [
     {

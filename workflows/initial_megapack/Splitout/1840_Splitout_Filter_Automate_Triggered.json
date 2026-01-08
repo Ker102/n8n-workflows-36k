@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 51,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "BambooHR AI-Powered Company Policies and Benefits Chatbot",
   "tags": [

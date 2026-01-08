@@ -74,8 +74,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "Project Management",
+    "clusterId": 6
   },
   "tags": [
     "automation",

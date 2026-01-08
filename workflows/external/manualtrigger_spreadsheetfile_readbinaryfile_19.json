@@ -61,6 +61,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 3
+    "nodeCount": 3,
+    "semanticLabel": "Email & Notifications",
+    "clusterId": 3
   }
 }

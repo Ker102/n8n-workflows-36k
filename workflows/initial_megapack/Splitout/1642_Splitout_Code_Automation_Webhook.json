@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 35,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "name": "Find Top Keywords",
   "tags": [

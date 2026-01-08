@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 31,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Authentication & Security",
+    "clusterId": 20
   },
   "name": "Crypto News & Sentiment",
   "tags": [

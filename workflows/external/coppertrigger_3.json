@@ -21,6 +21,8 @@
   "connections": {},
   "meta": {
     "complexity": "basic",
-    "nodeCount": 1
+    "nodeCount": 1,
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   }
 }

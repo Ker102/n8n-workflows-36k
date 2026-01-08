@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "MAIA - Health Check",
   "tags": [

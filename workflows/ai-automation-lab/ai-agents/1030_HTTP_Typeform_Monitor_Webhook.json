@@ -158,7 +158,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Customer Support",
-    "clusterId": 14
+    "semanticLabel": "E-commerce",
+    "clusterId": 5
   }
 }

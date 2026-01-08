@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Make OpenAI Citation for File Retrieval RAG",
   "tags": [

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 16,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "(G) - Email Classification",
   "tags": [

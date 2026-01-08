@@ -4,8 +4,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "Transform Image to Lego Style Using Line and Dall-E",
   "tags": [],

@@ -310,7 +310,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

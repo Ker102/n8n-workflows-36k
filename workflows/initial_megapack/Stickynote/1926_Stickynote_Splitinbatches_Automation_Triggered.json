@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "Multi-Agent Conversation",
   "tags": [

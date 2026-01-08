@@ -213,7 +213,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

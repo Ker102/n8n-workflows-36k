@@ -3,8 +3,8 @@
     "instanceId": "c2589fa234defe76e8a1321c3a7d0a73579d0120d64d927e88f5e3be584ae8d4",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "nodes": [
     {

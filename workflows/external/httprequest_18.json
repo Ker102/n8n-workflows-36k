@@ -48,6 +48,8 @@
   "connections": {},
   "meta": {
     "complexity": "basic",
-    "nodeCount": 1
+    "nodeCount": 1,
+    "semanticLabel": "Project Management",
+    "clusterId": 6
   }
 }

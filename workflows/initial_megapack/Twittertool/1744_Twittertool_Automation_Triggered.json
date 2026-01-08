@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "Automatizacion X",
   "tags": [

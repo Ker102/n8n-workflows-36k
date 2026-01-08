@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 21,
-    "semanticLabel": "Development & DevOps",
-    "clusterId": 24
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Google Site Index - sitemap.xml example",
   "tags": [

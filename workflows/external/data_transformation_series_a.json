@@ -112,7 +112,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Webhook Handlers",
-    "clusterId": 19
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   }
 }

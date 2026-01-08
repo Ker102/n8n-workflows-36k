@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "AI Agents & Chat",
+    "clusterId": 0
   },
   "name": "Push Multiple Files to Github Repo via Github REST API",
   "tags": [

@@ -5,8 +5,8 @@
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "name": "MongoDB Agent",
   "tags": [],

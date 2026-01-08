@@ -640,8 +640,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "Monitoring & Alerts",
-    "clusterId": 16
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "tags": [
     "automation",

@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "Reservation Medcin",
   "tags": [

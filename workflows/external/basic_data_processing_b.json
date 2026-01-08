@@ -41,7 +41,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Content Management",
+    "clusterId": 17
   }
 }

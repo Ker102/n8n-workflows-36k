@@ -616,8 +616,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 27,
-    "semanticLabel": "AI Agents & Chat",
-    "clusterId": 0
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "tags": [
     "automation",

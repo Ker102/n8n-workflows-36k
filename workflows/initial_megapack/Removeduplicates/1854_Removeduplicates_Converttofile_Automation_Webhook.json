@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 14,
-    "semanticLabel": "Backup & Recovery",
-    "clusterId": 15
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "name": "Query List of Sign-in IPs",
   "tags": [

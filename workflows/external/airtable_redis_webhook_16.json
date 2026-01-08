@@ -313,6 +313,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 11
+    "nodeCount": 11,
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   }
 }

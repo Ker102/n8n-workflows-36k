@@ -1143,7 +1143,7 @@
   "meta": {
     "complexity": "advanced",
     "nodeCount": 43,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

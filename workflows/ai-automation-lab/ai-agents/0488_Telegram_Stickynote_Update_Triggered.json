@@ -3,8 +3,8 @@
     "instanceId": "84ba6d895254e080ac2b4916d987aa66b000f88d4d919a6b9c76848f9b8a7616",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   },
   "nodes": [
     {

@@ -119,6 +119,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 4
+    "nodeCount": 4,
+    "semanticLabel": "Content Management",
+    "clusterId": 17
   }
 }

@@ -166,6 +166,8 @@
   },
   "meta": {
     "complexity": "basic",
-    "nodeCount": 6
+    "nodeCount": 6,
+    "semanticLabel": "Development & DevOps",
+    "clusterId": 24
   }
 }

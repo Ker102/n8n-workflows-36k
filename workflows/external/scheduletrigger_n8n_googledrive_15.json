@@ -3,7 +3,9 @@
     "instanceId": "c911aed9995230b93fd0d9bc41c258d697c2fe97a3bab8c02baf85963eeda618",
     "templateCredsSetupCompleted": true,
     "complexity": "basic",
-    "nodeCount": 6
+    "nodeCount": 6,
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "nodes": [
     {

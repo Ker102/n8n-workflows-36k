@@ -75,8 +75,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "tags": [
     "automation",

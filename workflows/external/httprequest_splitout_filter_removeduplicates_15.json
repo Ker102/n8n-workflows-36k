@@ -3,7 +3,9 @@
     "instanceId": "db80165df40cb07c0377167c050b3f9ab0b0fb04f0e8cae0dc53f5a8527103ca",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 40
+    "nodeCount": 40,
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   },
   "nodes": [
     {

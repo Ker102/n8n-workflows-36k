@@ -23,7 +23,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 1,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   }
 }

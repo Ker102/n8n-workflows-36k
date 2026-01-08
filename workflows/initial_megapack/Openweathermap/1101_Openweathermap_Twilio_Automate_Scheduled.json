@@ -132,8 +132,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 6,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "tags": [
     "automation",

@@ -4,7 +4,9 @@
     "templateId": "2324",
     "templateCredsSetupCompleted": true,
     "complexity": "advanced",
-    "nodeCount": 22
+    "nodeCount": 22,
+    "semanticLabel": "Email & Notifications",
+    "clusterId": 3
   },
   "nodes": [
     {

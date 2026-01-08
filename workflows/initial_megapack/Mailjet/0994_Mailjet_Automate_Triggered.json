@@ -60,8 +60,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "E-commerce",
-    "clusterId": 5
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "tags": [
     "automation",

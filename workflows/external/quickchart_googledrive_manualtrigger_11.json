@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "c6511943b220d4ab672ac957465b13db475def5fbbd0b0e41240952f5fd0c300",
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "nodes": [
     {

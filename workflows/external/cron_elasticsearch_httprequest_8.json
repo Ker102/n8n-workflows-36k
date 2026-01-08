@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "43da491ee7afc3232a99276a123dc774d0498da8891013b60e82828d6f1f40c7",
     "complexity": "basic",
-    "nodeCount": 5
+    "nodeCount": 5,
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "nodes": [
     {

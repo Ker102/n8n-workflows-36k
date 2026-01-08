@@ -3,8 +3,8 @@
     "instanceId": "dfdeafd1c3ed2ee08eeab8c2fa0c3f522066931ed8138ccd35dc20a1e69decd3",
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "nodes": [
     {

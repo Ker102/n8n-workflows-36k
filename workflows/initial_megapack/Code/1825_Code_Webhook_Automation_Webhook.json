@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 34,
-    "semanticLabel": "Project Management",
-    "clusterId": 6
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   },
   "name": "puq-docker-n8n-deploy",
   "tags": [

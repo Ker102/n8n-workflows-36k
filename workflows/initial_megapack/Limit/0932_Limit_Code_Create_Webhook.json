@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 20,
-    "semanticLabel": "Lead Generation",
-    "clusterId": 13
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "name": "Extract And Decode Google News RSS URLs to Clean Article Links",
   "tags": [

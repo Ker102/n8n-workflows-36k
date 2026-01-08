@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Database Operations",
+    "clusterId": 7
   },
   "name": "Get all orders in Squarespace to Google Sheets",
   "tags": [

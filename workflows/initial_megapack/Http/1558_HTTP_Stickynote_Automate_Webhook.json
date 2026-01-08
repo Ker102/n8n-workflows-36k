@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 40,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "name": "✨📊Multi-AI Agent Chatbot for Postgres/Supabase DB and QuickCharts + Tool Router",
   "tags": [

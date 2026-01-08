@@ -3,8 +3,8 @@
     "instanceId": "70aa73f4d8fa35284109864e170a85d0977ad8121a6294c5c305fbaee0d9e028",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "E-commerce",
-    "clusterId": 5
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   },
   "nodes": [
     {

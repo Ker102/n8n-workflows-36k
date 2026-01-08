@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 8,
-    "semanticLabel": "Document Processing",
-    "clusterId": 12
+    "semanticLabel": "Backup & Recovery",
+    "clusterId": 15
   },
   "name": "List Builder",
   "tags": [

@@ -28,7 +28,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 1,
-    "semanticLabel": "Content Management",
-    "clusterId": 17
+    "semanticLabel": "Data Sync & ETL",
+    "clusterId": 1
   }
 }

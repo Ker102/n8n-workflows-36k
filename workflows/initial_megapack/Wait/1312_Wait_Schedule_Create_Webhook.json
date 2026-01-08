@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 18,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "Analyze_Crowdstrike_Detections__search_for_IOCs_in_VirusTotal__create_a_ticket_in_Jira_and_post_a...",
   "tags": [

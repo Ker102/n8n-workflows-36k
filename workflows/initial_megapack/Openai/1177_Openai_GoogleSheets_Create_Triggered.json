@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "Database Operations",
-    "clusterId": 7
+    "semanticLabel": "CRM Automation",
+    "clusterId": 2
   },
   "name": "Qualify new leads in Google Sheets via OpenAI's GPT-4",
   "tags": [

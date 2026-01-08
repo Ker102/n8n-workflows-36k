@@ -3,7 +3,9 @@
     "instanceId": "7614f731d9ac88c16c6149bd495fa54d325e3f79ab527ffc7e3b1b1f42dbf884",
     "templateCredsSetupCompleted": true,
     "complexity": "intermediate",
-    "nodeCount": 8
+    "nodeCount": 8,
+    "semanticLabel": "Social Media",
+    "clusterId": 4
   },
   "nodes": [
     {

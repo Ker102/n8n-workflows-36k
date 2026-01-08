@@ -177,7 +177,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 5,
-    "semanticLabel": "Calendar & Events",
-    "clusterId": 21
+    "semanticLabel": "Document Processing",
+    "clusterId": 12
   }
 }

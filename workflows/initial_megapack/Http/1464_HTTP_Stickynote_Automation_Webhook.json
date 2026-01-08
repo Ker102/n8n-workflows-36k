@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 7,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "API Integrations",
+    "clusterId": 9
   },
   "name": "AI-Powered Research with Jina AI Deep Search",
   "tags": [

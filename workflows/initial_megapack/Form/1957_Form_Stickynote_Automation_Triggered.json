@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "intermediate",
     "nodeCount": 10,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Calendar & Events",
+    "clusterId": 21
   },
   "name": "Post on X",
   "tags": [

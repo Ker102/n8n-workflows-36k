@@ -104,8 +104,8 @@
     "environment": "production",
     "complexity": "basic",
     "nodeCount": 4,
-    "semanticLabel": "Spreadsheet Automation",
-    "clusterId": 22
+    "semanticLabel": "Lead Generation",
+    "clusterId": 13
   },
   "tags": [
     "automation",

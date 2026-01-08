@@ -12,8 +12,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 22,
-    "semanticLabel": "Communication Tools",
-    "clusterId": 23
+    "semanticLabel": "Form Processing",
+    "clusterId": 18
   },
   "nodes": [
     {

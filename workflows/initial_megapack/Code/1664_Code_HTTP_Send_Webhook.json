@@ -893,8 +893,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 19,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Monitoring & Alerts",
+    "clusterId": 16
   },
   "tags": [
     "automation",

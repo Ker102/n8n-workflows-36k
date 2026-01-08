@@ -170,6 +170,8 @@
   },
   "meta": {
     "complexity": "intermediate",
-    "nodeCount": 7
+    "nodeCount": 7,
+    "semanticLabel": "Analytics & Reporting",
+    "clusterId": 11
   }
 }

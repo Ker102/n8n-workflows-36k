@@ -13,8 +13,8 @@
     "environment": "production",
     "complexity": "advanced",
     "nodeCount": 45,
-    "semanticLabel": "Authentication & Security",
-    "clusterId": 20
+    "semanticLabel": "Webhook Handlers",
+    "clusterId": 19
   },
   "name": "AI Logo Sheet Extractor to Airtable",
   "tags": [

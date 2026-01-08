@@ -81,7 +81,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 3,
-    "semanticLabel": "Form Processing",
-    "clusterId": 18
+    "semanticLabel": "Spreadsheet Automation",
+    "clusterId": 22
   }
 }

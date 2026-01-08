@@ -2,7 +2,9 @@
   "meta": {
     "instanceId": "f0efd559def66ddc761033b0b2eb86ed3edec31121f2c1aa92ed05e63303529a",
     "complexity": "advanced",
-    "nodeCount": 16
+    "nodeCount": 16,
+    "semanticLabel": "Customer Support",
+    "clusterId": 14
   },
   "name": "Unsubscribe Mautic contacts from automated unsubscribe emails",
   "tags": [],

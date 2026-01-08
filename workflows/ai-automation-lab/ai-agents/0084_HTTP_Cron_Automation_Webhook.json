@@ -362,7 +362,7 @@
   "meta": {
     "complexity": "intermediate",
     "nodeCount": 9,
-    "semanticLabel": "API Integrations",
-    "clusterId": 9
+    "semanticLabel": "Scheduling & Triggers",
+    "clusterId": 10
   }
 }

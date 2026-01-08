@@ -41,7 +41,7 @@
   "meta": {
     "complexity": "basic",
     "nodeCount": 2,
-    "semanticLabel": "Email & Notifications",
-    "clusterId": 3
+    "semanticLabel": "File Processing",
+    "clusterId": 8
   }
 }
