@@ -14,16 +14,17 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![ES Modules](https://img.shields.io/badge/ES%20Modules-.mjs-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
-### AI & Embeddings
+### AI & RAG Infrastructure
+![Qdrant](https://img.shields.io/badge/Qdrant-FF4F64?style=flat-square&logo=qdrant&logoColor=white)
 ![Together AI](https://img.shields.io/badge/Together%20AI-FF6B6B?style=flat-square)
-![M2-BERT-32k](https://img.shields.io/badge/M2--BERT--32k-Embeddings-blue?style=flat-square)
-![Gemini Embedding](https://img.shields.io/badge/Gemini-Embedding--001-4285F4?style=flat-square&logo=google&logoColor=white)
+![M2-BERT](https://img.shields.io/badge/M2--BERT--32k-768dim-blue?style=flat-square)
 ![Gemini](https://img.shields.io/badge/Gemini%202.0-Flash-4285F4?style=flat-square&logo=google&logoColor=white)
+![Unsloth](https://img.shields.io/badge/Unsloth-Fine--Tuning-orange?style=flat-square)
 
 > **131,648 n8n workflows** — the world's largest open-source n8n workflow dataset.  
-> **36,985 importable** workflows ready for n8n + **97,000 ML training** variations.
+> **36,166 vectors** in Qdrant Cloud for RAG-powered workflow retrieval.
+> **21,925 cleaned examples** ready for fine-tuning.
 
 ---
 
@@ -78,6 +79,32 @@ Synthetic workflows for training AI models (in `workflows_ml/`):
 4. **Select the JSON file** and click Import
 5. **Configure credentials** for any services (OpenAI, Slack, etc.)
 6. **Activate and test** your workflow
+
+---
+
+## 🧠 RAG Infrastructure
+
+This dataset powers a production RAG system for AI-assisted workflow generation:
+
+| Component | Details |
+|-----------|---------|
+| **Vector Database** | Qdrant Cloud (1GB free tier) |
+| **Embeddings** | Together AI M2-BERT (768-dim) |
+| **Vectors Indexed** | 36,166 workflows |
+| **Query Latency** | ~50ms semantic search |
+
+### Fine-Tuning Dataset
+
+| File | Examples | Purpose |
+|------|----------|---------|
+| `training_data_clean.jsonl` | 21,925 | Cleaned instruction-output pairs |
+| `finetune_train.jsonl` | 19,732 | Unsloth/HuggingFace format |
+| `finetune_vertex_train.jsonl` | 19,732 | Vertex AI Gemini format |
+
+```bash
+# Query similar workflows
+python scripts/query-qdrant.py "create a slack notification workflow"
+```
 
 ---
 
